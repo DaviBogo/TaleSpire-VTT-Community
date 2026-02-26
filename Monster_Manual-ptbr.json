@@ -1,10 +1,10 @@
 {
-    "Aparición": {
-        "Id": "Aparición",
-        "Name": "Aparición",
+    "Aparição": {
+        "Id": "Aparicao",
+        "Name": "Aparição",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Muerto viviente Mediano, neutral malvado",
+        "Type": "Morto-vivo Médio, neutro e maligno",
         "HP": {
             "Value": 67,
             "Notes": "(9d8+27)"
@@ -16,11 +16,11 @@
         "InitiativeModifier": 3,
         "InitiativeAdvantage": false,
         "Speed": [
-            "0 ft.",
-            "volar 60 pies. (levitar)"
+            "0 pés",
+            "voar 18 m (levitar)"
         ],
         "Abilities": {
-            "Fue": 6,
+            "For": 6,
             "Des": 16,
             "Con": 16,
             "Int": 12,
@@ -31,12 +31,12 @@
         "DamageResistances": [
             "ácido",
             "frio",
-            "fuego",
-            "relámpago",
-            "trueno",
+            "fogo",
+            "relâmpago",
+            "trovão",
             "contundente",
             "cortante",
-            "perforante de ataques ni mágicos ni hechos con armas de plata "
+            "perfurante de ataques não mágicos que não sejam feitos com armas de prata"
         ],
         "DamageImmunities": [
             "necrótico",
@@ -44,83 +44,85 @@
         ],
         "ConditionImmunities": [
             "agarrado",
-            "apresado",
-            "cansancio",
-            "derribado",
+            "impedido",
+            "exaustão",
+            "caído",
             "envenenado",
-            "hechizado",
-            "paralizado",
+            "enfeitiçado",
+            "paralisado",
             "petrificado"
         ],
         "Saves": [],
         "Skills": [],
         "Senses": [
-            "Visión en la oscuridad 60 pies."
+            "visão no escuro 18 m"
         ],
         "Languages": [
-            "Cualquiera que conociera en vida "
+            "Quaisquer que conhecia em vida"
         ],
         "Challenge": "5",
         "Traits": [
             {
-                "Name": "Movimiento Incorpóreo.",
-                "Content": "La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto. ",
+                "Name": "Movimento Incorpóreo.",
+                "Content": "A aparição pode se mover através de outras criaturas e objetos como se fossem terreno difícil. Ela sofre 5 (1d10) de dano de força se terminar seu turno dentro de um objeto.",
                 "Usage": ""
             },
             {
-                "Name": "Sensibilidad a la Luz Solar.",
-                "Content": "La aparición tiene desventaja en las tiradas de ataque y las pruebas de Sabiduría (Percepción) que dependan de la vista hechas bajo la luz del sol. ",
+                "Name": "Sensibilidade à Luz Solar.",
+                "Content": "A aparição tem desvantagem nas jogadas de ataque e nos testes de Sabedoria (Percepção) que dependam da visão quando estiver sob luz solar.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Consumir vida.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +6 a impactar, alcance 5 pies, una criatura. Impacto: 21 (4d8 + 3) de daño necrótico. El objetivo deberá superar una tirada de salvación de Constitución CD 14 o sus puntos de golpe máximos se reducirán en la cantidad de daño recibida. Esta reducción permanecerá hasta que la criatura finalice un descanso largo. Si este ataque reduce sus puntos de golpe máximos a 0, morirá. ",
+                "Name": "Consumir Vida.",
+                "Content": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 21 (4d8 + 3) de dano necrótico. O alvo deve realizar um teste de resistência de Constituição CD 14 ou seus pontos de vida máximos são reduzidos em uma quantidade igual ao dano sofrido. Essa redução permanece até que a criatura termine um descanso longo. Se este ataque reduzir seus pontos de vida máximos a 0, ela morre.",
                 "Usage": ""
             },
             {
-                "Name": "Crear espectro.",
-                "Content": "La aparición elige a un humanoide que se encuentre a 10 pies o menos y haya muerto violentamente hace como mucho 1 minuto. El espíritu del objetivo se alza como un espectro en el espacio de su cadáver o en el espacio desocupado más cercano. El espectro estará bajo el control de la aparición. Esta última no puede tener bajo su control a más de siete espectros al mismo tiempo.",
+                "Name": "Criar Espectro.",
+                "Content": "A aparição escolhe um humanoide a até 3 m que tenha morrido violentamente há no máximo 1 minuto. O espírito do alvo se ergue como um espectro no espaço do cadáver ou no espaço desocupado mais próximo. O espectro fica sob o controle da aparição. A aparição não pode controlar mais de sete espectros ao mesmo tempo.",
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Consumir vida.",
-            "ToHit": "+6",
-            "Damage": "4d8+3",
-            "DamageType": "necrótico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Consumir Vida.",
+                "ToHit": "+6",
+                "Damage": "4d8+3",
+                "DamageType": "necrótico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
         "Player": "",
         "Version": "1.8.0",
-        "ImageURL": ""
+        "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/30836/510/1000/1000/638063938653309509.png"
     },
-    "Dragon negro anciano": {
-        "Id": "Dragon negro anciano",
-        "Name": "Dragon negro anciano",
+    "Dragão negro ancião": {
+        "Id": "Dragao negro anciao",
+        "Name": "Dragão negro ancião",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Dragón Gargantuesco, caótico malvado",
+        "Type": "Dragão Gargantuesco, caótico e maligno",
         "HP": {
             "Value": 367,
             "Notes": "(21d20+147)"
         },
         "AC": {
             "Value": 22,
-            "Notes": "(natural armor)"
+            "Notes": "(armadura natural)"
         },
         "InitiativeModifier": 2,
         "InitiativeAdvantage": false,
         "Speed": [
-            "40 pies.",
-            "volar 80 pies.",
-            "nadar 40 pies."
+            "12 m",
+            "voar 24 m",
+            "nadar 12 m"
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 14,
             "Con": 25,
             "Int": 16,
@@ -130,87 +132,69 @@
         "DamageVulnerabilities": [],
         "DamageResistances": [],
         "DamageImmunities": [
-            "acido"
+            "ácido"
         ],
         "ConditionImmunities": [],
         "Saves": [
-            {
-                "Name": "Des",
-                "Modifier": 9
-            },
-            {
-                "Name": "Con",
-                "Modifier": 14
-            },
-            {
-                "Name": "Sab",
-                "Modifier": 9
-            },
-            {
-                "Name": "Car",
-                "Modifier": 11
-            }
+            { "Name": "Des", "Modifier": 9 },
+            { "Name": "Con", "Modifier": 14 },
+            { "Name": "Sab", "Modifier": 9 },
+            { "Name": "Car", "Modifier": 11 }
         ],
         "Skills": [
-            {
-                "Name": "Percepción",
-                "Modifier": 16
-            },
-            {
-                "Name": "Sigilo",
-                "Modifier": 9
-            }
+            { "Name": "Percepção", "Modifier": 16 },
+            { "Name": "Furtividade", "Modifier": 9 }
         ],
         "Senses": [
-            "visión ciega 60 pies.",
-            "visión en la oscuridad 120 pies"
+            "visão às cegas 18 m",
+            "visão no escuro 36 m"
         ],
         "Languages": [
-            "Common",
-            "Draconic"
+            "Comum",
+            "Dracônico"
         ],
         "Challenge": "21",
         "Traits": [
             {
-                "Name": "Anfibio.",
-                "Content": "El dragón puede respirar tanto dentro del agua como fuera de ella. ",
+                "Name": "Anfíbio.",
+                "Content": "O dragão pode respirar tanto dentro da água quanto fora dela.",
                 "Usage": ""
             },
             {
-                "Name": "Resistencia Legendaria (3/Día).",
-                "Content": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+                "Name": "Resistência Lendária (3/Dia).",
+                "Content": "O dragão pode escolher obter sucesso em um teste de resistência que tenha falhado.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Ataque múltiple.",
-                "Content": "El dragón puede usar su presencia aterradora. Después realiza tres ataques: uno con su mordisco y dos con sus garras. ",
+                "Name": "Ataque Múltiplo.",
+                "Content": "O dragão pode usar sua Presença Aterradora. Em seguida, realiza três ataques: um com sua mordida e dois com suas garras.",
                 "Usage": ""
             },
             {
-                "Name": "Mordisco",
-                "Content": "Ataque con arma cuerpo a cuerpo: +15 a impactar, alcance 15 pies, un objetivo. Impacto: 19 (2d10+ 8) de daño perforante y 9 (2d8) de daño de ácido.",
+                "Name": "Mordida.",
+                "Content": "Ataque corpo a corpo com arma: +15 para atingir, alcance 4,5 m, um alvo. Acerto: 19 (2d10 + 8) de dano perfurante e 9 (2d8) de dano de ácido.",
                 "Usage": ""
             },
             {
-                "Name": "Garra",
-                "Content": "Ataque con arma cuerpo a cuerpo: +15 a impactar, alcance 10 pies, un objetivo. Impacto: 15 (2d6 + 8) de daño cortante. Cola. Ataque con arma cuerpo a cuerpo: +15 a impactar, alcance 20 pies, un objetivo. Impacto: 17 (2d8 + 8) de daño contundente. ",
+                "Name": "Garra.",
+                "Content": "Ataque corpo a corpo com arma: +15 para atingir, alcance 3 m, um alvo. Acerto: 15 (2d6 + 8) de dano cortante.",
                 "Usage": ""
             },
             {
-                "Name": "Cola.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +15 a impactar, alcance 20 pies, un objetivo. Impacto: 17 (2d8 + 8) de daño contundente. ",
+                "Name": "Cauda.",
+                "Content": "Ataque corpo a corpo com arma: +15 para atingir, alcance 6 m, um alvo. Acerto: 17 (2d8 + 8) de dano contundente.",
                 "Usage": ""
             },
             {
-                "Name": "Presencia aterradora.",
-                "Content": ". Todas las criaturas que el dragón elija, que se encuentren a 120 pies o menos de él y sean conscientes de su presencia, deberán superar una tirada de salvación de Sabiduría CD 19 o estarán asustadas durante 1 minuto. Cada objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, librándose del efecto si tiene éxito. Si una criatura supera la tirada de salvación o el efecto termina, será inmune a la presencia aterradora del dragón durante las próximas 24 horas.",
+                "Name": "Presença Aterradora.",
+                "Content": "Cada criatura à escolha do dragão que esteja a até 36 m e ciente de sua presença deve realizar um teste de resistência de Sabedoria CD 19 ou ficará amedrontada por 1 minuto. A criatura pode repetir o teste ao final de cada turno, encerrando o efeito com sucesso. Se obtiver sucesso ou se o efeito terminar, ficará imune à Presença Aterradora do dragão por 24 horas.",
                 "Usage": ""
             },
             {
-                "Name": "Aliento ácido (Recarga 5-6 1d6)",
-                "Content": "El dragón exhala ácido en una línea de 90 pies de largo y 10 de ancho. Todas las criaturas situadas en dicha línea deberán hacer una tirada de salvación de Destreza CD 22, sufriendo 67 (15d8) de daño de ácido si la fallan, ola mitad de ese daño si la superan. ",
+                "Name": "Sopro Ácido (Recarga 5-6).",
+                "Content": "O dragão expele ácido em uma linha de 27 m de comprimento por 3 m de largura. Cada criatura na linha deve realizar um teste de resistência de Destreza CD 22, sofrendo 67 (15d8) de dano de ácido se falhar, ou metade do dano se obtiver sucesso.",
                 "Usage": ""
             }
         ],
@@ -218,24 +202,24 @@
         "LegendaryActions": [
             {
                 "Name": "Detectar.",
-                "Content": "El dragón realiza una prueba de Sabiduría (Percepción).",
+                "Content": "O dragão realiza um teste de Sabedoria (Percepção).",
                 "Usage": ""
             },
             {
-                "Name": "Coletazo.",
-                "Content": "El dragón realiza un ataque con la cola.",
+                "Name": "Ataque com a Cauda.",
+                "Content": "O dragão realiza um ataque com a cauda.",
                 "Usage": ""
             },
             {
-                "Name": "Atacar con las alas (cuesta 2 acciones).",
-                "Content": "El dragón bate sus alas. Todas las criaturas que se encuentren a 15 pies o menos del dragón deberán superar una tirada de salvación de Destreza CD 23 o recibirán 15 (2d6 + 8) de daño contundente y serán derribadas. Tras agitar sus alas, el dragón puede volar hasta la mitad de su velocidad volando.",
+                "Name": "Ataque com as Asas (custa 2 ações).",
+                "Content": "O dragão bate suas asas. Cada criatura a até 4,5 m deve realizar um teste de resistência de Destreza CD 23 ou sofrerá 15 (2d6 + 8) de dano contundente e ficará caída. Em seguida, o dragão pode voar até metade de seu deslocamento de voo.",
                 "Usage": ""
             }
         ],
         "Description": "",
         "Player": "",
         "Version": "1.8.0",
-        "ImageURL": ""
+        "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/30782/330/1000/1000/638061958913324196.png"
     },
     "Abolete": {
         "Id": "Abolete",
@@ -346,14 +330,14 @@
         "Description": "",
         "Player": "",
         "Version": "1.8.0",
-        "ImageURL": ""
+        "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/30761/774/1000/1000/638061093283829548.png"
     },
-    "Djinn": {
-        "Id": "Djinn",
-        "Name": "Djinn",
+    "Djinni": {
+        "Id": "Djinni",
+        "Name": "Djinni",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Elemental Grande, caótico bueno",
+        "Type": "Elemental Grande, caótico e bom",
         "HP": {
             "Value": 161,
             "Notes": "(14d10+84)"
@@ -365,11 +349,11 @@
         "InitiativeModifier": 2,
         "InitiativeAdvantage": false,
         "Speed": [
-            "30 pies.",
-            "volar 90 pies."
+            "9 m",
+            "voar 27 m"
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 15,
             "Con": 22,
             "Int": 15,
@@ -379,85 +363,78 @@
         "DamageVulnerabilities": [],
         "DamageResistances": [],
         "DamageImmunities": [
-            "relampago",
-            "trueno"
+            "relâmpago",
+            "trovão"
         ],
         "ConditionImmunities": [],
         "Saves": [
-            {
-                "Name": "Des",
-                "Modifier": 6
-            },
-            {
-                "Name": "Sab",
-                "Modifier": 7
-            },
-            {
-                "Name": "Car",
-                "Modifier": 9
-            }
+            { "Name": "Des", "Modifier": 6 },
+            { "Name": "Sab", "Modifier": 7 },
+            { "Name": "Car", "Modifier": 9 }
         ],
         "Skills": [],
         "Senses": [
-            "Visión en la oscuridad 120 pies."
+            "visão no escuro 36 m"
         ],
         "Languages": [
-            "Aurano"
+            "Auran"
         ],
         "Challenge": "11",
         "Traits": [
             {
-                "Name": "Fallecimiento Elemental.",
-                "Content": "Si el djinn muere, su cuerpo se desintegrará en una brisa cálida, quedando en su lugar únicamente el equipo que llevara o vistiera. ",
+                "Name": "Morte Elemental.",
+                "Content": "Se o djinni morrer, seu corpo se desintegra em uma brisa quente, deixando apenas o equipamento que estiver vestindo ou carregando.",
                 "Usage": ""
             },
             {
-                "Name": "Lanzamiento de Conjuros Innato.",
-                "Content": "La aptitud mágica innata del djinn Carisma (salvación de conjuros CD 17, +9 para impactar con ataques de conjuro). Puede lanzar de forma innata los siguientes conjuros, sin necesidad de componentes materiales:  \n\nA voluntad: detectar el bien y el mal, detectar magia, ola atronadora 3/día cada uno: crear comida y agua (puede crear vino en lugar de agua), don de lenguas, viajar con el viento\n1/día cada uno: conjurar elemental (solo elemental de aire), creación, desplazamiento entre planos, forma gaseosa, imagen mayor, invisibilidad",
+                "Name": "Conjuração Inata.",
+                "Content": "A habilidade mágica inata do djinni é Carisma (CD 17 para resistir às magias, +9 para atingir com ataques mágicos). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes materiais:\n\nÀ vontade: detectar o bem e o mal, detectar magia, onda trovejante\n3/dia cada: criar comida e água (pode criar vinho em vez de água), dom de línguas, caminhar no vento\n1/dia cada: conjurar elemental (apenas elemental do ar), criação, deslocamento planar, forma gasosa, imagem maior, invisibilidade",
                 "Usage": ""
             },
             {
-                "Name": "Variante: Poderes De Genio",
-                "Content": "Los genios poseen una gran variedad de capacidades mágicas, entre las que se cuentan conjuros. Y unos pocos incluso tienen facultades aún mayores, que les permiten alterar su propia apariencia o la naturaleza de la realidad. \n\nDisfraces.\nAlgunos genios pueden envolverse en una ilusión que les permite asumir la apariencia de otras criaturas de formas similares. Estos genios son capaces de lanzar el conjuro disfrazarse de forma innata a voluntad, a menudo con una duración superior a la normal para este conjuro. Los genios más poderosos pueden llegar a lanzar polimorfar entre una y tres veces al día, probablemente también con una duración más prolongada de lo habitual. La mayoría de estos genios se ven limitados a usar este conjuro sobre sí mismos, pero unos pocos son capaces de lanzarlo también sobre otras criaturas. \nDeseos.\n La facultad de los genios para conceder deseos es protagonista de ciertas leyendas de los mortales. Pero solo los genios más poderosos, como pueden ser los miembros de la nobleza, pueden llevar a cabo estas proezas. Los genios que poseen este poder son capaces de otorgar entre uno y tres deseos a cualquier criatura que no sea un genio. Una vez alcanzado este límite de deseos, no podrá conceder ningún otro durante cierto periodo de tiempo (normalmente un año), y las leyes cósmicas dictan que cada genio únicamente puede conceder su límite de deseos a la misma criatura una vez en la vida de esta.\nPara que se cumpla su deseo, la criatura, que debe estar situada a 60 pies o menos del genio, enuncia el efecto deseado. En ese momento el genio podrá lanzar el conjuro deseo en nombre de la criatura para materializar el efecto. Dependiendo de la naturaleza del genio, este podría intentar retorcer las intenciones del deseo, aprovechándose de lagunas en la forma en la que la criatura lo enunció. Cuando los genios hacen esto, suelen intentar ser ellos mismos los beneficiados. ",
+                "Name": "Variante: Poderes de Gênio.",
+                "Content": "Gênios possuem uma ampla variedade de capacidades mágicas, incluindo magias. Alguns dos mais poderosos podem alterar sua aparência ou a própria realidade.\n\nDisfarces.\nAlguns gênios podem envolver-se em uma ilusão para assumir a aparência de outras criaturas de forma semelhante. Esses gênios podem conjurar disfarçar-se à vontade, muitas vezes com duração maior que a normal. Os mais poderosos podem conjurar metamorfose de uma a três vezes por dia, possivelmente com duração estendida. A maioria só pode usar essa magia em si mesma, mas alguns poucos podem usá-la em outras criaturas.\n\nDesejos.\nA capacidade de conceder desejos é tema de muitas lendas mortais. Apenas os gênios mais poderosos, como membros da nobreza, podem fazê-lo. Um gênio com esse poder pode conceder de um a três desejos a qualquer criatura que não seja um gênio. Após atingir esse limite, não pode conceder novos desejos por um período (geralmente um ano), e cada gênio só pode conceder seu limite de desejos à mesma criatura uma única vez na vida dela.\nPara ter seu desejo atendido, a criatura deve estar a até 18 m do gênio e declarar o efeito desejado. O gênio então conjura desejo em nome da criatura. Dependendo de sua natureza, o gênio pode distorcer a intenção do desejo, explorando ambiguidades na formulação para beneficiar a si mesmo.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Ataque múltiple.",
-                "Content": "El djinn realiza tres ataques con su cimitarra.",
+                "Name": "Ataque Múltiplo.",
+                "Content": "O djinni realiza três ataques com sua cimitarra.",
                 "Usage": ""
             },
             {
                 "Name": "Cimitarra.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +9 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (2d6 + 5) de dañocortante y 3 (1d6) de daño de relámpago o de trueno (el djinn elige cuál). ",
+                "Content": "Ataque corpo a corpo com arma: +9 para atingir, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano cortante e 3 (1d6) de dano de relâmpago ou trovão (à escolha do djinni).",
                 "Usage": ""
             },
             {
-                "Name": "Crear torbellino.",
-                "Content": "Un torbellino se forma mágicamente, en un área de 5 pies de radio y 30 pies de altura en un punto que se encuentre a 120 pies o menos del djinn y este pueda ver. Este fenómeno durará mientras el djinn mantenga la concentración (como si se concentrara en un conjuro). Cualquier criatura (salvo el djinn) que entre en el remolino deberá superar una tirada de salvación de Fuerza CD 18 o estará apresado por este. El djinn puede mover el torbellino hasta 60 pies utilizando una acción, y cualquier criatura apresada por el torbellino se moverá con este. El torbellino desaparecerá si el djinn lo pierde de vista. \nA Una criatura puede utilizar su acción para intentar liberarse a sí mismo o a cualquier otra criatura apresada por el torbellino, realizando una prueba de Fuerza CD 18. Si tiene éxito, la criatura ya no estará apresada y se desplazará al espacio más cercano situado en el exterior del torbellino.",
+                "Name": "Criar Redemoinho.",
+                "Content": "Um redemoinho se forma magicamente em um ponto que o djinni possa ver a até 36 m, ocupando uma área de 1,5 m de raio e 9 m de altura. Ele dura enquanto o djinni mantiver concentração (como em uma magia). Qualquer criatura, exceto o djinni, que entrar no redemoinho deve realizar um teste de resistência de Força CD 18 ou ficará impedida. O djinni pode mover o redemoinho até 18 m como uma ação, e criaturas impedidas se movem com ele. O redemoinho desaparece se o djinni perder a visão dele.\nUma criatura pode usar sua ação para tentar libertar a si mesma ou outra criatura impedida, com um teste de Força CD 18. Em caso de sucesso, a criatura se move para o espaço mais próximo fora do redemoinho.",
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cimitarra.",
-            "ToHit": "+9",
-            "Damage": "2d6+5/1d6",
-            "DamageType": "dañocortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cimitarra.",
+                "ToHit": "+9",
+                "Damage": "2d6+5/1d6",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
         "Player": "",
         "Version": "1.8.0",
-        "ImageURL": ""
+        "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/30783/897/1000/1000/638062023191330690.png"
     },
-    "Zombi": {
-        "Id": "Zombi",
-        "Name": "Zombi",
+    "Zumbi": {
+        "Id": "Zumbi",
+        "Name": "Zumbi",
         "Path": "",
         "Source": "",
-        "Type": "Muerto viviente Mediano, neutral malvado",
+        "Type": "Morto-vivo Médio, neutro e maligno",
         "HP": {
             "Value": 22,
             "Notes": "(3d8+9)"
@@ -469,10 +446,10 @@
         "InitiativeModifier": -2,
         "InitiativeAdvantage": false,
         "Speed": [
-            "20 ft."
+            "6 m"
         ],
         "Abilities": {
-            "Fue": 13,
+            "For": 13,
             "Des": 6,
             "Con": 16,
             "Int": 3,
@@ -483,7 +460,7 @@
         "DamageResistances": [],
         "DamageImmunities": [],
         "ConditionImmunities": [
-            "poisoned"
+            "envenenado"
         ],
         "Saves": [
             {
@@ -493,45 +470,47 @@
         ],
         "Skills": [],
         "Senses": [
-            "visión en la oscuridad 60 pies."
+            "visão no escuro 18 m"
         ],
         "Languages": [
-            "entiende los idiomas que conoció en vida, pero no puede hablar "
+            "entende os idiomas que conhecia em vida, mas não pode falar"
         ],
         "Challenge": "1/4",
         "Traits": [
             {
-                "Name": "Fortaleza de Muerto Viviente",
-                "Content": "Si el daño reduce al zombi a O puntos de golpe, este deberá hacer una tirada de salvación de Constitución con CD 5 + el daño sufrido, siempre que este no sea radiante o proveniente de un crítico. Si tiene éxito, el zombi pasa a tener 1 punto de golpe en lugar de 0.",
+                "Name": "Fortitude de Morto-Vivo",
+                "Content": "Se o dano reduzir o zumbi a 0 pontos de vida, ele deve realizar um teste de resistência de Constituição com CD 5 + o dano sofrido, desde que o dano não seja radiante nem proveniente de um acerto crítico. Em caso de sucesso, o zumbi permanece com 1 ponto de vida em vez de 0.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Golpe.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +3 a impactar, alcance 5 pies, un objetivo. Impacto: 4 (1d6 + 1) de daño contundente. ",
+                "Name": "Pancada.",
+                "Content": "Ataque corpo a corpo com arma: +3 para atingir, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano contundente.",
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+3",
-            "Damage": "1d6+5",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pancada",
+                "ToHit": "+3",
+                "Damage": "1d6+5",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
         "Player": "",
         "Version": "1.5.6",
-        "ImageURL": "https://www.aidedd.org/dnd/images/zombie.jpg"
+        "ImageURL": "https://www.dndbeyond.com/avatars/thumbnails/47005/522/1000/1000/638736718981177990.jpeg"
     },
     "Merrow": {
         "Id": "Merrow",
         "Name": "Merrow",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Monstruosidad Grande, caótica malvada ",
+        "Type": "Monstruosidade Grande, caótica e maligna",
         "HP": {
             "Value": 45,
             "Notes": "(6d10+12)"
@@ -543,11 +522,11 @@
         "InitiativeModifier": 0,
         "InitiativeAdvantage": false,
         "Speed": [
-            "10 pies.",
-            "nado 40 ft."
+            "3 m",
+            "nadar 12 m"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 10,
             "Con": 15,
             "Int": 8,
@@ -561,39 +540,39 @@
         "Saves": [],
         "Skills": [],
         "Senses": [
-            "darkvision 60 ft."
+            "visão no escuro 18 m"
         ],
         "Languages": [
-            "Abisal",
-            "Acuano"
+            "Abissal",
+            "Aquan"
         ],
         "Challenge": "2",
         "Traits": [
             {
-                "Name": "Anfibio.",
-                "Content": "El merrow puede respirar tanto dentro del agua como fuera de ella.",
+                "Name": "Anfíbio.",
+                "Content": "O merrow pode respirar tanto dentro da água quanto fora dela.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Ataque múltiple.",
-                "Content": "El merrow realiza dos ataques: uno con su mordisco y otro con sus garras o su arpón.",
+                "Name": "Ataque Múltiplo.",
+                "Content": "O merrow realiza dois ataques: um com sua mordida e outro com suas garras ou seu arpão.",
                 "Usage": ""
             },
             {
-                "Name": "Mordisco.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +6 a impactar, alcance 5 pies, un objetivo. Impacto: 8 (1d8 + 4) de daño perforante.",
+                "Name": "Mordida.",
+                "Content": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 8 (1d8 + 4) de dano perfurante.",
                 "Usage": ""
             },
             {
                 "Name": "Garras.",
-                "Content": "Ataque con arma cuerpo a cuerpo: +6 a impactar, alcance 5 pies, un objetivo. Impacto: 9 (2d4 + 4) de daño cortante.",
+                "Content": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 9 (2d4 + 4) de dano cortante.",
                 "Usage": ""
             },
             {
-                "Name": "Arpón.",
-                "Content": "Ataque con arma cuerpo a cuerpo o a distancia: +6 a impactar, alcance 5 pies o alcance 20/60 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña, deberá vencer en una tirada enfrentada de Fuerza contra el merrow o será arrastrada 20 pies hacia este.",
+                "Name": "Arpão.",
+                "Content": "Ataque corpo a corpo ou à distância com arma: +6 para atingir, alcance 1,5 m ou 6/18 m, um alvo. Acerto: 11 (2d6 + 4) de dano perfurante. Se o alvo for uma criatura Enorme ou menor, deve vencer um teste resistido de Força contra o merrow ou será puxado 6 m em direção a ele.",
                 "Usage": ""
             }
         ],
