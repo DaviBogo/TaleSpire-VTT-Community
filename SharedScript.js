@@ -2884,6 +2884,10 @@ const translations = {
     }
 };
 
+if (!translations.ptbr) {
+    translations.ptbr = translations.eng;
+}
+
 
 
 async function setLanguage(language) {

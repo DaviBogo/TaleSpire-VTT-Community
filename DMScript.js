@@ -130,6 +130,13 @@ function populateMonsterDropdown() {
         monsterList.appendChild(listItem);
     });
 
+    const normalizeSearchText = (text) => (
+        (text || '')
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+    );
+
     // Show dropdown on focus
     if (!nameInput._dropdownEventsAttached) {
         nameInput.addEventListener('focus', () => {
@@ -138,9 +145,9 @@ function populateMonsterDropdown() {
 
         // Filter dropdown items based on input
         nameInput.addEventListener('input', () => {
-            const filterText = nameInput.value.toLowerCase();
+            const filterText = normalizeSearchText(nameInput.value);
             monsterList.querySelectorAll('li').forEach(li => {
-                const monsterName = li.textContent.toLowerCase();
+                const monsterName = normalizeSearchText(li.textContent);
                 li.style.display = monsterName.includes(filterText) ? 'block' : 'none';
             });
         });
@@ -153,6 +160,8 @@ function populateMonsterDropdown() {
                 }, 300);
             }
         });
+
+        nameInput._dropdownEventsAttached = true;
     }
 }
 
