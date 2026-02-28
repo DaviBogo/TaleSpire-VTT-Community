@@ -1662,7 +1662,7 @@ const translations = {
     es: {
         //Spell Section
         spellModLabel: "Modificador:",
-        spellModSTR: "FOR",
+        spellModSTR: "Fue",
         spellModDEX: "DES",
         spellModCON: "CON",
         spellModINT: "INT",
@@ -1712,7 +1712,7 @@ const translations = {
         maxHP: "Max",
         hpButtomText: "Puntos de golpe",
         tempHPText: "P.G Temp",
-        characterAbilityStr: "FOR",
+        characterAbilityStr: "Fue",
         characterAbilityDex: "DES",
         characterAbilityCon: "CON",
         characterAbilityInt: "INT",
@@ -1721,7 +1721,7 @@ const translations = {
         acrobaticsMod: "DES",
         animalHandlingMod: "SAB",
         arcanaMod: "INT",
-        athleticsMod: "FOR",
+        athleticsMod: "Fue",
         deceptionMod: "CAR",
         historyMod: "INT",
         insightMod: "SAB",
