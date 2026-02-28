@@ -104,6 +104,7 @@ const AppData = {
 
 let savedLanguage = "eng";
 let languageData = null;
+const supportedLanguages = ['eng', 'es', 'ptbr'];
 // Initialize the character creator
 async function initializeCharacterCreator() {
     
@@ -151,7 +152,7 @@ async function loadLanguageData(){
     languageData = await loadDataFromGlobalStorage("language");
     // Extract "Preferred Language" and validate it
     savedLanguage = languageData?.["Preferred Language"];
-    if (savedLanguage !== "eng" && savedLanguage !== "es") {
+    if (!supportedLanguages.includes(savedLanguage)) {
         savedLanguage = "eng"; // Default to "eng" if not valid
     }
     console.log(savedLanguage);
@@ -189,15 +190,37 @@ async function loadSpellDataFiles(){
     console.log(AppData.spellLookupInfo)
 }
 
+async function fetchLocalizedJson(baseName) {
+    const requestedLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage : 'eng';
+    const languageFallbackChain = requestedLanguage === 'eng'
+        ? ['eng']
+        : [requestedLanguage, 'eng'];
+
+    let lastError = null;
+
+    for (const langCode of languageFallbackChain) {
+        try {
+            const response = await fetch(`../${baseName}-${langCode}.json`);
+            if (!response.ok) {
+                throw new Error(`Network response was not ok (${response.status})`);
+            }
+            return await response.json();
+        } catch (error) {
+            lastError = error;
+            console.warn(`Failed to load ../${baseName}-${langCode}.json`, error);
+        }
+    }
+
+    throw lastError || new Error(`Failed to load localized file for ${baseName}`);
+}
+
 // read the JSON file spells.json and save the data and names to variables
 async function readSpellJson() {
     try {
         const allSpellData = await loadDataFromGlobalStorage("Custom Spells");
         const isGlobalDataAnObject = typeof allSpellData === 'object';
 
-        const response = await fetch(`../spells-${savedLanguage}.json`);
-        if (!response.ok) throw new Error('Network response was not ok');
-        const spellsData = await response.json();
+        const spellsData = await fetchLocalizedJson('spells');
 
         let combinedData = isGlobalDataAnObject 
             ? Object.values(allSpellData)

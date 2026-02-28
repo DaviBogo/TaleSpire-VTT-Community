@@ -453,6 +453,13 @@ const EFFECTS = [
 
 let savedLanguage = 'eng';
 
+const supportedLanguages = ['eng', 'es', 'ptbr'];
+const languageLabels = {
+    eng: 'English',
+    es: 'Español',
+    ptbr: 'Português (Brasil)'
+};
+
 //This is the translation library that changes the textcontent of the id listed as a key below.
 //It looks through the active DOM elements and switchs textcontent to the language based on what the user has selcted. 
 const translations = {
@@ -2880,10 +2887,12 @@ const translations = {
 
 
 async function setLanguage(language) {
-    for (const id in translations[language]) {
+    const selectedTranslations = translations[language] || translations.eng;
+
+    for (const id in selectedTranslations) {
         const element = document.getElementById(id);
         if (element) {
-            const translationText = translations[language][id];
+            const translationText = selectedTranslations[id];
 
             // Check if the first child is a text node
             if (element.firstChild.nodeType === Node.TEXT_NODE) {
@@ -2896,11 +2905,11 @@ async function setLanguage(language) {
     }
 
     checkboxData = [
-        { label: translations[savedLanguage].actionFiltersAttacks, category: 'attacks' },
-        { label: translations[savedLanguage].actionFiltersActions, category: 'actions' },
-        { label: translations[savedLanguage].actionFiltersBonusActions, category: 'bonus-actions' },
-        { label: translations[savedLanguage].actionFiltersReactions, category: 'reactions' },
-        { label: translations[savedLanguage].actionFiltersOther, category: 'other' }
+        { label: selectedTranslations.actionFiltersAttacks, category: 'attacks' },
+        { label: selectedTranslations.actionFiltersActions, category: 'actions' },
+        { label: selectedTranslations.actionFiltersBonusActions, category: 'bonus-actions' },
+        { label: selectedTranslations.actionFiltersReactions, category: 'reactions' },
+        { label: selectedTranslations.actionFiltersOther, category: 'other' }
     ];
     await saveToGlobalStorage("language", "Preferred Language", language, false);
 }
@@ -2926,18 +2935,16 @@ async function setLanguage(language) {
 
 async function setupLanguageSelector() {
     const languageSelect = document.getElementById('languageSelect');
-    const savedLang = savedLanguage || 'eng'; // Default to English if no saved language
+    const savedLang = supportedLanguages.includes(savedLanguage) ? savedLanguage : 'eng';
 
     // Clear existing options (if re-running)
     languageSelect.innerHTML = '';
 
     // Populate dropdown with available languages
-    for (const langCode in translations) {
+    for (const langCode of supportedLanguages) {
         const option = document.createElement('option');
         option.value = langCode;
-        option.textContent = langCode === 'eng' ? 'English' : 
-                             langCode === 'es' ? 'Español' :
-                             langCode; // Fallback to code if no label defined
+        option.textContent = languageLabels[langCode] || langCode;
         if (langCode === savedLang) option.selected = true;
         languageSelect.appendChild(option);
     }
@@ -3187,7 +3194,7 @@ async function onInit() {
     const languageData = await loadDataFromGlobalStorage("language");
     // Extract "Preferred Language" and validate it
     savedLanguage = languageData?.["Preferred Language"];
-    if (savedLanguage !== "eng" && savedLanguage !== "es") {
+    if (!supportedLanguages.includes(savedLanguage)) {
         savedLanguage = "eng"; // Default to "eng" if not valid
     }
 
@@ -4140,15 +4147,38 @@ function removeFromCampaignStorage(dataType, dataId) {
 
 
 
+async function fetchLocalizedJson(baseName) {
+    const requestedLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage : 'eng';
+    const languageFallbackChain = requestedLanguage === 'eng'
+        ? ['eng']
+        : [requestedLanguage, 'eng'];
+
+    let lastError = null;
+
+    for (const langCode of languageFallbackChain) {
+        try {
+            const response = await fetch(`${baseName}-${langCode}.json`);
+            if (!response.ok) {
+                throw new Error(`Network response was not ok (${response.status})`);
+            }
+            return await response.json();
+        } catch (error) {
+            lastError = error;
+            console.warn(`Failed to load ${baseName}-${langCode}.json`, error);
+        }
+    }
+
+    throw lastError || new Error(`Failed to load localized file for ${baseName}`);
+}
+
+
 // read the JSON file spells.json and save the data and names to variables
 async function readSpellJson() {
     try {
         const allSpellData = await loadDataFromGlobalStorage("Custom Spells");
         const isGlobalDataAnObject = typeof allSpellData === 'object';
 
-        const response = await fetch(`spells-${savedLanguage}.json`);
-        if (!response.ok) throw new Error('Network response was not ok');
-        const spellsData = await response.json();
+        const spellsData = await fetchLocalizedJson('spells');
 
         let combinedData = isGlobalDataAnObject 
             ? Object.values(allSpellData)
@@ -4205,12 +4235,7 @@ async function readSpellJson() {
 
 async function readMonsterJsonList() {
     try {
-        // Fetch the data from the JSON file
-        const response = await fetch(`Monster_Manual-${savedLanguage}.json`);
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        const monsterData = await response.json();
+        const monsterData = await fetchLocalizedJson('Monster_Manual');
         const allCreatureData = (await loadDataFromGlobalStorage("Custom Monsters"));
 
         // Combine the data
@@ -4253,12 +4278,7 @@ async function readEquipmentJson() {
         const allequipmentData = await loadDataFromGlobalStorage("Custom Equipment"); 
         const isGlobalDataAnObject = typeof allequipmentData === 'object';
 
-        // Fetch the data from the JSON file
-        const response = await fetch(`equipment-${savedLanguage}.json`);
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        const equipmentData = await response.json();
+        const equipmentData = await fetchLocalizedJson('equipment');
 
         let combinedData;
 
