@@ -453,6 +453,21 @@ const EFFECTS = [
 
 let savedLanguage = 'eng';
 
+const supportedLanguages = ['eng', 'es', 'ptbr'];
+const languageLabels = {
+    eng: 'English',
+    es: 'Español',
+    ptbr: 'Português (Brasil)'
+};
+
+function normalizeLanguageCode(language) {
+    const normalized = (language || 'eng').toString().toLowerCase().replace(/[_\s]/g, '-');
+    if (normalized === 'pt' || normalized === 'pt-br' || normalized === 'ptbr') return 'ptbr';
+    if (normalized === 'es' || normalized === 'es-es') return 'es';
+    if (normalized === 'en' || normalized === 'en-us' || normalized === 'en-gb') return 'eng';
+    return supportedLanguages.includes(normalized) ? normalized : 'eng';
+}
+
 //This is the translation library that changes the textcontent of the id listed as a key below.
 //It looks through the active DOM elements and switchs textcontent to the language based on what the user has selcted. 
 const translations = {
@@ -2877,13 +2892,141 @@ const translations = {
     }
 };
 
+function mapObjectStrings(value, mapper) {
+    if (typeof value === 'string') {
+        return mapper(value);
+    }
+
+    if (Array.isArray(value)) {
+        return value.map(item => mapObjectStrings(item, mapper));
+    }
+
+    if (value && typeof value === 'object') {
+        const mappedObject = {};
+        for (const [key, nestedValue] of Object.entries(value)) {
+            mappedObject[key] = mapObjectStrings(nestedValue, mapper);
+        }
+        return mappedObject;
+    }
+
+    return value;
+}
+
+function translateSpanishToPtBr(text) {
+    if (!text || typeof text !== 'string') {
+        return text;
+    }
+
+    const replacements = [
+        [/\bGuardar\b/g, 'Salvar'],
+        [/\bCargar\b/g, 'Carregar'],
+        [/\bLista de Hechizos\b/g, 'Lista de Magias'],
+        [/\bHechizos\b/g, 'Magias'],
+        [/\bHechizo\b/g, 'Magia'],
+        [/\bNotas\b/g, 'Notas'],
+        [/\bOpciones\b/g, 'Opções'],
+        [/\bConfiguración\b/g, 'Configurações'],
+        [/\bIdioma\b/g, 'Idioma'],
+        [/\bCambiar Tema\b/g, 'Mudar Tema'],
+        [/\bCategoría\b/g, 'Categoria'],
+        [/\bBono\b/g, 'Bônus'],
+        [/\bValor\b/g, 'Valor'],
+        [/\bEstadística\b/g, 'Atributo'],
+        [/\bEliminar\b/g, 'Remover'],
+        [/\bAtaques\b/g, 'Ataques'],
+        [/\bAcciones Adicionales\b/g, 'Ações Bônus'],
+        [/\bAcciones\b/g, 'Ações'],
+        [/\bReacciones\b/g, 'Reações'],
+        [/\bIniciativa\b/g, 'Iniciativa'],
+        [/\bDescanso Corto\b/g, 'Descanso Curto'],
+        [/\bDescanso Largo\b/g, 'Descanso Longo'],
+        [/\bCrear\b/g, 'Criar'],
+        [/\bVíncular mini\b/g, 'Vincular mini'],
+        [/\bVelocidad\b/g, 'Deslocamento'],
+        [/\bCompetencia\b/g, 'Proficiência'],
+        [/\bMuerte\b/g, 'Morte'],
+        [/\bÉxito\b/g, 'Sucesso'],
+        [/\bFracaso\b/g, 'Falha'],
+        [/\bCurar\b/g, 'Curar'],
+        [/\bDaño\b/g, 'Dano'],
+        [/\bNivel\b/g, 'Nível'],
+        [/\bSeleccionar\b/g, 'Selecionar'],
+        [/\bBuscar\b/g, 'Buscar'],
+        [/\bCondición\b/g, 'Condição'],
+        [/\bResistencias\b/g, 'Resistências'],
+        [/\bInmunidades\b/g, 'Imunidades'],
+        [/\bVulnerabilidades\b/g, 'Vulnerabilidades'],
+        [/\bPercepción\b/g, 'Percepção'],
+        [/\bHistoria\b/g, 'História'],
+        [/\bSigilo\b/g, 'Furtividade'],
+        [/\bArcano\b/g, 'Arcana'],
+        [/\bInvestigación\b/g, 'Investigação'],
+        [/\bIntimidación\b/g, 'Intimidação'],
+        [/\bPersuasión\b/g, 'Persuasão'],
+        [/\bReligión\b/g, 'Religião'],
+        [/\bSupervivencia\b/g, 'Sobrevivência'],
+        [/\bConcentración\b/g, 'Concentração'],
+        [/\bArmadura\b/g, 'Armadura'],
+        [/\bPuntos de golpe\b/g, 'Pontos de vida'],
+        [/\bMonstruo\b/g, 'Monstro'],
+        [/\bJugador\b/g, 'Jogador'],
+        [/\bPersonalizado\b/g, 'Personalizado'],
+        [/\bAñadir\b/g, 'Adicionar'],
+        [/\bEditar\b/g, 'Editar'],
+        [/\bCerrar\b/g, 'Fechar']
+    ];
+
+    let translated = text;
+    replacements.forEach(([pattern, replacement]) => {
+        translated = translated.replace(pattern, replacement);
+    });
+    return translated;
+}
+
+function buildPtBrTranslations() {
+    const base = translations.es || translations.eng;
+    const ptBrAuto = mapObjectStrings(base, translateSpanishToPtBr);
+
+    return {
+        ...ptBrAuto,
+        DMPageLinkInit: 'Rastr. Iniciativa',
+        DMTablesLinkInit: 'Tabelas do Mestre',
+        checklistsLinkInit: 'Checklists',
+        SpellListLinkInit: 'Lista de Magias',
+        DocsLinkInit: 'Notas',
+        GoogleDocsLinkInit: 'Google Docs',
+        settingsHeading: 'Experimental',
+        openModal: 'Mudar Tema',
+        rollInitiative: 'Rolar Iniciativa',
+        'save-encounter': 'Salvar Encontro',
+        'load-encounter': 'Carregar Encontro',
+        'previous-turn-btn': 'Turno Anterior',
+        'next-turn-btn': 'Próximo Turno',
+        'request-player-stats': 'Solicitar Status dos Jogadores',
+        openHomebrew: 'Homebrew',
+        customSpells: 'Criar Magia',
+        conditionDMAddButton: 'Adicionar Condição',
+        disadvButton: 'Desvantagem',
+        normalButton: 'Padrão',
+        advButton: 'Vantagem',
+        languageLabel: 'Idioma:',
+        monsterInputPlaceholder: 'Selecione ou digite um nome de monstro...',
+        playerInputPlaceholder: 'Selecione ou digite um nome de jogador...'
+    };
+}
+
+translations.ptbr = buildPtBrTranslations();
+
 
 
 async function setLanguage(language) {
-    for (const id in translations[language]) {
+    savedLanguage = normalizeLanguageCode(language);
+    const selectedTranslations = translations[savedLanguage] || translations.eng;
+
+    for (const id in selectedTranslations) {
         const element = document.getElementById(id);
         if (element) {
-            const translationText = translations[language][id];
+            const translationText = selectedTranslations[id];
 
             // Check if the first child is a text node
             if (element.firstChild.nodeType === Node.TEXT_NODE) {
@@ -2896,13 +3039,29 @@ async function setLanguage(language) {
     }
 
     checkboxData = [
-        { label: translations[savedLanguage].actionFiltersAttacks, category: 'attacks' },
-        { label: translations[savedLanguage].actionFiltersActions, category: 'actions' },
-        { label: translations[savedLanguage].actionFiltersBonusActions, category: 'bonus-actions' },
-        { label: translations[savedLanguage].actionFiltersReactions, category: 'reactions' },
-        { label: translations[savedLanguage].actionFiltersOther, category: 'other' }
+        { label: selectedTranslations.actionFiltersAttacks, category: 'attacks' },
+        { label: selectedTranslations.actionFiltersActions, category: 'actions' },
+        { label: selectedTranslations.actionFiltersBonusActions, category: 'bonus-actions' },
+        { label: selectedTranslations.actionFiltersReactions, category: 'reactions' },
+        { label: selectedTranslations.actionFiltersOther, category: 'other' }
     ];
-    await saveToGlobalStorage("language", "Preferred Language", language, false);
+
+    const languageLabel = document.querySelector('label[for="languageSelect"]');
+    if (languageLabel) {
+        languageLabel.textContent = selectedTranslations.languageLabel || 'Language:';
+    }
+
+    const monsterNameInput = document.getElementById('monster-name-input');
+    if (monsterNameInput) {
+        monsterNameInput.placeholder = selectedTranslations.monsterInputPlaceholder || 'Select or type a monster name...';
+    }
+
+    const playerNameInput = document.getElementById('player-name-input');
+    if (playerNameInput) {
+        playerNameInput.placeholder = selectedTranslations.playerInputPlaceholder || 'Select or type a player name...';
+    }
+
+    await saveToGlobalStorage("language", "Preferred Language", savedLanguage, false);
 }
 
 
@@ -2926,18 +3085,16 @@ async function setLanguage(language) {
 
 async function setupLanguageSelector() {
     const languageSelect = document.getElementById('languageSelect');
-    const savedLang = savedLanguage || 'eng'; // Default to English if no saved language
+    const savedLang = normalizeLanguageCode(savedLanguage);
 
     // Clear existing options (if re-running)
     languageSelect.innerHTML = '';
 
     // Populate dropdown with available languages
-    for (const langCode in translations) {
+    for (const langCode of supportedLanguages) {
         const option = document.createElement('option');
         option.value = langCode;
-        option.textContent = langCode === 'eng' ? 'English' : 
-                             langCode === 'es' ? 'Español' :
-                             langCode; // Fallback to code if no label defined
+        option.textContent = languageLabels[langCode] || langCode;
         if (langCode === savedLang) option.selected = true;
         languageSelect.appendChild(option);
     }
@@ -3186,10 +3343,7 @@ async function onInit() {
 
     const languageData = await loadDataFromGlobalStorage("language");
     // Extract "Preferred Language" and validate it
-    savedLanguage = languageData?.["Preferred Language"];
-    if (savedLanguage !== "eng" && savedLanguage !== "es") {
-        savedLanguage = "eng"; // Default to "eng" if not valid
-    }
+    savedLanguage = normalizeLanguageCode(languageData?.["Preferred Language"]);
 
     await setupLanguageSelector()
 
@@ -4146,7 +4300,11 @@ async function readSpellJson() {
         const allSpellData = await loadDataFromGlobalStorage("Custom Spells");
         const isGlobalDataAnObject = typeof allSpellData === 'object';
 
-        const response = await fetch(`spells-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`spells-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`spells-eng.json`);
+        }
         if (!response.ok) throw new Error('Network response was not ok');
         const spellsData = await response.json();
 
@@ -4206,7 +4364,11 @@ async function readSpellJson() {
 async function readMonsterJsonList() {
     try {
         // Fetch the data from the JSON file
-        const response = await fetch(`Monster_Manual-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`Monster_Manual-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`Monster_Manual-eng.json`);
+        }
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -4254,7 +4416,11 @@ async function readEquipmentJson() {
         const isGlobalDataAnObject = typeof allequipmentData === 'object';
 
         // Fetch the data from the JSON file
-        const response = await fetch(`equipment-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`equipment-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`equipment-eng.json`);
+        }
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
