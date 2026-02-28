@@ -453,6 +453,21 @@ const EFFECTS = [
 
 let savedLanguage = 'eng';
 
+const supportedLanguages = ['eng', 'es', 'ptbr'];
+const languageLabels = {
+    eng: 'English',
+    es: 'Español',
+    ptbr: 'Português (Brasil)'
+};
+
+function normalizeLanguageCode(language) {
+    const normalized = (language || 'eng').toString().toLowerCase().replace(/[_\s]/g, '-');
+    if (normalized === 'pt' || normalized === 'pt-br' || normalized === 'ptbr') return 'ptbr';
+    if (normalized === 'es' || normalized === 'es-es') return 'es';
+    if (normalized === 'en' || normalized === 'en-us' || normalized === 'en-gb') return 'eng';
+    return supportedLanguages.includes(normalized) ? normalized : 'eng';
+}
+
 //This is the translation library that changes the textcontent of the id listed as a key below.
 //It looks through the active DOM elements and switchs textcontent to the language based on what the user has selcted. 
 const translations = {
@@ -1647,7 +1662,7 @@ const translations = {
     es: {
         //Spell Section
         spellModLabel: "Modificador:",
-        spellModSTR: "FUE",
+        spellModSTR: "FOR",
         spellModDEX: "DES",
         spellModCON: "CON",
         spellModINT: "INT",
@@ -1697,7 +1712,7 @@ const translations = {
         maxHP: "Max",
         hpButtomText: "Puntos de golpe",
         tempHPText: "P.G Temp",
-        characterAbilityStr: "FUE",
+        characterAbilityStr: "FOR",
         characterAbilityDex: "DES",
         characterAbilityCon: "CON",
         characterAbilityInt: "INT",
@@ -1706,7 +1721,7 @@ const translations = {
         acrobaticsMod: "DES",
         animalHandlingMod: "SAB",
         arcanaMod: "INT",
-        athleticsMod: "FUE",
+        athleticsMod: "FOR",
         deceptionMod: "CAR",
         historyMod: "INT",
         insightMod: "SAB",
@@ -1739,7 +1754,7 @@ const translations = {
         skillSleightofHand: "Juego de manos",
         skillStealth: "Sigilo",
         skillSurvival: "Supervivencia",
-        strSave: "Salvación Fue",
+        strSave: "Salvación FOR",
         dexSave: "Salvación Des",
         conSave: "Salvación Con",
         intSave: "Salvación Int",
@@ -2874,16 +2889,1093 @@ const translations = {
      
         
 
+    },
+    ptbr: {
+        //Spell Section
+        spellModLabel: "Modificador:",
+        spellModSTR: "FOR",
+        spellModDEX: "DES",
+        spellModCON: "CON",
+        spellModINT: "INT",
+        spellModWIS: "SAB",
+        spellModCHA: "CAR",
+        toHitLabel: "Para Acertar:",
+        saveDcLabel: "CD:",
+        spellLevelLabel: "Nível",
+        bonusLabel: "Bônus",
+        cantripsLabel: "Truques",
+        level1Label: "Nível 1",
+        level2Label: "Nível 2",
+        level3Label: "Nível 3",
+        level4Label: "Nível 4",
+        level5Label: "Nível 5",
+        level6Label: "Nível 6",
+        level7Label: "Nível 7",
+        level8Label: "Nível 8",
+        level9Label: "Nível 9",
+        CantripSpellNameHeader: "Nome",
+        CantripTimeHeader: "Tempo",
+        CantripHitDCHeader: "Atq/CD",
+        CantripDiceHeader: "Dados",
+        CantripConcentrationHeader: "Conc",
+        CantripNotesHeader: "Notas",
+        CantripDeleteHeader: "Del",
+        inspiration: "Inspiração",
+        shortRestButton: "Descanso Curto",
+        longRestButton: "Descanso Longo",
+        deleteCharacter: "Deletar Personagem",
+        customSpells: "Criar Magia",
+        'get-selection-button': "Conectar Mini",
+        disadvButton: "Desvantagem",
+        normalButton: "Padrão",
+        advButton: "Vantagem",
+        characterInit: "Init",
+        armorClass: "CA",
+        walkingSpeed: "Velocidade",
+        prof: "Prof",
+        levelTextSpan: "Nível",
+        deathSaves: "Salvações de Morte",
+        deathSavesSuccess: "Sucesso :",
+        deathSavesFailures: "Fracasso :",
+        healButton: "Curar",
+        damageButton: "Dano",
+        currentHP: "Atual",
+        maxHP: "Max",
+        hpButtomText: "Pontos de Vida",
+        tempHPText: "PV Temp",
+        characterAbilityStr: "FOR",
+        characterAbilityDex: "DES",
+        characterAbilityCon: "CON",
+        characterAbilityInt: "INT",
+        characterAbilityWis: "SAB",
+        characterAbilityCha: "CAR",
+        acrobaticsMod: "DES",
+        animalHandlingMod: "SAB",
+        arcanaMod: "INT",
+        athleticsMod: "FOR",
+        deceptionMod: "CAR",
+        historyMod: "INT",
+        insightMod: "SAB",
+        intimidationMod: "CAR",
+        investigationMod: "INT",
+        medicineMod: "SAB",
+        natureMod: "INT",
+        perceptionMod: "SAB",
+        performanceMod: "CAR",
+        persuasionMod: "CAR",
+        religionMod: "INT",
+        sleightofHandMod: "DES",
+        stealthMod: "DES",
+        survivalMod: "SAB",
+        skillAcrobatics: "Acrobacias",
+        skillAnimalHandling: "Adestramento Animal",
+        skillArcana: "Arcanismo",
+        skillAthletics: "Atletismo",
+        skillDeception: "Enganação",
+        skillHistory: "História",
+        skillInsight: "Intuição",
+        skillIntimidation: "Intimidação",
+        skillInvestigation: "Investigação",
+        skillMedicine: "Medicina",
+        skillNature: "Natureza",
+        skillPerception: "Percepção",
+        skillPerformance: "Atuação",
+        skillPersuasion: "Persuasão",
+        skillReligion: "Religião",
+        skillSleightofHand: "Prestidigitação",
+        skillStealth: "Furtividade",
+        skillSurvival: "Sobrevivência",
+        strSave: "Salvação FOR",
+        dexSave: "Salvação DES",
+        conSave: "Salvação CON",
+        intSave: "Salvação INT",
+        wisSave: "Salvação SAB",
+        chaSave: "Salvação CAR",
+        passivePerceptionTitle: "SAB Passiva (Percepção)",
+        passiveInvestigationTitle: "INT Passiva (Investigação)",
+        passiveInsightTitle: "SAB Passiva (Intuição)",
+        proficiencyGroupHeading: "Proficiências",
+        proficiencyWeapons: "Armas",
+        proficiencyArmor: "Armadura",
+        proficiencyLanguages: "Idiomas",
+        proficiencyTools: "Ferramentas",
+        playerStatsHeader: "Estatísticas",
+        actionsHeader: "Ações",
+        spellListHeader: "Lista de Magias",
+        inventoryHeader: "Inventário",
+        featuresHeader: "Características",
+        docsHeader: "Notas",
+        extrasHeader: "Extras",
+        initHeader: "Lista Init",
+        addItemModalHeader: "Adicionar Novo Item ao Inventário",
+        addItemModalBagSelect: "Selecionar Bolsa:",
+        addItemModalEquipment: "Equipamento",
+        addItemModalBackpack: "Mochila",
+        addItemModalOtherPossessions: "Outras Posses",
+        addItemModalDropdownText: "Selecionar Item:",
+        'confirm-add-item': "Adicionar Item",
+        'close-modal': "Cancelar",
+        spellScrollText: "Pergaminho de Magia",
+        conditionPlayerAddButton: "Adicionar Condição",
+        hitDiceOpenModalButton: "Dado de Vida",
+        longRestHeader: "Resumo do Descanso Longo",
+        shortRestHeader: "Resumo do Descanso Curto",
+        longRestHPChangeTrans: "PV Restaurados:",
+        longRestTempHPChangeTrans: "Removendo PV Temporário:",
+        longRestSpellSlotsTrans: "espaços restaurados",
+        longRestSpellSlotDefaultText: "Nenhum espaço de magia usado para restaurar.",
+        longRestHitDiceTrans: "Adicionando até:",
+        longRestHitDice01: "Dados de Vida",
+        longRestFeatures: "Características para Restaurar:",
+        traitDescriptionTexts0: "restaurando até",
+        traitDescriptionTexts1: "usos",
+        confirmLongRestButton: "Confirmar",
+        cancelLongRestButton: "Cancelar",
+        hitDiceModalHeader: "Usar Dados de Vida",
+        hitDiceModalText: "Dados de Vida Disponíveis Atuais:",
+        featuresAddGroupButton: "+ Adicionar Novo Grupo",
+        featuresAddTraitButton: "+ Adicionar Nova Característica",
+        featuresUsesText: "Usos",
+        featuresCategoryText: "Categoria:",
+        featuresSubcategoryText: "Subcategoria:",
+        featuresAbilityScoreText: "Habilidade a ser usada para valor de ajuste:",
+        featuresAdjustmentText: "Valor de Ajuste:",
+        featuresNumberUsesText: "Número de Usos:",
+        featuresResetText: "Recuperar Quando:",
+        featuresDeleteButton: "Deletar Característica",
+        docsSectionHeader: "Notas do Personagem",
+        docsSectionGroupButton: "+ Adicionar Grupo",
+        docsSectionNoteButton: "+ Adicionar Nota",
+        characterAbilityScores: {
+            str: "Força (FOR)",
+            dex: "Destreza (DES)",
+            con: "Constituição (CON)",
+            int: "Inteligência (INT)",
+            wis: "Sabedoria (SAB)",
+            cha: "Carisma (CAR)"
+        },
+        damageTypesTranslate: {
+            na: "N/A",
+            slashing: "Cortante",
+            piercing: "Perfurante",
+            bludgeoning: "Contundente",
+            fire: "Fogo",
+            cold: "Frio",
+            lightning: "Relâmpago",
+            thunder: "Trovão",
+            acid: "Ácido",
+            poison: "Veneno",
+            psychic: "Psíquico",
+            radiant: "Radiante",
+            necrotic: "Necrótico",
+            force: "Força",
+            healing: "Cura"
+        },
+        resistanceTypesTranslate: {
+            slashing: "Cortante",
+            piercing: "Perfurante",
+            bludgeoning: "Contundente",
+            fire: "Fogo",
+            cold: "Frio",
+            lightning: "Relâmpago",
+            thunder: "Trovão",
+            acid: "Ácido",
+            poison: "Veneno",
+            psychic: "Psíquico",
+            radiant: "Radiante",
+            necrotic: "Necrótico",
+            force: "Força",
+            non_magical_damage: "Dano não mágico",
+            silvered_weapons: "Armas prateadas",
+            magical_weapons: "Armas mágicas",
+            bludgeoning_non_magical: "Contundente (não mágico)",
+            slashing_non_magical: "Cortante (não mágico)",
+            piercing_non_magical: "Perfurante (não mágico)"
+        },
+        conditionTypesTranslated: {
+            blinded: "Cegado",
+            charmed: "Encantado",
+            deafened: "Surdo",
+            frightened: "Assustado",
+            grappled: "Agarrado",
+            incapacitated: "Incapacitado",
+            invisible: "Invisível",
+            paralyzed: "Paralisado",
+            petrified: "Petrificado",
+            poisoned: "Envenenado",
+            prone: "Derrubado",
+            restrained: "Contido",
+            stunned: "Atordoado",
+            unconscious: "Inconsciente",
+            exhaustion: "Exaustão"
+        },
+        conditions: {
+            blinded: {
+                name: "Cegado",
+                description: [
+                    "Uma criatura cega não consegue enxergar e falha automaticamente em qualquer teste de capacidade que exija visão.",
+                    "<br>Testes de ataque contra a criatura têm vantagem, e seus testes de ataque têm desvantagem."
+                ]
+            },
+            charmed: {
+                name: "Encantado",
+                description: [
+                    "Uma criatura encantada não consegue atacar nem alvejar o encantador com uma habilidade nociva ou um efeito mágico.",
+                    "O encantador tem vantagem em testes de Carisma para interagir socialmente com a criatura."
+                ]
+            },
+            deafened: {
+                name: "Surdo",
+                description: [
+                    "Uma criatura surda não consegue ouvir e falha automaticamente em qualquer teste de capacidade que exija audição."
+                ]
+            },
+            exhaustion: {
+                name: "Exaustão",
+                description: [
+                    "Nível 1: Desvantagem nos testes de capacidade",
+                    "<br>Nível 2: Velocidade reduzida à metade",
+                    "<br>Nível 3: Desvantagem nos testes de ataque e salvação",
+                    "<br>Nível 4: Máximo de PV reduzido à metade",
+                    "<br>Nível 5: Velocidade reduzida para 0",
+                    "<br>Nível 6: Morte"
+                ]
+            },
+            frightened: {
+                name: "Assustado",
+                description: [
+                    "Uma criatura assustada tem desvantagem nos testes de capacidade e testes de ataque enquanto conseguir ver a fonte de seu medo.",
+                    "<br>A criatura não consegue se aproximar voluntariamente da fonte de seu medo."
+                ]
+            },
+            grappled: {
+                name: "Agarrado",
+                description: [
+                    "A velocidade de uma criatura agarrada é 0, e ele não se beneficia de nenhum bônus em sua velocidade.",
+                    "<br>A condição termina se o grappler ficar incapacitado.",
+                    "<br>A condição também termina se um efeito afastar a criatura do grappler, como quando uma criatura é afastada pelo feitiço onda trovejante."
+                ]
+            },
+            incapacitated: {
+                name: "Incapacitado",
+                description: [
+                    "Uma criatura incapacitada não consegue fazer ações ou reações."
+                ]
+            },
+            paralyzed: {
+                name: "Paralisado",
+                description: [
+                    "Uma criatura paralisada está incapacitada e não consegue se mover ou falar.",
+                    "<br>A criatura falha automaticamente em salvações de Força e Destreza.",
+                    "<br>Testes de ataque contra a criatura têm vantagem.",
+                    "<br>Qualquer acerto contra a criatura é um acerto crítico se o atacante estiver em 1,5m ou menos dela."
+                ]
+            },
+            petrified: {
+                name: "Petrificado",
+                description: [
+                    "Uma criatura petrificada é transformada, junto com qualquer objeto não mágico que ela esteja usando ou carregando, em uma substância sólida e inanimada (normalmente pedra). Seu peso aumenta em dez vezes, e ela para de envelhecer.",
+                    "<br>A criatura está incapacitada, não consegue se mover ou falar, e não tem conhecimento de seus arredores.",
+                    "<br>Testes de ataque contra a criatura têm vantagem.",
+                    "<br>A criatura falha automaticamente em salvações de Força e Destreza.",
+                    "<br>A criatura tem resistência a todo dano.",
+                    "<br>A criatura é imune a veneno e doença, embora toda doença ou veneno já presente em seu corpo esteja suspenso e não neutralizado."
+                ]
+            },
+            poisoned: {
+                name: "Envenenado",
+                description: [
+                    "Uma criatura envenenada tem desvantagem em testes de ataque e testes de capacidade."
+                ]
+            },
+            prone: {
+                name: "Derrubado",
+                description: [
+                    "A única opção de movimento de uma criatura derrubada é rastejar, a menos que se levante e termine a condição.",
+                    "<br>A criatura tem desvantagem em testes de ataque.",
+                    "<br>Um teste de ataque contra a criatura tem vantagem se o atacante estiver em 1,5m ou menos dela. Caso contrário, o teste tem desvantagem."
+                ]
+            },
+            restrained: {
+                name: "Contido",
+                description: [
+                    "A velocidade de uma criatura contida é 0, e ele não se beneficia de nenhum bônus em sua velocidade.",
+                    "<br>Testes de ataque contra a criatura têm vantagem, e seus testes de ataque têm desvantagem.",
+                    "<br>A criatura tem desvantagem em salvações de Destreza."
+                ]
+            },
+            stunned: {
+                name: "Atordoado",
+                description: [
+                    "Uma criatura atordoada está incapacitada, não consegue se mover, e consegue falar apenas desordenadamente.",
+                    "<br>A criatura falha automaticamente em salvações de Força e Destreza.",
+                    "<br>Testes de ataque contra a criatura têm vantagem."
+                ]
+            },
+            unconscious: {
+                name: "Inconsciente",
+                description: [
+                    "Uma criatura inconsciente está incapacitada, não consegue se mover ou falar, e não tem conhecimento de seus arredores.",
+                    "<br>A criatura larga tudo que está segurando e cai derrubada.",
+                    "<br>A criatura falha automaticamente em salvações de Força e Destreza.",
+                    "<br>Testes de ataque contra a criatura têm vantagem.",
+                    "<br>Qualquer acerto contra a criatura é um acerto crítico se o atacante estiver em 1,5m ou menos dela."
+                ]
+            }
+        },
+        effects: {
+            aid: {
+                name: "Ajuda",
+                description: [
+                    "A criatura ganha 5 PV máximos por nível de ajuda."
+                ]
+            },
+            bane: {
+                name: "Perdição",
+                description: [
+                    "A criatura deve subtrair 1d4 de testes de ataque ou salvações enquanto o efeito durar."
+                ]
+            },
+            bless: {
+                name: "Bênção",
+                description: [
+                    "A criatura pode somar 1d4 aos seus testes de ataque ou salvações enquanto o efeito durar."
+                ]
+            },
+            bloodied: {
+                name: "Sangrando",
+                description: [
+                    "Os PV da criatura estão em ou abaixo da metade de seus PV máximos."
+                ]
+            },
+            concentration: {
+                name: "Concentração",
+                description: [
+                    "A criatura está se concentrando em um feitiço. A concentração é quebrada se a criatura sofrer dano e falhar em um teste de salvação de Constituição."
+                ]
+            },
+            curse: {
+                name: "Maldição",
+                description: [
+                    "A maldição aplica uma penalidade específica, como PV reduzidos, desvantagem em certos testes ou incapacidade de recuperar PV."
+                ]
+            },
+            drained: {
+                name: "Drenado",
+                description: [
+                    "O máximo de PV da criatura é reduzido até que ela termine um descanso longo."
+                ]
+            },
+            haste: {
+                name: "Pressa",
+                description: [
+                    "A velocidade da criatura é duplicada.",
+                    "Ela ganha um bônus de +2 à CA.",
+                    "Tem vantagem em salvações de Destreza.",
+                    "Ganha uma ação adicional a cada turno (limitada a certas ações)."
+                ]
+            },
+            heroism: {
+                name: "Heroísmo",
+                description: [
+                    "A criatura ganha PV temporários no início de cada turno enquanto o efeito durar.",
+                    "É imune a estar assustada."
+                ]
+            },
+            hex: {
+                name: "Maldição arcana",
+                description: [
+                    "A criatura tem desvantagem em testes de capacidade de uma habilidade à sua escolha.",
+                    "Sofre dano necrótico extra dos ataques do conjurador."
+                ]
+            },
+            inspire: {
+                name: "Inspirar",
+                description: [
+                    "A criatura pode somar um dado de Inspiração Bárdica a um teste de capacidade, teste de ataque ou salvação."
+                ]
+            },
+            invisible: {
+                name: "Invisível",
+                description: [
+                    "Uma criatura invisível não consegue ser vista sem magia ou sentidos especiais. Assume-se estar em escuridão pesada.",
+                    "Testes de ataque contra a criatura têm desvantagem, e seus testes de ataque têm vantagem."
+                ]
+            },
+            raging: {
+                name: "Furor Bárbaro",
+                description: [
+                    "A criatura tem vantagem em testes de Força e salvações de Força.",
+                    "Seus testes de ataque com armas de corpo a corpo infligem dano adicional.",
+                    "A criatura tem resistência a dano contundente, perfurante e cortante."
+                ]
+            },
+            recharging: {
+                name: "Recarregando",
+                description: [
+                    "A habilidade deste monstro se recarrega após o uso. No final de seus turnos, role 1d6.",
+                    "<br>Se o resultado estiver no intervalo de recarga especificado (ex: 5-6), a habilidade volta a estar disponível.",
+                    "<br>Caso contrário, permanece indisponível até o próximo sucesso."
+                ]
+            },
+            sanctuary: {
+                name: "Santuário",
+                description: [
+                    "Criaturas tentando atacar a criatura protegida devem fazer um salvamento de Sabedoria ou escolher um novo alvo."
+                ]
+            },
+            shield: {
+                name: "Escudo",
+                description: [
+                    "A criatura ganha um aumento temporário em sua CA (ex: feitiço Escudo adiciona +5 à CA até o início do próximo turno)."
+                ]
+            },
+            slow: {
+                name: "Lentidão",
+                description: [
+                    "A velocidade da criatura é reduzida à metade.",
+                    "Recebe uma penalidade de -2 à CA e salvações de Destreza.",
+                    "Não consegue usar reações e pode fazer apenas uma ação ou ação bônus em seu turno."
+                ]
+            }
+        },
+        schools: {
+            abjuration: {
+                name: "Abjuração",
+                description: ["A Escola de Abjuração enfatiza magia que bloqueia, afasta ou protege."]
+            },
+            conjuration: {
+                name: "Conjuração",
+                description: ["A Escola de Conjuração lida com criar objetos e criaturas, ou fazê-los desaparecer."]
+            },
+            divination: {
+                name: "Adivinhação",
+                description: ["A Escola de Adivinhação é focada em revelar e conceder conhecimento e informação. Útil para ler textos antigos, identificar itens mágicos e ver inimigos invisíveis."]
+            },
+            enchantment: {
+                name: "Encantamento",
+                description: ["Feitiços da Escola de Encantamento manipulam o estado mental do alvo, semelhante a hipnose."]
+            },
+            evocation: {
+                name: "Evocação",
+                description: ["Conjuradores da Escola de Evocação liberam energia mágica crua sobre inimigos. Seja chamas, gelo ou energia arcana pura."]
+            },
+            illusion: {
+                name: "Ilusão",
+                description: ["A Escola de Ilusão se preocupa em manipular os sentidos diversos de pessoas e criaturas. Isso pode ser visão, audição ou outros sentidos como temperatura corporal."]
+            },
+            necromancy: {
+                name: "Nigromancia",
+                description: ["Feitiços da Escola de Nigromancia manipulam a energia vital de criaturas ou o equilíbrio entre vida e morte. Isso pode ser sob a forma de ressurreição ou dano necrótico."]
+            },
+            transmutation: {
+                name: "Transmutação",
+                description: ["Conjuradores que estudam na Escola de Transmutação conseguem manipular propriedades físicas de itens e pessoas. Isso pode ser algo simples como transformar cobre em ouro ou um feitiço avançado que o transforma em uma salamandra."]
+            }
+        },
+        travel: {
+            fast: {
+                name: "Rápido",
+                description: ["Por Minuto - 120 metros", "Por Hora - 5,5 km", "Por Dia - 48 km", "Efeito - penalidade -5 em testes passivos de Percepção"]
+            },
+            normal: {
+                name: "Normal",
+                description: ["Por Minuto - 90 metros", "Por Hora - 4,5 km", "Por Dia - 36 km", "Efeito - "]
+            },
+            slow: {
+                name: "Lento",
+                description: ["Por Minuto - 60 metros", "Por Hora - 3 km", "Por Dia - 24 km", "Efeito - Consegue usar furtividade"]
+            }
+        },
+        travelCosts: {
+            airship: {
+                name: "Navio Aéreo",
+                description: ["Custo - 1 po por km", "Velocidade - 32 km/h"]
+            },
+            galleon: {
+                name: "Galeão",
+                description: ["Custo - 5 pc por km", "Velocidade - 16 km/h"]
+            },
+            coach: {
+                name: "Carruagem",
+                description: ["Custo - 2 pc por km", "Velocidade - 48 km/h"]
+            },
+            teleportationCircle: {
+                name: "Círculo de Teleportação",
+                description: ["Custo - 2.500 po", "Velocidade - Instantâneo"]
+            }
+        },
+        actionFiltersAll: "Todos",
+        actionFiltersAttacks: "Ataques",
+        actionFiltersActions: "Ações",
+        actionFiltersBonusActions: "Ações Bônus",
+        actionFiltersReactions: "Reações",
+        actionFiltersOther: "Outro",
+        actionTableHeader1: "Prof",
+        actionTableHeader2: "Nome",
+        actionTableHeader3: "Alcance",
+        actionTableHeader4: "Ataque",
+        actionTableHeader5: "Dano",
+        actionTableHeader6: "Info",
+        filterActionsButton: "Filtrar Ações",
+        actionTableToHitBonus: "Bônus de Ataque : ",
+        actionTableDamageMod: "Mod de Dano : ",
+        actionTableDamageDice: "Dados de Dano : ",
+        actionTableDamageType: "Tipo de Dano : ",
+        actionTableDeleteButton: "Deletar Linha Atual",
+        alignmentOptionLG: "Leal Bom",
+        alignmentOptionNG: "Neutro Bom",
+        alignmentOptionCG: "Caótico Bom",
+        alignmentOptionLN: "Leal Neutro",
+        alignmentOptionTN: "Verdadeiramente Neutro",
+        alignmentOptionCN: "Caótico Neutro",
+        alignmentOptionLE: "Leal Maligno",
+        alignmentOptionNE: "Neutro Maligno",
+        alignmentOptionCE: "Caótico Maligno",
+        conditionOptionAid: "Ajuda",
+        conditionOptionBane: "Perdição",
+        conditionOptionBlinded: "Cegado",
+        conditionOptionBless: "Bênção",
+        conditionOptionConcentration: "Concentração",
+        conditionOptionCharmed: "Encantado",
+        conditionOptionDeafened: "Surdo",
+        conditionOptionExhaustion: "Exaustão",
+        conditionOptionFrightened: "Assustado",
+        conditionOptionGrappled: "Agarrado",
+        conditionOptionGuidance: "Orientação",
+        conditionOptionHeroism: "Heroísmo",
+        conditionOptionIncapacitated: "Incapacitado",
+        conditionOptionInvisible: "Invisível",
+        conditionOptionParalyzed: "Paralisado",
+        conditionOptionPetrified: "Petrificado",
+        conditionOptionPoisoned: "Envenenado",
+        conditionOptionProne: "Derrubado",
+        conditionOptionRestrained: "Contido",
+        conditionOptionSanctuary: "Santuário",
+        conditionOptionStunned: "Atordoado",
+        conditionOptionUnconscious: "Inconsciente",
+        conditionOptionSlow: "Lento",
+        conditionOptionRaging: "Furioso",
+        proficiencies: {
+            weapons: {
+                categories: ["Armas Marciais", "Armas Simples"],
+                simpleMelee: ["Cacheta", "Adaga", "Bordão Grande", "Machado de Mão", "Lança", "Martelo Leve", "Maça", "Bordão", "Foice", "Lança Curta"],
+                simpleRanged: ["Besta Leve", "Dardo", "Arco Curto", "Funda"],
+                martialMelee: ["Machado de Guerra", "Mangual", "Alabarda", "Machado Grande", "Espadão", "Guisarma", "Lança de Cavalaria", "Espada Longa", "Martelo de Guerra", "Estrela da Manhã", "Pica", "Espada Reta", "Cimitarra", "Espada Curta", "Tridente", "Picareta de Guerra", "Martelo de Guerra", "Chicote"],
+                martialRanged: ["Cerbatana", "Besta de Mão", "Besta Pesada", "Arco Longo", "Rede"]
+            },
+            armor: ["Leve", "Média", "Pesada", "Escudo"],
+            languages: {
+                common: ["Comum", "Anão", "Élfico", "Gigante", "Gnômico", "Goblin", "Pequenino", "Orc", "Leonino", "Minotauro", "Linguagem de Sinais"],
+                exotic: ["Abissal", "Celestial", "Dracônico", "Profundidades", "Infernal", "Primordial", "Silvestre", "Gíria dos Ladrões", "Subcomunal"]
+            },
+            tools: {
+                artisan: ["Suprimentos de Alquimista", "Suprimentos de Cervejeiro", "Suprimentos de Calígrafo", "Ferramentas de Carpinteiro", "Ferramentas de Cartógrafo", "Ferramentas de Sapateiro", "Utensílios de Cozinha", "Ferramentas de Vidreiro", "Ferramentas de Joalheiro", "Ferramentas de Coureiro", "Ferramentas de Pedreiro", "Suprimentos de Pintor", "Ferramentas de Oleiro", "Ferramentas de Ferreiro", "Ferramentas de Consertador", "Ferramentas de Tecelão", "Ferramentas de Escultor em Madeira"],
+                gaming: ["Conjunto de Dados", "Jogo de Xadrez de Dragão", "Baralho", "Ante Tríplice de Dragão"],
+                musical: ["Gaita de Foles", "Tambor", "Dulcímera", "Flauta", "Alaúde", "Lira", "Corneta", "Flauta de Pã", "Charamela", "Viola", "Gongo de Guerra", "Flautas de Pássaro"],
+                other: ["Kit de Disfarce", "Kit de Falsificação", "Kit de Herbalismo", "Ferramentas de Navegador", "Kit de Envenenador", "Ferramentas de Ladrão", "Veículos (Terra)", "Veículos (Água)"]
+            }
+        },
+        '1st-levelSpellNameHeader': "Nome",
+        '1st-levelTimeHeader': "Tempo",
+        '1st-levelHitDCHeader': "Atq/CD",
+        '1st-levelDiceHeader': "Dados",
+        '1st-levelConcentrationHeader': "Conc",
+        '1st-levelNotesHeader': "Notas",
+        '1st-levelDeleteHeader': "Del",
+        '2nd-levelSpellNameHeader': "Nome",
+        '2nd-levelTimeHeader': "Tempo",
+        '2nd-levelHitDCHeader': "Atq/CD",
+        '2nd-levelDiceHeader': "Dados",
+        '2nd-levelConcentrationHeader': "Conc",
+        '2nd-levelNotesHeader': "Notas",
+        '2nd-levelDeleteHeader': "Del",
+        '3rd-levelSpellNameHeader': "Nome",
+        '3rd-levelTimeHeader': "Tempo",
+        '3rd-levelHitDCHeader': "Atq/CD",
+        '3rd-levelDiceHeader': "Dados",
+        '3rd-levelConcentrationHeader': "Conc",
+        '3rd-levelNotesHeader': "Notas",
+        '3rd-levelDeleteHeader': "Del",
+        ...Array.from({ length: 6 }, (_, i) => i + 4).reduce((acc, level) => {
+            acc[`${level}th-levelSpellNameHeader`] = "Nome";
+            acc[`${level}th-levelTimeHeader`] = "Tempo";
+            acc[`${level}th-levelHitDCHeader`] = "Atq/CD";
+            acc[`${level}th-levelDiceHeader`] = "Dados";
+            acc[`${level}th-levelConcentrationHeader`] = "Conc";
+            acc[`${level}th-levelNotesHeader`] = "Notas";
+            acc[`${level}th-levelDeleteHeader`] = "Del";
+            return acc;
+        }, {}),
+        'add-item-button': "Adicionar Novo Item",
+        currencyLabelPlat: "Platina (po):",
+        currencyLabelGold: "Ouro (po):",
+        currencyLabelEP: "Electro (pe):",
+        currencyLabelSilver: "Prata (pp):",
+        currencyLabelCopper: "Cobre (pc):",
+        inventoryHeaderTitle: "Inventário",
+        inventoryGroupEquipment: "Equipamento",
+        inventoryGroupBackpack: "Mochila",
+        inventoryGroupOtherPossessions: "Outras Posses",
+        inventoryGroupAttunement: "Sintonização",
+        inventoryWeightCarried: "Peso Carregado:",
+        inventoryWeightStatusEncumbered: "Descarregado",
+        inventoryWeightStatusOverEncumbered: "Sobrecarregado",
+        meleeWeapon: "Corpo a Corpo",
+        rangedWeapon: "À Distância",
+        magicWeapon: "Magia",
+        DMPageLinkInit: "Rast. de Iniciativa",
+        DMTablesLinkInit: "Tab. do Mestre",
+        checklistsLinkInit: "Checklist",
+        SpellListLinkInit: "Lista de Magias",
+        DocsLinkInit: "Notas",
+        GoogleDocsLinkInit: "Google Docs",
+        'add-monster-button': "Adicionar Monstro",
+        'add-player-button': "Adicionar Jogador",
+        'save-encounter': "Salvar Encontro",
+        'load-encounter': "Carregar Encontro",
+        conditionDMAddButton: "Adicionar Condição",
+        rollInitiative: "Rolagem Automática",
+        'previous-turn-btn': "Turno Anterior",
+        'next-turn-btn': "Próximo Turno",
+        'request-player-stats': "Solicitar Estatísticas",
+        conditionsSectionLink: "Condições",
+        effectsSectionLink: "Efeitos",
+        schoolsOfMagicSectionLink: "Escolas de Magia",
+        shopsSectionLink: "Lojas",
+        travelSectionLink: "Viagem",
+        npcListSectionLink: "PdNs",
+        skillsTableSectionLink: "Perícias",
+        jumpingRulesSectionLink: "Pulos",
+        RandomSectionLink: "Tabelas Aleatórias",
+        ConditionTableRowHeader01: "Condição",
+        ConditionTableRowHeader02: "Descrição",
+        EffectTableRowHeader01: "Efeitos",
+        EffectTableRowHeader02: "Descrição",
+        effectsAddRowButton: "Adicionar Botão",
+        SchoolTableRowHeader01: "Escola",
+        SchoolTableRowHeader02: "Descrição",
+        travelTableHeader: "Ritmo de Viagem",
+        travelTableHeader01: "Ritmo",
+        travelTableHeader02: "Velocidade / Efeitos",
+        travelCostTableHeader: "Transporte; Serviços de Viagem",
+        travelCostTableHeader01: "Serviço",
+        travelCostTableHeader02: "Custo / Velocidade",
+        jumpCalculatorTitle: "Calculadora de Pulos",
+        strengthLabel: "Qual é sua pontuação de Força?",
+        heightLabel: "Qual é sua altura?",
+        feetLabel: "metros",
+        inchesLabel: "centímetros",
+        multiplierLabel: "Multiplique seus resultados por",
+        runningHeader: "Com uma corrida inicial (3m de movimento)",
+        runningLongLabel: "Seu pulo longo é",
+        runningLongUnit: "metros",
+        runningHighLabel: "Seu pulo em altura é",
+        runningHighUnit: "metros",
+        runningReachLabel: "Você consegue alcançar e agarrar algo",
+        runningReachUnit: "metros de distância",
+        standingHeader: "Sem uma corrida inicial",
+        standingLongLabel: "Seu pulo longo é",
+        standingLongUnit: "metros",
+        standingHighLabel: "Seu pulo em altura é",
+        standingHighUnit: "metros",
+        standingReachLabel: "Você consegue alcançar e agarrar algo",
+        standingReachUnit: "metros de distância",
+        checklistHeader: "Checklists",
+        addChecklistbutton: "Adicionar",
+        monsterFormTitle: "Criar Monstro Personalizado",
+        monsterNameLabel: "Nome:",
+        monsterTypeLabel: "Tipo:",
+        monsterCRLabel: "Valor de Desafio:",
+        monsterSourceLabel: "Fonte:",
+        monsterHPLabel: "Valor de PV:",
+        monsterHPNotesLabel: "Notas de PV:",
+        monsterACLabel: "Valor de CA:",
+        monsterACNotesLabel: "Notas de CA:",
+        monsterInitiativeLabel: "Valor de Iniciativa:",
+        monsterSpeedLabel: "Velocidade:",
+        monsterSensesLabel: "Sentidos:",
+        monsterLanguagesLabel: "Idiomas:",
+        abilitiesLegend: "Habilidades",
+        monsterStrLabel: "FOR:",
+        monsterDexLabel: "DES:",
+        monsterConLabel: "CON:",
+        monsterIntLabel: "INT:",
+        monsterWisLabel: "SAB:",
+        monsterChaLabel: "CAR:",
+        savesLegend: "Salvações",
+        monsterStrSaveLabel: "FOR:",
+        monsterDexSaveLabel: "DES:",
+        monsterConSaveLabel: "CON:",
+        monsterIntSaveLabel: "INT:",
+        monsterWisSaveLabel: "SAB:",
+        monsterChaSaveLabel: "CAR:",
+        skillsLegend: "Perícias",
+        monsterAcrobaticsLabel: "Acrobacias (DES):",
+        monsterAnimalHandlingLabel: "Adestramento Animal (SAB):",
+        monsterArcanaLabel: "Arcanismo (INT):",
+        monsterAthleticsLabel: "Atletismo (FOR):",
+        monsterDeceptionLabel: "Enganação (CAR):",
+        monsterHistoryLabel: "História (INT):",
+        monsterInsightLabel: "Intuição (SAB):",
+        monsterIntimidationLabel: "Intimidação (CAR):",
+        monsterInvestigationLabel: "Investigação (INT):",
+        monsterMedicineLabel: "Medicina (SAB):",
+        monsterNatureLabel: "Natureza (INT):",
+        monsterPerceptionLabel: "Percepção (SAB):",
+        monsterPerformanceLabel: "Atuação (CAR):",
+        monsterPersuasionLabel: "Persuasão (CAR):",
+        monsterReligionLabel: "Religião (INT):",
+        monsterSleightOfHandLabel: "Prestidigitação (DES):",
+        monsterStealthLabel: "Furtividade (DES):",
+        monsterSurvivalLabel: "Sobrevivência (SAB):",
+        vulnerabilitiesLegend: "Vulnerabilidades de Dano",
+        resistancesLegend: "Resistências de Dano",
+        immunitiesLegend: "Imunidades de Dano",
+        conditionImmunitiesLegend: "Imunidades de Condição",
+        quickActionsLegend: "Ações Rápidas",
+        traitsLegend: "Características",
+        actionsLegend: "Ações",
+        reactionsLegend: "Reações",
+        legendaryActionsLegend: "Ações Lendárias",
+        saveMonsterButton: "Salvar Monstro",
+        addTraitButton: "Adicionar Característica",
+        addActionButton: "Adicionar Ação",
+        addReactionButton: "Adicionar Reação",
+        addLegendaryActionsButton: "Adicionar Ações Lendárias",
+        dynamicSections: {
+            monsterFormTraits: "Características",
+            monsterFormActions: "Ações",
+            monsterFormReactions: "Reações",
+            monsterFormLegendaryActions: "Ações Lendárias",
+            monsterFormQuickActions: "Ações Rápidas"
+        },
+        monsterFormAdd: "Adicionar",
+        monsterFormRemove: "Remover",
+        spellFormTitle: "Criar um Feitiço",
+        spellNameLabel: "Nome do Feitiço:",
+        spellDescLabel: "Descrição do Feitiço:",
+        higherLevelLabel: "Descrição de Lançamento em Nível Superior:",
+        spellRangeLabel: "Alcance do Feitiço:",
+        spellComponentsLabel: "Componentes do Feitiço:",
+        labelVerbal: "Verbal",
+        labelSomatic: "Somático",
+        labelMaterial: "Material",
+        spellMaterialsLabel: "Materiais do Feitiço:",
+        ritualLabel: "Feitiço Ritual:",
+        durationLabel: "Duração:",
+        concentrationLabel: "Concentração:",
+        castingTimeLabel: "Tempo de Lançamento:",
+        spellLevelLabel: "Nível do Feitiço:",
+        schoolLabel: "Escola de Magia:",
+        spellClassesLabel: "Classes do Feitiço:",
+        labelBarbarian: "Bárbaro",
+        labelBard: "Bardo",
+        labelCleric: "Clérigo",
+        labelDruid: "Druida",
+        labelFighter: "Guerreiro",
+        labelMonk: "Monge",
+        labelPaladin: "Paladino",
+        labelRanger: "Ranger",
+        labelRogue: "Rogue",
+        labelSorcerer: "Feiticeiro",
+        labelWarlock: "Bruxo",
+        labelWizard: "Mago",
+        labelArtificer: "Artificer",
+        toHitOrDCLabel: "Ataque ou CD:",
+        damageDiceLabel: "Dados de Dano:",
+        damageDiceUpcastLabel: "Dados de Dano (Nível Superior):",
+        saveDCTypeLabel: "CD de Salvação do Feitiço:",
+        abilityModifierLabel: "Deve o feitiço adicionar Modificador de Habilidade:",
+        spellDamageTypeLabel: "Tipo de Dano:",
+        saveSpell: "Salvar Feitiço",
+        equipmentCategoryOptionWeapon: "Arma",
+        equipmentCategoryOptionArmor: "Armadura",
+        equipmentCategoryOptionWonderous: "Item Maravilhoso",
+        equipmentCategoryOptionPotion: "Poção",
+        equipmentCategoryOptionAdventuring: "Equipamento de Aventura",
+        equipmentRarityOptionCommon: "Comum",
+        equipmentRarityOptionUncommon: "Incomum",
+        equipmentRarityOptionRare: "Raro",
+        equipmentRarityOptionVery: "Muito Raro",
+        equipmentRarityOptionLegendary: "Lendário",
+        shopFormTitle: "Criar Lojas Personalizadas",
+        shopNameLabel: "Nome da Loja:",
+        addshopItem: "Adicionar Item ao Grupo",
+        shopGroupNameLabel: "Nome do Grupo:",
+        shopItemNameLabel: "Nome do Item:",
+        addShopGroup: "Adicionar Grupo à Loja",
+        createShop: "Criar/Atualizar Loja",
+        itemFormTitle: "Criar Equipamento",
+        equipmentNameLabel: "Nome:",
+        equipmentDescriptionLabel: "Descrição:",
+        equipmentCategoryLabel: "Categoria:",
+        equipmentRarityLabel: "Raridade:",
+        equipmentCostLabel: "Custo:",
+        equipmentWeightLabel: "Peso:",
+        createEquipmentButton: "Criar Equipamento",
+        addItemtoGroupButton: "Adicionar Item ao Grupo",
+        groupNameLabel: "Nome do Grupo:",
+        itemNameLabel: "Nome do Item:",
+        chargeResetLabelText: "Quando ele é restaurado?",
+        addMagicBonusButton: "Adicionar Bônus Mágico",
+        magicBonusesLabel: "Bônus Mágicos:",
+        weaponTypeLabel: "Tipo de Arma:",
+        optionSimple: "Simples",
+        optionMartial: "Marcial",
+        attackStyleLabel: "Estilo de Ataque:",
+        optionMelee: "Corpo a Corpo",
+        optionRanged: "À Distância",
+        optionMeleeThrown: "Corpo a Corpo e Arremessável",
+        rangeLabel: "Alcance:",
+        weaponPropertiesLabel: "Propriedades da Arma:",
+        labelFinesse: "Finesse",
+        labelVersatile: "Versátil",
+        labelHeavy: "Pesada",
+        labelLight: "Leve",
+        labelLoading: "Carga",
+        labelReach: "Alcance",
+        labelThrown: "Arremessável",
+        labelTwoHanded: "Duas Mãos",
+        labelSilvered: "Prateada",
+        labelSpecial: "Especial",
+        labelAmmunition: "Munição",
+        attunementLabel: "Sintonização",
+        hasChargesLabel: "Tem Cargas",
+        damageDiceLabel: "Dados de Dano:",
+        damageTypeLabel: "Tipo de Dano:",
+        chargeResetLabel: "Quando se restaura?",
+        optionLongRest: "Descanso Longo",
+        optionShortRest: "Descanso Curto",
+        optionAtDawn: "Ao Amanhecer",
+        maxChargesLabel: "Cargas Máximas:",
+        weaponToHitBonusLabel: "Bônus Mágico de Ataque:",
+        weaponDamageBonusLabel: "Bônus Mágico de Dano:",
+        armorTypeLabel: "Tipo de Armadura:",
+        optionLightArmor: "Leve",
+        optionMediumArmor: "Média",
+        optionHeavyArmor: "Pesada",
+        optionShield: "Escudo",
+        armorClassLabel: "Classe de Armadura Base:",
+        strMinimumLabel: "Requisito de Força:",
+        stealthDisadvantageLabel: "Desvantagem em Furtividade:",
+        requiresAttunementLabel: "Requer Sintonização:",
+        gearCategoryLabel: "Categoria de Equipamento:",
+        potionEffectTypeLabel: "Tipo de Efeito da Poção:",
+        optionHealing: "Cura",
+        optionSpell: "Feitiço",
+        optionOther: "Outro",
+        healingFormulaLabel: "Fórmula de Cura:",
+        spellNameLabel: "Nome do Feitiço:",
+        spellDurationLabel: "Duração:",
+        noConcentrationLabel: "Sem Concentração:",
+        homebrewModalTitle: "Criador de Homebrew",
+        localStorageLabel: "Armazenamento Local - ",
+        globalStorageLabel: "Armazenamento Global - ",
+        customMonsters: "Criar Monstro",
+        customMonsterSelectLabel: "Selecionar Monstro para Deletar/Editar:",
+        deleteCustomMonsters: "Deletar Monstro",
+        editCustomMonsters: "Editar Monstro",
+        customSpells: "Criar Feitiço",
+        importCustomSpell: "Importar Feitiço",
+        customSpellSelectLabel: "Selecionar Feitiço para Deletar/Editar:",
+        deleteCustomSpells: "Deletar Feitiço",
+        editCustomSpells: "Editar Feitiço",
+        exportCustomSpell: "Exportar Feitiço",
+        customItems: "Criar Item",
+        importCustomItem: "Importar Item",
+        customItemSelectLabel: "Selecionar Item para Deletar/Editar:",
+        deleteCustomItems: "Deletar Item",
+        editCustomItems: "Editar Item",
+        exportCustomItem: "Exportar Item",
+        createCustomShops: "Criar Loja",
+        customShopSelectLabel: "Selecionar Item para Deletar/Editar:",
+        deleteCustomShops: "Deletar Loja",
+        importCharacterData: "Importar Dados do Personagem",
+        customCharacterSelectLabel: "Selecionar um personagem para Exportar:",
+        exportCharacterData: "Exportar Personagem",
+        deleteCharacter: "Deletar Personagem",
+        shopHeadersTranslate: {
+            item: "Item",
+            cost: "Custo",
+            weight: "Peso",
+            category: "Categoria"
+        },
+        spellDetailsTranslate: {
+            level: "Nível",
+            range: "Alcance",
+            duration: "Duração",
+            concentration: "Concentração",
+            ritual: "Ritual",
+            components: "Componentes",
+            material: "Componentes Materiais",
+            casting_time: "Tempo de Lançamento",
+            class: "Classes",
+            school: "Escola",
+            description: "Descrição",
+            higher_level: "Nível Superior",
+            spellattack: "Ataque de Feitiço",
+            damage_type: "Tipo de Dano",
+            dc: "CD"
+        },
+        monsterStatsLabels: {
+            AC: "CA",
+            HP: "PV",
+            Speed: "Velocidade",
+            Languages: "Idiomas",
+            Vulnerabilities: "Vulnerabilidades",
+            Resistances: "Resistências",
+            Immunities: "Imunidades",
+            "Condition Immunities": "Imunidades de Condição",
+            Senses: "Sentidos",
+            CR: "CD"
+        },
+        monsterCardSavesContainerLabel: "Salvações:",
+        monsterCardSkillsContainerLabel: "Perícias:",
+        npcListHeadingName: "Nome",
+        npcListHeadingRace: "Raça",
+        npcListHeadingDescription: "Descrição",
+        npcListHeadingQuirk: "Peculiaridade",
+        randomHeadingDetails: "Detalhes",
+        lootHeadingDetails: "Detalhes",
+        miscHeadingDetails: "Detalhes",
+        randomEncountersAddRowButton: "Adicionar Linha",
+        randomEncountersGetRandomButton: "Obter Aleatório",
+        randomLootAddRowButton: "Adicionar Linha",
+        randomLootGetRandomButton: "Obter Aleatório",
+        randomMiscAddRowButton: "Adicionar Linha",
+        randomMiscGetRandomButton: "Obter Aleatório",
+        categoryLabels: {
+            shopNames: {
+                "hunterLeatherworker": "Caçador de Couro",
+                "blacksmithArmory": "Armaria do Ferreiro",
+                "generalStore": "Loja Geral",
+                "adventuringSupplies": "Suprimentos de Aventura",
+                "alchemistHerbalist": "Alquimista Herbalista",
+                "jeweler": "Joalheiro",
+                "libraryBookstore": "Biblioteca Livraria"
+            },
+            categoryLabels: {
+                "Light Armor": "Armadura Leve",
+                "Medium Armor": "Armadura Média",
+                "Heavy Armor": "Armadura Pesada",
+                "Simple Melee Weapons": "Armas Simples de Corpo a Corpo",
+                "Simple Ranged Weapons": "Armas Simples à Distância",
+                "Martial Melee Weapons": "Armas Marciais de Corpo a Corpo",
+                "Martial Ranged Weapons": "Armas Marciais à Distância",
+                "Ammunition": "Munição",
+                "Tools": "Ferramentas",
+                "Artisan's Tools": "Ferramentas de Artesão",
+                "Adventuring Gear": "Equipamento de Aventura",
+                "Food and Drink": "Alimentos e Bebidas",
+                "Clothing": "Roupas",
+                "Basic Tools": "Ferramentas Básicas",
+                "Other": "Outros",
+                "Miscellaneous": "Diversos",
+                "Saddle": "Sela",
+                "Alchemical": "Alquímico",
+                "Other Items": "Outros Itens"
+            }
+        },
+        characterStatCategoryLabels: {
+            None: "Nenhum",
+            skills: "Perícias",
+            saves: "Salvações",
+            attributes: "Atributos",
+            combatStats: "Estatísticas de Combate",
+            senses: "Sentidos"
+        },
+        characterStatBonuses: {
+            None: {
+
+            },
+            skills: {
+                Acrobatics: "Acrobacias",
+                AnimalHandling: "Adestramento Animal",
+                Arcana: "Arcanismo",
+                Athletics: "Atletismo",
+                Deception: "Enganação",
+                History: "História",
+                Initiative: "Iniciativa",
+                Insight: "Intuição",
+                Intimidation: "Intimidação",
+                Investigation: "Investigação",
+                Medicine: "Medicina",
+                Nature: "Natureza",
+                Perception: "Percepção",
+                Performance: "Atuação",
+                Persuasion: "Persuasão",
+                Religion: "Religião",
+                SleightOfHand: "Prestidigitação",
+                Stealth: "Furtividade",
+                Survival: "Sobrevivência",
+                All: "Todos"
+            },
+            saves: {
+                STR: "FOR",
+                DEX: "DES",
+                CON: "CON",
+                INT: "INT",
+                WIS: "SAB",
+                CHA: "CAR",
+                All: "Todos"
+            },
+            attributes: {
+                STR: "FOR",
+                DEX: "DES",
+                CON: "CON",
+                INT: "INT",
+                WIS: "SAB",
+                CHA: "CAR",
+                All: "Todos"
+            },
+            combatStats: {
+                AC: "CA",
+                RangedAttackRolls: "Testes de Ataque à Distância",
+                RageDamageBonus: "Bônus de Dano de Fúria",
+                RangedDamageRolls: "Testes de Dano à Distância",
+                EldritchBlastDamage: "Dano do Raio Místico",
+                SpellSaveDC: "CD de Salvação de Feitiço",
+                SpellAttackModifier: "Modificador de Ataque de Feitiço",
+                SpellAttackandSave: "Ataque+CD de Feitiço",
+                BrutalCritical: "Crítico Brutal",
+                CriticalThreashold: "Limiar de Crítico",
+                HitPoints: "Pontos de Vida",
+                CarryWeightBonus: "Bônus de Carga"
+            },
+            senses: {
+                PassivePerception: "Percepção Passiva",
+                PassiveInsight: "Intuição Passiva",
+                PassiveInvestigation: "Investigação Passiva"
+            }
+        },
+        abilityScoreLabels: {
+            NONE: "Nenhum",
+            STR: "Força",
+            DEX: "Destreza",
+            CON: "Constituição",
+            INT: "Inteligência",
+            WIS: "Sabedoria",
+            CHA: "Carisma",
+            Proficiency: "Proficiência"
+        },
+        selectCategoryText: "Selecionar Categoria",
+        selectBonusText: "Selecionar Bônus",
+        bonusTypeValue: "Valor",
+        bonusTypeStat: "Habilidade",
+        removeButtonText: "Remover"
     }
 };
 
 
-
 async function setLanguage(language) {
-    for (const id in translations[language]) {
+    savedLanguage = normalizeLanguageCode(language);
+    const selectedTranslations = translations[savedLanguage] || translations.eng;
+
+    for (const id in selectedTranslations) {
         const element = document.getElementById(id);
         if (element) {
-            const translationText = translations[language][id];
+            const translationText = selectedTranslations[id];
 
             // Check if the first child is a text node
             if (element.firstChild.nodeType === Node.TEXT_NODE) {
@@ -2896,13 +3988,14 @@ async function setLanguage(language) {
     }
 
     checkboxData = [
-        { label: translations[savedLanguage].actionFiltersAttacks, category: 'attacks' },
-        { label: translations[savedLanguage].actionFiltersActions, category: 'actions' },
-        { label: translations[savedLanguage].actionFiltersBonusActions, category: 'bonus-actions' },
-        { label: translations[savedLanguage].actionFiltersReactions, category: 'reactions' },
-        { label: translations[savedLanguage].actionFiltersOther, category: 'other' }
+        { label: selectedTranslations.actionFiltersAttacks, category: 'attacks' },
+        { label: selectedTranslations.actionFiltersActions, category: 'actions' },
+        { label: selectedTranslations.actionFiltersBonusActions, category: 'bonus-actions' },
+        { label: selectedTranslations.actionFiltersReactions, category: 'reactions' },
+        { label: selectedTranslations.actionFiltersOther, category: 'other' }
     ];
-    await saveToGlobalStorage("language", "Preferred Language", language, false);
+
+    await saveToGlobalStorage("language", "Preferred Language", savedLanguage, false);
 }
 
 
@@ -2926,18 +4019,16 @@ async function setLanguage(language) {
 
 async function setupLanguageSelector() {
     const languageSelect = document.getElementById('languageSelect');
-    const savedLang = savedLanguage || 'eng'; // Default to English if no saved language
+    const savedLang = normalizeLanguageCode(savedLanguage);
 
     // Clear existing options (if re-running)
     languageSelect.innerHTML = '';
 
     // Populate dropdown with available languages
-    for (const langCode in translations) {
+    for (const langCode of supportedLanguages) {
         const option = document.createElement('option');
         option.value = langCode;
-        option.textContent = langCode === 'eng' ? 'English' : 
-                             langCode === 'es' ? 'Español' :
-                             langCode; // Fallback to code if no label defined
+        option.textContent = languageLabels[langCode] || langCode;
         if (langCode === savedLang) option.selected = true;
         languageSelect.appendChild(option);
     }
@@ -3186,10 +4277,7 @@ async function onInit() {
 
     const languageData = await loadDataFromGlobalStorage("language");
     // Extract "Preferred Language" and validate it
-    savedLanguage = languageData?.["Preferred Language"];
-    if (savedLanguage !== "eng" && savedLanguage !== "es") {
-        savedLanguage = "eng"; // Default to "eng" if not valid
-    }
+    savedLanguage = normalizeLanguageCode(languageData?.["Preferred Language"]);
 
     await setupLanguageSelector()
 
@@ -4146,7 +5234,11 @@ async function readSpellJson() {
         const allSpellData = await loadDataFromGlobalStorage("Custom Spells");
         const isGlobalDataAnObject = typeof allSpellData === 'object';
 
-        const response = await fetch(`spells-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`spells-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`spells-eng.json`);
+        }
         if (!response.ok) throw new Error('Network response was not ok');
         const spellsData = await response.json();
 
@@ -4206,7 +5298,11 @@ async function readSpellJson() {
 async function readMonsterJsonList() {
     try {
         // Fetch the data from the JSON file
-        const response = await fetch(`Monster_Manual-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`Monster_Manual-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`Monster_Manual-eng.json`);
+        }
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -4254,7 +5350,11 @@ async function readEquipmentJson() {
         const isGlobalDataAnObject = typeof allequipmentData === 'object';
 
         // Fetch the data from the JSON file
-        const response = await fetch(`equipment-${savedLanguage}.json`);
+        const requestedLanguage = normalizeLanguageCode(savedLanguage);
+        let response = await fetch(`equipment-${requestedLanguage}.json`);
+        if (!response.ok && requestedLanguage !== 'eng') {
+            response = await fetch(`equipment-eng.json`);
+        }
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
