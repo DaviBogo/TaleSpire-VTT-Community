@@ -237,28 +237,28 @@
         "Version": "1.8.0",
         "ImageURL": ""
     },
-    "Abolete": {
-        "Id": "Abolete",
-        "Name": "Abolete",
+    "Aboleth": {
+        "Id": "Aboleth",
+        "Name": "Aboleth",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Aberração Grande, leal e maligna",
+        "Type": "Aberración Grande, legal malvada ",
         "HP": {
             "Value": 135,
             "Notes": "(18d10+36)"
         },
         "AC": {
             "Value": 17,
-            "Notes": "(armadura natural)"
+            "Notes": "(natural armor)"
         },
         "InitiativeModifier": -1,
         "InitiativeAdvantage": false,
         "Speed": [
-            "3 m",
-            "nadar 12 m"
+            "10 pies.",
+            "nadar 40 pies."
         ],
         "Abilities": {
-            "For": 21,
+            "Fue": 21,
             "Des": 9,
             "Con": 15,
             "Int": 18,
@@ -270,58 +270,73 @@
         "DamageImmunities": [],
         "ConditionImmunities": [],
         "Saves": [
-            { "Name": "Con", "Modifier": 6 },
-            { "Name": "Int", "Modifier": 8 },
-            { "Name": "Sab", "Modifier": 6 }
+            {
+                "Name": "Con",
+                "Modifier": 6
+            },
+            {
+                "Name": "Int",
+                "Modifier": 8
+            },
+            {
+                "Name": "Wis",
+                "Modifier": 6
+            }
         ],
         "Skills": [
-            { "Name": "História", "Modifier": 12 },
-            { "Name": "Percepção", "Modifier": 10 }
+            {
+                "Name": "Historia",
+                "Modifier": 12
+            },
+            {
+                "Name": "Percepción",
+                "Modifier": 10
+            }
         ],
         "Senses": [
-            "visão no escuro 36 m"
+            "visión en la oscuridad 120 pies"
         ],
         "Languages": [
-            "Profundo",
-            "Telepatia 36 m"
+            "Profundidades",
+            "Telepatía 120 pies. "
         ],
         "Challenge": "10",
         "Traits": [
             {
-                "Name": "Anfíbio.",
-                "Content": "O abolete pode respirar tanto dentro da água quanto fora dela.",
+                "Name": "Anfibio.",
+                "Content": "El aboleth puede respirar tanto dentro del agua como fuera de ella. ",
                 "Usage": ""
             },
             {
-                "Name": "Nuvem Mucosa.",
-                "Content": "Enquanto estiver submerso, o abolete é envolto por um muco transformador. Uma criatura que toque o abolete ou o atinja com um ataque corpo a corpo a até 1,5 m deve realizar um teste de resistência de Constituição CD 14. Se falhar, ficará doente por 1d4 horas. Criaturas doentes só podem respirar debaixo d’água.",
+                "Name": "Nube Mucosa.",
+                "Content": "Mientras permanezca bajo el agua, el aboleth está rodeado por una mucosa transformadora. Cualquier criatura que toque al aboleth o le impacte con un ataque cuerpo a cuerpo estando a 5 pies o menos de distancia deberá hacer una tirada de salvación de Constitución CD 14. Si falla, enfermará durante 1d4 horas. Las criaturas enfermas solo podrán respirar bajo el agua.",
                 "Usage": ""
             },
             {
-                "Name": "Telepatia Investigativa.",
-                "Content": "Se uma criatura se comunicar telepaticamente com o abolete e ele puder vê-la, descobre seus desejos mais profundos.",
+                "Name": "Telepatía Inquisitiva.",
+                "Content": "Si una criatura se comunica telepáticamente con el aboleth y este puede verla, descubrirá cuales son los deseos más fuertes de la criatura.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Ataque Múltiplo.",
-                "Content": "O abolete realiza três ataques com seus tentáculos.",
+                "Name": "Ataque múltiple.",
+                "Content": "El aboleth realiza tres ataques con su tentáculo. ",
                 "Usage": ""
             },
             {
                 "Name": "Tentáculo.",
-                "Content": "Ataque corpo a corpo com arma: +9 para atingir, alcance 3 m, um alvo. Acerto: 12 (2d6 + 5) de dano contundente. Se o alvo for uma criatura, deve realizar um teste de resistência de Constituição CD 14 ou contrairá uma doença. A doença não tem efeito por 1 minuto e pode ser curada por qualquer magia que cure doenças. Após 1 minuto, a pele da criatura torna-se translúcida e viscosa, e ela não pode recuperar pontos de vida a menos que esteja submersa. Nesse estágio, a doença só pode ser curada por curar ou magia similar de 6º nível ou superior. Se não estiver submersa, sofre 6 (1d12) de dano de ácido a cada 10 minutos, a menos que sua pele seja molhada antes disso.",
+                "Content": "Ataque con arma cuerpo a cuerpo: +9 a impactar, alcance 10 pies, un objetivo. Impacto: 12 (2d6 + 5) de daño contundente. Si el objetivo es una criatura, deberá tener éxito en una tirada de salvación de Constitución CD 14 o contraerá una enfermedad. Esta enfermedad no tendrá efecto durante 1 minuto, y puede ser eliminada por cualquier magia que cure enfermedades. Pasado 1 minuto, la piel de la criatura infectada se torna traslúcida y legamosa, y la víctima no podrá recuperar puntos de golpe a menos que esté debajo del agua. Además, llegados a este punto la enfermedad solo podrá ser curada mediante curar u otro conjuro de curación de enfermedades de nivel 6 o superior. Si la criatura no se encuentra sumergida en una masa de agua, recibirá 6 (1d12) de daño de ácido cada 10 minutos,_aunque esto puede evitarse humedeciendo su piel antes de que pasen los 10 minutos. ",
                 "Usage": ""
             },
             {
-                "Name": "Cauda.",
-                "Content": "Ataque corpo a corpo com arma: +9 para atingir, alcance 3 m, um alvo. Acerto: 15 (3d6 + 5) de dano contundente.",
+                "Name": "Cola.",
+                "Content": "Ataque con arma cuerpo a cuerpo: +9 a impactar, alcance 10 pies, un objetivo. Impacto: 15 (3d6 + 5) de daño contundente.",
                 "Usage": ""
             },
             {
-                "Name": "Escravizar (3/Dia).",
-                "Content": "O abolete escolhe uma criatura a até 9 m que possa ver. O alvo deve realizar um teste de resistência de Sabedoria CD 14 ou ficará magicamente enfeitiçado pelo abolete até que ele morra ou esteja em outro plano. O alvo enfeitiçado fica sob controle do abolete e não pode realizar reações. Ambos podem se comunicar telepaticamente a qualquer distância. Sempre que o alvo sofrer dano, pode repetir o teste de resistência, encerrando o efeito com sucesso. No máximo uma vez a cada 24 horas, se estiver a mais de 1 milha do abolete, pode repetir o teste novamente.",
+                "Name": "Esclavizar (3/Día).",
+                "Content": "El aboleth elige a una criatura a 30 pies o menos que pueda ver. El objetivo deberá tener éxito en una tirada de salvación de Sabiduría CD 14 o quedará hechizado mágicamente por el aboleth hasta que este muera o se encuentre en un plano de existencia diferente al de la criatura. El objetivo hechizado estará bajo el control del aboleth y no podrá llevar a cabo reacciones. Además, los dos podrán comunicarse telepáticamente entre ellos a cualquier distancia. Siempre que la criatura hechizada reciba daño, podrá repetir la tirada de salvación. Si tiene éxito, el efecto terminará inmediatamente. Además, como mucho una vez cada 24 horas, si el objetivo está a más de 1 milla del aboleth, también podrá volver a realizar la tirada de salvación.",
                 "Usage": ""
             }
         ],
@@ -329,17 +344,17 @@
         "LegendaryActions": [
             {
                 "Name": "Detectar.",
-                "Content": "O abolete realiza um teste de Sabedoria (Percepção).",
+                "Content": "El aboleth realiza una prueba de Sabiduría (Percepción).",
                 "Usage": ""
             },
             {
-                "Name": "Ataque com a Cauda.",
-                "Content": "O abolete realiza um ataque com a cauda.",
+                "Name": "Coletazo.",
+                "Content": "El aboleth realiza un ataque con la cola.",
                 "Usage": ""
             },
             {
-                "Name": "Drenagem Psíquica (custa 2 ações).",
-                "Content": "Uma criatura enfeitiçada pelo abolete sofre 10 (3d6) de dano psíquico, e o abolete recupera pontos de vida iguais ao dano causado.",
+                "Name": "Drenaje psíquico (cuesta 2 acciones).",
+                "Content": "Una criatura hechizada por el aboleth recibe 10 (3d6) de daño psíquico y este recupera tantos puntos de golpe como el daño recibido por dicha criatura.",
                 "Usage": ""
             }
         ],
