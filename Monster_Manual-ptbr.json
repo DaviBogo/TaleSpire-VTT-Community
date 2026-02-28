@@ -1119,7 +1119,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 14,
             "Con": 15,
             "Int": 11,
@@ -1218,7 +1218,7 @@
             "natação 3 metros"
         ],
         "Abilities": {
-            "Fue": 10,
+            "For": 10,
             "Des": 8,
             "Con": 16,
             "Int": 3,
@@ -1304,7 +1304,7 @@
             "natação 9 metros"
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 12,
             "Con": 13,
             "Int": 14,
@@ -1391,7 +1391,7 @@
             "12 metros"
         ],
         "Abilities": {
-            "Fue": 14,
+            "For": 14,
             "Des": 17,
             "Con": 18,
             "Int": 13,
@@ -1481,7 +1481,7 @@
             "voar 24 metros"
         ],
         "Abilities": {
-            "Fue": 26,
+            "For": 26,
             "Des": 15,
             "Con": 22,
             "Int": 20,
@@ -1504,7 +1504,7 @@
             "envenenado"
         ],
         "Saves": [
-            { "Name": "Fue", "Modifier": 14 },
+            { "Name": "For", "Modifier": 14 },
             { "Name": "Con", "Modifier": 12 },
             { "Name": "Sab", "Modifier": 9 },
             { "Name": "Car", "Modifier": 12 }
@@ -4865,7 +4865,7 @@
             "nadar 9 m"
         ],
         "Abilities": {
-            "Fue": 20,
+            "For": 20,
             "Des": 12,
             "Con": 20,
             "Int": 2,
@@ -4956,7 +4956,7 @@
             "volar 30 pies."
         ],
         "Abilities": {
-            "Fue": 8,
+            "For": 8,
             "Des": 12,
             "Con": 12,
             "Int": 7,
@@ -4968,7 +4968,7 @@
         ],
         "DamageResistances": [],
         "DamageImmunities": [
-            "fuego",
+            "FORgo",
             "veneno"
         ],
         "ConditionImmunities": [
@@ -4992,7 +4992,7 @@
         "Traits": [
             {
                 "Name": "Explotar al Morir",
-                "Content": "Si el mefit muere, explotará en un estallido de lava. Todas las criaturas que se encuentren a 5 pies o menos de él deberán hacer una tirada de salvación de Destreza CD 11, sufriendo 7 (2d6) de daño de fuego si la fallan, o la mitad de ese daño si la superan.",
+                "Content": "Si el mefit muere, explotará en un estallido de lava. Todas las criaturas que se encuentren a 5 pies o menos de él deberán hacer una tirada de salvación de Destreza CD 11, sufriendo 7 (2d6) de daño de FORgo si la fallan, o la mitad de ese daño si la superan.",
                 "Usage": ""
             },
             {
@@ -5009,11 +5009,11 @@
         "Actions": [
             {
                 "Name": "Garras",
-                "Content": "Ataque con arma cuerpo a cuerpo: +3 a impactar, alcance 5 pies, una criatura. Impacto: 3 (1d4 + 1) de daño cortante y 2 (1d4) de daño de fuego.",
+                "Content": "Ataque con arma cuerpo a cuerpo: +3 a impactar, alcance 5 pies, una criatura. Impacto: 3 (1d4 + 1) de daño cortante y 2 (1d4) de daño de FORgo.",
                 "Usage": ""
             },
             {
-                "Name": "Aliento de fuego (Recarga 6 1d6)",
+                "Name": "Aliento de FORgo (Recarga 6 1d6)",
                 "Content": "The mefit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.",
                 "Usage": ""
             },
@@ -5027,7 +5027,7 @@
             "Name": "Garras",
             "ToHit": "+3",
             "Damage": "1d4+1/1d4",
-            "DamageType": "cortante/fuego"
+            "DamageType": "cortante/FORgo"
         }],
         "Reactions": [],
         "LegendaryActions": [],
@@ -5057,7 +5057,7 @@
             "escavar 9 m"
         ],
         "Abilities": {
-            "Fue": 28,
+            "For": 28,
             "Des": 7,
             "Con": 22,
             "Int": 1,
@@ -5136,7 +5136,7 @@
             "6 m"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 10,
             "Con": 17,
             "Int": 11,
@@ -5290,7 +5290,7 @@
             "nadar 27 m"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 14,
             "Con": 18,
             "Int": 5,
@@ -5387,7 +5387,7 @@
             "9 m"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 16,
             "Con": 16,
             "Int": 11,
@@ -5489,7 +5489,7 @@
             "0 m"
         ],
         "Abilities": {
-            "Fue": 1,
+            "For": 1,
             "Des": 1,
             "Con": 10,
             "Int": 1,
@@ -5552,7 +5552,7 @@
             "12 m"
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 10,
             "Con": 22,
             "Int": 12,
@@ -5650,7 +5650,7 @@
             "voar 27 m"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 16,
             "Int": 10,
@@ -5729,7 +5729,7 @@
             "escavar 9 m"
         ],
         "Abilities": {
-            "Fue": 20,
+            "For": 20,
             "Des": 8,
             "Con": 20,
             "Int": 5,
@@ -5821,7 +5821,7 @@
             "voar 24 m"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 10,
             "Con": 21,
             "Int": 14,
@@ -5930,7 +5930,7 @@
             "voar 12 m"
         ],
         "Abilities": {
-            "Fue": 6,
+            "For": 6,
             "Des": 12,
             "Con": 12,
             "Int": 2,
@@ -5989,7 +5989,7 @@
             "12 m"
         ],
         "Abilities": {
-            "Fue": 13,
+            "For": 13,
             "Des": 12,
             "Con": 13,
             "Int": 2,
@@ -6065,7 +6065,7 @@
             "voar 18 m"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 16,
             "Int": 18,
@@ -6192,7 +6192,7 @@
             "nadar 12 m"
         ],
         "Abilities": {
-            "Fue": 26,
+            "For": 26,
             "Des": 10,
             "Con": 26,
             "Int": 10,
@@ -6331,7 +6331,7 @@
             "nadar 12 m"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 14,
             "Con": 21,
             "Int": 14,
@@ -6469,7 +6469,7 @@
             "voar 30 pés"
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 11,
             "Con": 16,
             "Int": 14,
@@ -6588,7 +6588,7 @@
             "voar 80 pés"
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 12,
             "Con": 25,
             "Int": 20,
@@ -6826,7 +6826,7 @@
             "10 pés"
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 14,
             "Con": 10,
             "Int": 1,
@@ -6913,7 +6913,7 @@
             "voar 60 pés"
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 11,
             "Con": 16,
             "Int": 6,
@@ -7000,7 +7000,7 @@
             "voar 30 pés"
         ],
         "Abilities": {
-            "Fue": 7,
+            "For": 7,
             "Des": 13,
             "Con": 10,
             "Int": 9,
@@ -7106,7 +7106,7 @@
             "voar 40 pés"
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Des": 13,
             "Con": 12,
             "Int": 7,
@@ -7174,7 +7174,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 10,
+            "For": 10,
             "Des": 15,
             "Con": 16,
             "Int": 12,
@@ -7268,7 +7268,7 @@
             "nadar 40 pés"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 13,
             "Con": 16,
             "Int": 12,
@@ -7369,7 +7369,7 @@
             "voar 80 pés"
         ],
         "Abilities": {
-            "Fue": 30,
+            "For": 30,
             "Des": 10,
             "Con": 29,
             "Int": 18,
@@ -7501,7 +7501,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 8,
             "Con": 18,
             "Int": 7,
@@ -7598,7 +7598,7 @@
             "40 pés"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 15,
             "Con": 20,
             "Int": 10,
@@ -7697,7 +7697,7 @@
             "40 pés"
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 14,
             "Con": 18,
             "Int": 18,
@@ -7811,7 +7811,7 @@
             "voar 60 pés"
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Des": 15,
             "Con": 10,
             "Int": 2,
@@ -7879,7 +7879,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 15,
             "Con": 15,
             "Int": 9,
@@ -7900,7 +7900,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 5
             },
             {
@@ -7982,7 +7982,7 @@
             "50 pés."
         ],
         "Abilities": {
-            "Fue": 22,
+            "For": 22,
             "Des": 9,
             "Con": 17,
             "Int": 2,
@@ -8045,7 +8045,7 @@
             "voar 50 pés (levitar)."
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Dex": 15,
             "Con": 11,
             "Int": 1,
@@ -8131,7 +8131,7 @@
             "40 pés."
         ],
         "Abilities": {
-            "Fue": 5,
+            "For": 5,
             "Des": 17,
             "Con": 10,
             "Int": 7,
@@ -8235,7 +8235,7 @@
             "nadar 30 pés."
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 14,
             "Con": 13,
             "Int": 10,
@@ -8337,7 +8337,7 @@
             "voar 60 pés."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 11,
             "Con": 19,
             "Int": 3,
@@ -8418,7 +8418,7 @@
             "voar 60 pés."
         ],
         "Abilities": {
-            "Fue": 26,
+            "For": 26,
             "Des": 14,
             "Con": 24,
             "Int": 22,
@@ -8539,7 +8539,7 @@
             "voar 80 pés."
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 10,
             "Con": 25,
             "Int": 16,
@@ -8672,7 +8672,7 @@
             "escalar 10 pés."
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 6,
             "Con": 14,
             "Int": 2,
@@ -8761,7 +8761,7 @@
             "voar 30 pés."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 12,
             "Con": 13,
             "Int": 2,
@@ -8843,7 +8843,7 @@
             "voar 80 pés"
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 12,
             "Con": 17,
             "Int": 16,
@@ -8947,7 +8947,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 11,
             "Con": 15,
             "Int": 2,
@@ -9004,7 +9004,7 @@
             "50 pés"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 14,
             "Con": 15,
             "Int": 11,
@@ -9110,7 +9110,7 @@
         "Name": "Deva",
         "Path": "",
         "Source": "Monster Manual",
-        "Type": "Celestial Mediano, legal bueno",
+        "Type": "Celestial Médio, leal e bom",
         "HP": {
             "Value": 136,
             "Notes": "(16d8+64)"
@@ -9122,101 +9122,99 @@
         "InitiativeModifier": 4,
         "InitiativeAdvantage": false,
         "Speed": [
-            "30 pies.",
-            "volar 90 pies."
+            "9 m.",
+            "voar 27 m."
         ],
         "Abilities": {
-            "Fue": 18,
-            "Des": 18,
+            "For": 18,
+            "Dex": 18,
             "Con": 18,
             "Int": 17,
-            "Sab": 20,
-            "Car": 20
+            "Wis": 20,
+            "Cha": 20
         },
         "DamageVulnerabilities": [],
         "DamageResistances": [
-            "contundente",
-            "cortante",
-            "perforante y perforante de ataques no mágicos"
+            "contundente, cortante e perfurante de ataques não mágicos"
         ],
         "DamageImmunities": [],
         "ConditionImmunities": [
-            "asustado",
-            "cansancio",
-            "hehcizado"
+            "amedrontado",
+            "exaustão",
+            "enfeitiçado"
         ],
         "Saves": [
             {
-                "Name": "Sab",
+                "Name": "Wis",
                 "Modifier": 9
             },
             {
-                "Name": "Car",
+                "Name": "Cha",
                 "Modifier": 9
             }
         ],
         "Skills": [
             {
-                "Name": "Perspicacia",
+                "Name": "Intuição",
                 "Modifier": 9
             },
             {
-                "Name": "Percepción",
+                "Name": "Percepção",
                 "Modifier": 9
             }
         ],
         "Senses": [
-            "visión en la oscuridad 120 pies."
+            "visão no escuro 36 m."
         ],
         "Languages": [
             "todos",
-            "telepatía 120 pies."
+            "telepatia 36 m."
         ],
         "Challenge": "10",
         "Traits": [
             {
-                "Name": "Armas Angelicales",
-                "Content": "Los ataques con arma del deva son mágicos. Cuando el deva impacta con cualquier arma, esta inflige 4d8 de daño radiante adicional (ya incluido en el ataque).",
+                "Name": "Armas Angelicais",
+                "Content": "Os ataques com arma do deva são mágicos. Quando o deva acerta com qualquer arma, ela causa 4d8 de dano radiante adicional (já incluído no ataque).",
                 "Usage": ""
             },
             {
-                "Name": "Lanzamiento de Conjuros Innato",
-                "Content": "La aptitud mágica del deva es Carisma (salvación de conjuros CD 17). Puede lanzar de forma innata los siguientes conjuros, necesitando únicamente componentes verbales: \nA voluntad: detectare! bien y el mal \n1/día cada uno: alzara los muertos, comunión",
+                "Name": "Conjuração Inata",
+                "Content": "A habilidade de conjuração do deva é Carisma (CD 17 para resistência a magias). Ele pode conjurar inatamente os seguintes feitiços, exigindo apenas componentes verbais:\nÀ vontade: detectar o bem e o mal\n1/dia cada: reviver os mortos, comunhão",
                 "Usage": ""
             },
             {
-                "Name": "Resistencia Mágica",
-                "Content": "El deva tiene ventaja en las tiradas de salvación para evitar conjuros y otros efectos mágicos.",
+                "Name": "Resistência à Magia",
+                "Content": "O deva tem vantagem em testes de resistência contra magias e outros efeitos mágicos.",
                 "Usage": ""
             }
         ],
         "Actions": [
             {
-                "Name": "Ataque múltiple",
-                "Content": "El deva realiza dos ataques cuerpo a cuerpo.",
+                "Name": "Ataque Múltiplo",
+                "Content": "O deva realiza dois ataques corpo a corpo.",
                 "Usage": ""
             },
             {
-                "Name": "Maza",
-                "Content": "Ataque con arma cuerpo a cuerpo: +8 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (1d6 + 4) de daño contundente y 18 (4d8) de daño radiante.",
+                "Name": "Maça",
+                "Content": "Ataque com arma corpo a corpo: +8 para atingir, alcance 1,5 m., um alvo. Acerto: 7 (1d6 + 4) de dano contundente e 18 (4d8) de dano radiante.",
                 "Usage": ""
             },
             {
-                "Name": "Toque sonador (3/Día)",
-                "Content": "El deva toca a otra criatura. Esta recupera mágicamente 20 (4d8+2) puntos de golpe y queda liberada de cualquier maldición, enfermedad, veneno, ceguera o sordera.",
+                "Name": "Toque Curativo (3/Dia)",
+                "Content": "O deva toca outra criatura. Ela recupera magicamente 20 (4d8+2) pontos de vida e é curada de qualquer maldição, doença, veneno, cegueira ou surdez.",
                 "Usage": ""
             },
             {
-                "Name": "Cambiar deforma",
-                "Content": "El deva se transforma mágicamente en un humanoide o bestia con un valor de desafío igual o menor al suyo propio, o vuelve a su forma original. Si muere, retornará a su forma auténtica. Cualquier equipo que vista o lleve será absorbido por la nueva forma o portado por esta, a elección del deva.\nCuando adopta una nueva forma, el deva mantiene la mayoría de su perfil y su capacidad para hablar, pero su CA, tipos de movimiento, Fuerza, Destreza y sentidos especiales son reemplazados por los de su nueva forma. También obtiene cualquier capacidad que la nueva forma posea y de la que el deva carezca (excepto rasgos de clase, acciones legendarias y acciones en guarida).",
+                "Name": "Mudar de Forma",
+                "Content": "O deva se transforma magicamente em um humanoide ou besta com nível de desafio igual ou inferior ao seu, ou retorna à sua forma original. Se morrer, volta à sua forma verdadeira. Qualquer equipamento que esteja vestindo ou carregando é absorvido pela nova forma ou usado por ela, à escolha do deva.\nAo assumir uma nova forma, o deva mantém seu alinhamento, pontos de vida, Dados de Vida, capacidade de falar, proficiências, Resistência à Magia e esta ação. Sua CA, modos de movimento, Força, Destreza e sentidos especiais são substituídos pelos da nova forma. Ele também ganha quaisquer habilidades da nova forma que não possua (exceto características de classe, ações lendárias e ações de covil).",
                 "Usage": ""
             }
         ],
         "QuickAction": [{
-            "Name": "Maza",
+            "Name": "Maça",
             "ToHit": "+8",
             "Damage": "1d6+4/4d8",
-            "DamageType": "contundente/radiante"
+            "DamageType": "Contundente/Radiante"
         }],
         "Reactions": [],
         "LegendaryActions": [],
@@ -9245,7 +9243,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 16,
             "Int": 16,
@@ -9378,7 +9376,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 8,
             "Con": 21,
             "Int": 12,
@@ -9466,7 +9464,7 @@
             "voar 60 pés"
         ],
         "Abilities": {
-            "Fue": 6,
+            "For": 6,
             "Des": 15,
             "Con": 13,
             "Int": 10,
@@ -9563,7 +9561,7 @@
             "40 pés"
         ],
         "Abilities": {
-            "Fue": 20,
+            "For": 20,
             "Des": 15,
             "Con": 21,
             "Int": 19,
@@ -9585,7 +9583,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 9
             },
             {
@@ -9671,7 +9669,7 @@
             "40 pés"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 9,
             "Con": 21,
             "Int": 9,
@@ -9759,7 +9757,7 @@
             "voar 40 pés"
         ],
         "Abilities": {
-            "Fue": 4,
+            "For": 4,
             "Des": 16,
             "Con": 11,
             "Int": 2,
@@ -9818,7 +9816,7 @@
             "15 pés"
         ],
         "Abilities": {
-            "Fue": 14,
+            "For": 14,
             "Des": 3,
             "Con": 20,
             "Int": 1,
@@ -9901,7 +9899,7 @@
             "voar 40 pés"
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 16,
             "Con": 18,
             "Int": 13,
@@ -10008,7 +10006,7 @@
             "40 pés"
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Des": 16,
             "Con": 11,
             "Int": 12,
@@ -10097,7 +10095,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 14,
             "Con": 16,
             "Int": 10,
@@ -10188,7 +10186,7 @@
             "nadar 40 pés"
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Des": 12,
             "Con": 13,
             "Int": 7,
@@ -10278,7 +10276,7 @@
             "voar 40 pés"
         ],
         "Abilities": {
-            "Fue": 4,
+            "For": 4,
             "Des": 15,
             "Con": 11,
             "Int": 10,
@@ -10344,7 +10342,7 @@
             "20 pés"
         ],
         "Abilities": {
-            "Fue": 20,
+            "For": 20,
             "Des": 9,
             "Con": 18,
             "Int": 3,
@@ -10454,7 +10452,7 @@
             "nadar 40 pés"
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 14,
             "Con": 21,
             "Int": 16,
@@ -10569,7 +10567,7 @@
             "voar 50 pés (levitação)"
         ],
         "Abilities": {
-            "Fue": 1,
+            "For": 1,
             "Des": 14,
             "Con": 11,
             "Int": 10,
@@ -10660,7 +10658,7 @@
             "30 pés"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 17,
             "Con": 18,
             "Int": 12,
@@ -10680,7 +10678,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 6
             },
             {
@@ -10785,7 +10783,7 @@
             "voar 90 pés"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 20,
             "Con": 17,
             "Int": 18,
@@ -10885,7 +10883,7 @@
             "voar 36 m."
         ],
         "Abilities": {
-            "Fue": 28,
+            "For": 28,
             "Des": 10,
             "Con": 20,
             "Int": 3,
@@ -10975,7 +10973,7 @@
             "nadar 12 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 16,
             "Int": 2,
@@ -11047,7 +11045,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 25,
+            "For": 25,
             "Des": 9,
             "Con": 23,
             "Int": 10,
@@ -11136,7 +11134,7 @@
             "nadar 12 m."
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 10,
             "Con": 19,
             "Int": 14,
@@ -11247,7 +11245,7 @@
             "voar 15 m. (levitar)"
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 19,
             "Con": 14,
             "Int": 10,
@@ -11349,7 +11347,7 @@
             "voar 24 m."
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 10,
             "Con": 19,
             "Int": 14,
@@ -11449,7 +11447,7 @@
             "voar 27 m. (levitar)"
         ],
         "Abilities": {
-            "Fue": 14,
+            "For": 14,
             "Des": 20,
             "Con": 14,
             "Int": 6,
@@ -11542,7 +11540,7 @@
             "voar 36 m."
         ],
         "Abilities": {
-            "Fue": 24,
+            "For": 24,
             "Des": 20,
             "Con": 24,
             "Int": 19,
@@ -11659,7 +11657,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 13,
+            "For": 13,
             "Des": 15,
             "Con": 10,
             "Int": 7,
@@ -11723,7 +11721,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 11,
             "Con": 15,
             "Int": 6,
@@ -11798,7 +11796,7 @@
             "nadar 12 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 12,
             "Con": 17,
             "Int": 16,
@@ -11910,7 +11908,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 18,
             "Con": 16,
             "Int": 16,
@@ -12008,7 +12006,7 @@
             "6 m."
         ],
         "Abilities": {
-            "Fue": 11,
+            "For": 11,
             "Des": 11,
             "Con": 12,
             "Int": 5,
@@ -12088,7 +12086,7 @@
             "voar 18 m."
         ],
         "Abilities": {
-            "Fue": 22,
+            "For": 22,
             "Des": 10,
             "Con": 20,
             "Int": 16,
@@ -12227,7 +12225,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 18,
             "Con": 18,
             "Int": 17,
@@ -12373,7 +12371,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 30,
+            "For": 30,
             "Des": 11,
             "Con": 30,
             "Int": 3,
@@ -12514,7 +12512,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 20,
+            "For": 20,
             "Des": 11,
             "Con": 18,
             "Int": 2,
@@ -12592,7 +12590,7 @@
             "nadar 9 m."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 10,
             "Con": 15,
             "Int": 12,
@@ -12694,7 +12692,7 @@
             "nadar 18 m."
         ],
         "Abilities": {
-            "Fue": 30,
+            "For": 30,
             "Des": 11,
             "Con": 25,
             "Int": 22,
@@ -12712,7 +12710,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 17
             },
             {
@@ -12828,7 +12826,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 17,
             "Con": 20,
             "Int": 5,
@@ -12849,7 +12847,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 7
             },
             {
@@ -12952,7 +12950,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 10
             },
             {
@@ -13040,7 +13038,7 @@
             "voar 18 m."
         ],
         "Abilities": {
-            "Fue": 15,
+            "For": 15,
             "Des": 10,
             "Con": 13,
             "Int": 10,
@@ -13137,7 +13135,7 @@
             "nadar 9 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 14,
             "Con": 17,
             "Int": 14,
@@ -13240,7 +13238,7 @@
             "nadar 12 m."
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 12,
             "Con": 25,
             "Int": 20,
@@ -13392,7 +13390,7 @@
             "voar 12 m."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 15,
             "Con": 12,
             "Int": 13,
@@ -13491,7 +13489,7 @@
             "voar 24 m."
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 10,
             "Con": 21,
             "Int": 14,
@@ -13574,7 +13572,7 @@
         "AC": { "Value": 20, "Notes": "(armadura natural)" },
         "Speed": ["6 m.", "nadar 12 m."],
         "Abilities": {
-            "Fue": 25,
+            "For": 25,
             "Des": 10,
             "Con": 20,
             "Int": 10,
@@ -13642,7 +13640,7 @@
             "nadar 40 pés."
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 14,
             "Con": 25,
             "Int": 16,
@@ -13792,7 +13790,7 @@
             "30 pés."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 12,
             "Con": 12,
             "Int": 9,
@@ -13885,7 +13883,7 @@
             "escalar 10 pés."
         ],
         "Abilities": {
-            "Fue": 12,
+            "For": 12,
             "Des": 6,
             "Con": 16,
             "Int": 1,
@@ -13976,7 +13974,7 @@
             "30 pés."
         ],
         "Abilities": {
-            "Fue": 10,
+            "For": 10,
             "Des": 12,
             "Con": 11,
             "Int": 14,
@@ -14073,7 +14071,7 @@
             "30 pés."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 18,
             "Int": 11,
@@ -14184,7 +14182,7 @@
             "escalar 10 pés."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 8,
             "Con": 17,
             "Int": 7,
@@ -14278,7 +14276,7 @@
             "escavar 10 pés."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 11,
             "Con": 13,
             "Int": 1,
@@ -14343,7 +14341,7 @@
             "30 pés."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 12,
             "Con": 16,
             "Int": 7,
@@ -14415,7 +14413,7 @@
             "25 pés."
         ],
         "Abilities": {
-            "Fue": 14,
+            "For": 14,
             "Des": 11,
             "Con": 14,
             "Int": 11,
@@ -14500,7 +14498,7 @@
             "escavar 20 pés."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 10,
             "Con": 22,
             "Int": 11,
@@ -14594,7 +14592,7 @@
             "voar 80 pés."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 10,
             "Con": 16,
             "Int": 5,
@@ -14669,7 +14667,7 @@
             "nadar 40 pés."
         ],
         "Abilities": {
-            "Fue": 30,
+            "For": 30,
             "Des": 14,
             "Con": 29,
             "Int": 18,
@@ -14819,7 +14817,7 @@
             "40 pés."
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 8,
             "Con": 17,
             "Int": 6,
@@ -14908,7 +14906,7 @@
             "voar 40 pés (flutuar)."
         ],
         "Abilities": {
-            "Fue": 7,
+            "For": 7,
             "Des": 13,
             "Con": 10,
             "Int": 10,
@@ -15010,7 +15008,7 @@
             "escalar 30 pés."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 16,
             "Con": 18,
             "Int": 13,
@@ -15117,7 +15115,7 @@
             "voar 150 pés."
         ],
         "Abilities": {
-            "Fue": 26,
+            "For": 26,
             "Des": 22,
             "Con": 26,
             "Int": 25,
@@ -15262,7 +15260,7 @@
         "voar 80 pés."
     ],
     "Abilities": {
-        "Fue": 23,
+        "For": 23,
         "Des": 12,
         "Con": 21,
         "Int": 18,
@@ -15399,7 +15397,7 @@
             "voar 80 pés."
         ],
         "Abilities": {
-            "Fue": 30,
+            "For": 30,
             "Des": 10,
             "Con": 29,
             "Int": 18,
@@ -15544,7 +15542,7 @@
             "30 pés."
         ],
         "Abilities": {
-            "Fue": 24,
+            "For": 24,
             "Des": 9,
             "Con": 20,
             "Int": 3,
@@ -15648,7 +15646,7 @@
             "nadar 20 pés."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 8,
             "Con": 16,
             "Int": 5,
@@ -15738,7 +15736,7 @@
             "voar 12 m."
         ],
         "Abilities": {
-            "Fue": 3,
+            "For": 3,
             "Des": 18,
             "Con": 10,
             "Int": 14,
@@ -15817,7 +15815,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 13,
             "Con": 20,
             "Int": 7,
@@ -15906,7 +15904,7 @@
             "nadar 9 m."
         ],
         "Abilities": {
-            "Fue": 14,
+            "For": 14,
             "Des": 10,
             "Con": 14,
             "Int": 5,
@@ -16002,7 +16000,7 @@
             "voar 24 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 15,
             "Con": 16,
             "Int": 2,
@@ -16077,7 +16075,7 @@
             "nadar 30 pies."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 10,
             "Con": 16,
             "Int": 5,
@@ -16109,7 +16107,7 @@
         "Traits": [
             {
                 "Name": "Anfibio",
-                "Content": "El chuul es capaz de respirar tanto dentro del agua como fuera de ella.",
+                "Content": "El chuul es capaz de respirar tanto dentro del agua como FORra de ella.",
                 "Usage": ""
             },
             {
@@ -16168,7 +16166,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 11,
             "Con": 16,
             "Int": 6,
@@ -16251,7 +16249,7 @@
             "voar 24 m."
         ],
         "Abilities": {
-            "Fue": 23,
+            "For": 23,
             "Des": 10,
             "Con": 21,
             "Int": 14,
@@ -16353,7 +16351,7 @@
             "voar 24 m."
         ],
         "Abilities": {
-            "Fue": 27,
+            "For": 27,
             "Des": 10,
             "Con": 25,
             "Int": 16,
@@ -16499,7 +16497,7 @@
         "voar 18 m."
     ],
     "Abilities": {
-        "Fue": 17,
+        "For": 17,
         "Des": 13,
         "Con": 13,
         "Int": 2,
@@ -16571,7 +16569,7 @@
             "15 m."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 12,
             "Con": 14,
             "Int": 6,
@@ -16656,7 +16654,7 @@
             "escalar 6 m."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 5,
             "Con": 16,
             "Int": 1,
@@ -16749,7 +16747,7 @@
         "15 m."
     ],
     "Abilities": {
-        "Fue": 18,
+        "For": 18,
         "Des": 14,
         "Con": 14,
         "Int": 9,
@@ -16837,7 +16835,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 11,
             "Con": 19,
             "Int": 6,
@@ -16920,7 +16918,7 @@
             "voar 18 m."
         ],
         "Abilities": {
-            "Fue": 17,
+            "For": 17,
             "Des": 10,
             "Con": 15,
             "Int": 12,
@@ -17015,7 +17013,7 @@
             "9 m."
         ],
         "Abilities": {
-            "Fue": 10,
+            "For": 10,
             "Des": 14,
             "Con": 15,
             "Int": 6,
@@ -17088,7 +17086,7 @@
             "12 m."
         ],
         "Abilities": {
-            "Fue": 18,
+            "For": 18,
             "Des": 20,
             "Con": 20,
             "Int": 18,
@@ -17109,7 +17107,7 @@
         ],
         "Saves": [
             {
-                "Name": "Fue",
+                "Name": "For",
                 "Modifier": 9
             },
             {
@@ -17211,7 +17209,7 @@
             "18 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 13,
             "Con": 17,
             "Int": 2,
@@ -17279,7 +17277,7 @@
             "escavar 12 m."
         ],
         "Abilities": {
-            "Fue": 19,
+            "For": 19,
             "Des": 11,
             "Con": 21,
             "Int": 2,
@@ -17355,7 +17353,7 @@
             "6 m."
         ],
         "Abilities": {
-            "Fue": 16,
+            "For": 16,
             "Des": 8,
             "Con": 15,
             "Int": 6,
@@ -17446,7 +17444,7 @@
             "voar 9 m."
         ],
         "Abilities": {
-            "Fue": 21,
+            "For": 21,
             "Des": 10,
             "Con": 22,
             "Int": 19,
@@ -17559,7 +17557,7 @@
             "voar 18 m."
         ],
         "Abilities": {
-            "Fue": 22,
+            "For": 22,
             "Des": 12,
             "Con": 24,
             "Int": 16,
@@ -17653,7 +17651,7 @@
             "nadar 12 m."
         ],
         "Abilities": {
-            "Fue": 22,
+            "For": 22,
             "Des": 10,
             "Con": 22,
             "Int": 8,
