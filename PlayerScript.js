@@ -1888,6 +1888,12 @@ function findAbilityScoreLabel(abilityMod) {
         "int": "INT", // Spanish intelligence
         "sab": "WIS", // Spanish wisdom
         "car": "CHA", // Spanish charisma
+        "for": "STR", // Portuguese strength
+        "des": "DEX", // Portuguese dexterity
+        "con": "CON", // Portuguese constitution
+        "int": "INT", // Portuguese intelligence
+        "sab": "WIS", // Portuguese wisdom
+        "car": "CHA", // Portuguese charisma
         // Add more language-specific abbreviations as necessary
     };
 
