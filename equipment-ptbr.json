@@ -118,174 +118,170 @@
       }
     ]
   },
-  [
-    {
-      "index": "handaxe",
-      "name": "Machadinha",
-      "equipment_category": {
-        "index": "weapon",
-        "name": "Arma"
-      },
-      "weapon_category": "Simples",
-      "description": "Um machado versátil de uma mão, projetado para combate corpo a corpo e arremesso, frequentemente valorizado por seu equilíbrio e utilidade.",
-      "weapon_range": "Corpo a corpo",
-      "category_range": "Simples Corpo a Corpo",
-      "cost": {
-        "quantity": 5,
-        "unit": "po"
-      },
-      "damage": {
-        "damage_dice": "1d6",
-        "damage_type": {
-          "index": "slashing",
-          "name": "Cortante"
-        }
-      },
-      "range": {
-        "normal": 1.5
-      },
-      "weight": 2,
-      "properties": [
-        {
-          "index": "light",
-          "name": "Leve"
-        },
-        {
-          "index": "thrown",
-          "name": "Arremessável"
-        },
-        {
-          "index": "monk",
-          "name": "Monge"
-        }
-      ],
-      "throw_range": {
-        "normal": 6.1,
-        "long": 18.3
+  {
+    "index": "handaxe",
+    "name": "Machadinha",
+    "equipment_category": {
+      "index": "weapon",
+      "name": "Arma"
+    },
+    "weapon_category": "Simples",
+    "description": "Um machado versátil de uma mão, projetado para combate corpo a corpo e arremesso, frequentemente valorizado por seu equilíbrio e utilidade.",
+    "weapon_range": "Corpo a corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "slashing",
+        "name": "Cortante"
       }
     },
-    {
-      "index": "javelin",
-      "name": "Azagaia",
-      "equipment_category": {
-        "index": "weapon",
-        "name": "Arma"
+    "range": {
+      "normal": 1.5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "light",
+        "name": "Leve"
       },
-      "weapon_category": "Simples",
-      "description": "Uma lança leve de arremesso, projetada para ataques à distância, com design simples para fácil manuseio e golpes perfurantes eficazes.",
-      "weapon_range": "Corpo a corpo",
-      "category_range": "Simples Corpo a Corpo",
-      "cost": {
-        "quantity": 5,
-        "unit": "pp"
+      {
+        "index": "thrown",
+        "name": "Arremessável"
       },
-      "damage": {
-        "damage_dice": "1d6",
-        "damage_type": {
-          "index": "piercing",
-          "name": "Perfurante"
-        }
-      },
-      "range": {
-        "normal": 1.5
-      },
-      "weight": 2,
-      "properties": [
-        {
-          "index": "thrown",
-          "name": "Arremessável"
-        },
-        {
-          "index": "monk",
-          "name": "Monge"
-        }
-      ],
-      "throw_range": {
-        "normal": 9.1,
-        "long": 36.6
+      {
+        "index": "monk",
+        "name": "Monge"
       }
+    ],
+    "throw_range": {
+      "normal": 6.1,
+      "long": 18.3
     }
-  ],
-  [
-    {
-      "index": "light-hammer",
-      "name": "Martelo Leve",
-      "equipment_category": {
-        "index": "weapon",
-        "name": "Arma"
-      },
-      "weapon_category": "Simples",
-      "description": "Uma arma pequena de uma mão, frequentemente usada para golpes rápidos e precisos. Pode ser arremessada ou utilizada em combate corpo a corpo.",
-      "weapon_range": "Corpo a corpo",
-      "category_range": "Simples Corpo a Corpo",
-      "cost": {
-        "quantity": 2,
-        "unit": "po"
-      },
-      "damage": {
-        "damage_dice": "1d4",
-        "damage_type": {
-          "index": "bludgeoning",
-          "name": "Concussão"
-        }
-      },
-      "range": {
-        "normal": 1.5
-      },
-      "weight": 2,
-      "properties": [
-        {
-          "index": "light",
-          "name": "Leve"
-        },
-        {
-          "index": "thrown",
-          "name": "Arremessável"
-        },
-        {
-          "index": "monk",
-          "name": "Monge"
-        }
-      ],
-      "throw_range": {
-        "normal": 6.1,
-        "long": 18.3
+  },
+  {
+    "index": "javelin",
+    "name": "Azagaia",
+    "equipment_category": {
+      "index": "weapon",
+      "name": "Arma"
+    },
+    "weapon_category": "Simples",
+    "description": "Uma lança leve de arremesso, projetada para ataques à distância, com design simples para fácil manuseio e golpes perfurantes eficazes.",
+    "weapon_range": "Corpo a corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "piercing",
+        "name": "Perfurante"
       }
     },
-    {
-      "index": "mace",
-      "name": "Maça",
-      "equipment_category": {
-        "index": "weapon",
-        "name": "Arma"
+    "range": {
+      "normal": 1.5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "thrown",
+        "name": "Arremessável"
       },
-      "weapon_category": "Simples",
-      "description": "Uma arma contundente de uma mão com cabeça pesada, projetada para golpes esmagadores. É eficaz contra oponentes com armadura.",
-      "weapon_range": "Corpo a corpo",
-      "category_range": "Simples Corpo a Corpo",
-      "cost": {
-        "quantity": 5,
-        "unit": "po"
-      },
-      "damage": {
-        "damage_dice": "1d6",
-        "damage_type": {
-          "index": "bludgeoning",
-          "name": "Concussão"
-        }
-      },
-      "range": {
-        "normal": 1.5
-      },
-      "weight": 4,
-      "properties": [
-        {
-          "index": "monk",
-          "name": "Monge"
-        }
-      ]
+      {
+        "index": "monk",
+        "name": "Monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 9.1,
+      "long": 36.6
     }
-  ],
+  },
+  {
+    "index": "light-hammer",
+    "name": "Martelo Leve",
+    "equipment_category": {
+      "index": "weapon",
+      "name": "Arma"
+    },
+    "weapon_category": "Simples",
+    "description": "Uma arma pequena de uma mão, frequentemente usada para golpes rápidos e precisos. Pode ser arremessada ou utilizada em combate corpo a corpo.",
+    "weapon_range": "Corpo a corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "bludgeoning",
+        "name": "Concussão"
+      }
+    },
+    "range": {
+      "normal": 1.5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "light",
+        "name": "Leve"
+      },
+      {
+        "index": "thrown",
+        "name": "Arremessável"
+      },
+      {
+        "index": "monk",
+        "name": "Monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 6.1,
+      "long": 18.3
+    }
+  },
+  {
+    "index": "mace",
+    "name": "Maça",
+    "equipment_category": {
+      "index": "weapon",
+      "name": "Arma"
+    },
+    "weapon_category": "Simples",
+    "description": "Uma arma contundente de uma mão com cabeça pesada, projetada para golpes esmagadores. É eficaz contra oponentes com armadura.",
+    "weapon_range": "Corpo a corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "bludgeoning",
+        "name": "Concussão"
+      }
+    },
+    "range": {
+      "normal": 1.5
+    },
+    "weight": 4,
+    "properties": [
+      {
+        "index": "monk",
+        "name": "Monge"
+      }
+    ]
+  },
   {
     "index": "quarterstaff",
     "name": "Bastão",
@@ -801,7 +797,7 @@
   },
   {
     "index": "lance",
-    "name": "Lança",
+    "name": "Lança de Cavalaria",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -881,7 +877,7 @@
   },
   {
     "index": "maul",
-    "name": "Maça",
+    "name": "Malho",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -1941,7 +1937,7 @@
     },
     "gear_category": {
       "index": "holy-symbols",
-      "name": "Holy Symbols"
+      "name": "Símbolos Sagrados"
     },
     "cost": {
       "quantity": 5,
@@ -2605,7 +2601,7 @@
     },
     "gear_category": {
       "index": "holy-symbols",
-      "name": "Holy Symbols"
+      "name": "Símbolos Sagrados"
     },
     "cost": {
       "quantity": 5,
@@ -3414,7 +3410,7 @@
     },
     "gear_category": {
       "index": "holy-symbols",
-      "name": "Holy Symbols"
+      "name": "Símbolos Sagrados"
     },
     "cost": {
       "quantity": 5,
@@ -3435,7 +3431,7 @@
     },
     "gear_category": {
       "index": "holy-symbols",
-      "name": "Holy Symbols"
+      "name": "Símbolos Sagrados"
     },
     "cost": {
       "quantity": 5,
@@ -3864,7 +3860,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 16,
@@ -3980,7 +3976,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 39,
@@ -3990,7 +3986,7 @@
       {
         "item": {
           "index": "chest",
-          "name": "Chest"
+          "name": "Baú"
         },
         "quantity": 1
       },
@@ -4075,7 +4071,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 12,
@@ -4156,7 +4152,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 40,
@@ -4223,7 +4219,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 10,
@@ -4297,7 +4293,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 19,
@@ -4385,7 +4381,7 @@
     },
     "gear_category": {
       "index": "equipment-packs",
-      "name": "Equipment Packs"
+      "name": "Pagotes de Equipamento"
     },
     "cost": {
       "quantity": 40,
@@ -4739,7 +4735,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Gaming Sets",
+    "tool_category": "Conjuntos de Jogos",
     "cost": {
       "quantity": 1,
       "unit": "pp"
@@ -4756,7 +4752,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Gaming Sets",
+    "tool_category": "Conjuntos de Jogos",
     "cost": {
       "quantity": 5,
       "unit": "pp"
@@ -4773,7 +4769,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 30,
       "unit": "po"
@@ -4790,7 +4786,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 6,
       "unit": "po"
@@ -4807,7 +4803,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 25,
       "unit": "po"
@@ -4824,7 +4820,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 2,
       "unit": "po"
@@ -4841,7 +4837,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 35,
       "unit": "po"
@@ -4858,7 +4854,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 30,
       "unit": "po"
@@ -4875,7 +4871,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 3,
       "unit": "po"
@@ -4892,7 +4888,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 12,
       "unit": "po"
@@ -4909,7 +4905,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 2,
       "unit": "po"
@@ -4926,7 +4922,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Musical Instrument",
+    "tool_category": "Instrumento de Música",
     "cost": {
       "quantity": 30,
       "unit": "po"
@@ -4943,7 +4939,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Other Tools",
+    "tool_category": "Outras Ferramentas",
     "cost": {
       "quantity": 25,
       "unit": "po"
@@ -4960,7 +4956,7 @@
       "index": "tools",
       "name": "Ferramentas"
     },
-    "tool_category": "Other Tools",
+    "tool_category": "Outras Ferramentas",
     "cost": {
       "quantity": 25,
       "unit": "po"
@@ -5185,7 +5181,7 @@
   },
   {
     "index": "barding-hide",
-    "name": "Bardaço de Couro Selado",
+    "name": "Bardaço de Pele",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5470,7 +5466,7 @@
   },
   {
     "index": "saddlebags",
-    "name": "Saddlebags",
+    "name": "Alforjes",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5484,7 +5480,7 @@
   },
   {
     "index": "sled",
-    "name": "Sled",
+    "name": "Trenó",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5498,7 +5494,7 @@
   },
   {
     "index": "stabling-1-day",
-    "name": "Stabling (1 day)",
+    "name": "Estábulo (1 day)",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5512,7 +5508,7 @@
   },
   {
     "index": "wagon",
-    "name": "Wagon",
+    "name": "Vagão",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5526,7 +5522,7 @@
   },
   {
     "index": "galley",
-    "name": "Galley",
+    "name": "Galé",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5538,12 +5534,12 @@
     },
     "speed": {
       "quantity": 4,
-      "unit": "mph"
+      "unit": "km/h"
     }
   },
   {
     "index": "keelboat",
-    "name": "Keelboat",
+    "name": "Barco a Quilha",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5555,7 +5551,7 @@
     },
     "speed": {
       "quantity": 1,
-      "unit": "mph"
+      "unit": "km/h"
     },
     "desc": [
       "Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."
@@ -5563,7 +5559,7 @@
   },
   {
     "index": "longship",
-    "name": "Longship",
+    "name": "Navio Longo",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5575,12 +5571,12 @@
     },
     "speed": {
       "quantity": 3,
-      "unit": "mph"
+      "unit": "km/h"
     }
   },
   {
     "index": "rowboat",
-    "name": "Rowboat",
+    "name": "Barco a Remo",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5592,7 +5588,7 @@
     },
     "speed": {
       "quantity": 1.5,
-      "unit": "mph"
+      "unit": "km/h"
     },
     "desc": [
       "Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."
@@ -5600,7 +5596,7 @@
   },
   {
     "index": "sailing-ship",
-    "name": "Sailing ship",
+    "name": "Navio a Vela",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5612,12 +5608,12 @@
     },
     "speed": {
       "quantity": 2,
-      "unit": "mph"
+      "unit": "km/h"
     }
   },
   {
     "index": "warship",
-    "name": "Warship",
+    "name": "Navio de Guerra",
     "equipment_category": {
       "index": "mounts-and-vehicles",
       "name": "Montarias e Veículos"
@@ -5629,19 +5625,19 @@
     },
     "speed": {
       "quantity": 2.5,
-      "unit": "mph"
+      "unit": "km/h"
     }
   },
   {
     "index": "potion-of-healing",
-    "name": "Potion of Healing",
+    "name": "Poção de Cura",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable"
+      "name": "Consumível"
     },
     "cost": {
       "quantity": 50,
@@ -5651,20 +5647,20 @@
     "properties": [
       {
         "index": "healing",
-        "name": "Heals 2d4 + 2"
+        "name": "Cura 2d4 + 2"
       }
     ]
   },
   {
     "index": "potion-of-greater-healing",
-    "name": "Potion of Greater Healing",
+    "name": "Poção de Cura Maior",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable"
+      "name": "Consumível"
     },
     "cost": {
       "quantity": 100,
@@ -5674,20 +5670,20 @@
     "properties": [
       {
         "index": "healing",
-        "name": "Heals 4d4 + 4"
+        "name": "Cura 4d4 + 4"
       }
     ]
   },
   {
     "index": "potion-of-superior-healing",
-    "name": "Potion of Superior Healing",
+    "name": "Poção de Cura Superior",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable"
+      "name": "Consumível"
     },
     "cost": {
       "quantity": 500,
@@ -5697,20 +5693,20 @@
     "properties": [
       {
         "index": "healing",
-        "name": "Heals 8d4 + 8"
+        "name": "Cura 8d4 + 8"
       }
     ]
   },
   {
     "index": "potion-of-supreme-healing",
-    "name": "Potion of Supreme Healing",
+    "name": "Poção de Cura Suprema",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable"
+      "name": "Consumível"
     },
     "cost": {
       "quantity": 1350,
@@ -5720,13 +5716,13 @@
     "properties": [
       {
         "index": "healing",
-        "name": "Heals 10d4 + 20"
+        "name": "Cura 10d4 + 20"
       }
     ]
   },
   {
     "index": "returning-dagger",
-    "name": "Returning Dagger",
+    "name": "Adaga Retornável",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma",
@@ -5785,7 +5781,7 @@
   },
   {
     "index": "scouts-amulet",
-    "name": "Scout's Amulet",
+    "name": "Amuleto do Patrulheiro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -5798,13 +5794,12 @@
     },
     "description": [
       "Worn by the scouts of the Graven Guard, this amulet is said to increase one's awareness of their surroundings.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "bonus": [
@@ -5829,7 +5824,7 @@
   },
   {
     "index": "mortis-armour",
-    "name": "Mortis Armour",
+    "name": "Armadura da Morte",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura",
@@ -5848,21 +5843,20 @@
       "unit": "po"
     },
     "description": [
-      "The Mortis Armour is a set of blackened plate armour fabricated during the Second Age by a blacksmith who also happened to dabble in Necromancy. It has the symbol of the Order Of The Black Rose emblazoned on its chest, and intricate floral patterns are strewn across it's surface, however the metal itself is scorched and ashy, as if it was recently pulled from a burning building. It emanates an aura of dark magic and is ice cold to the touch.<br>(Requires Attunement, Min Strength 16)<br>When worn, the Mortis Armour gives an AC of 19, and does NOT give disadvantage on stealth checks. Additionally, as a bonus action it allows the wearer to step into shadows that are close by and emerge from shadows within a 60 foot radius.<br>When the Mortis Armour is identified, the person casting the spell must also roll an arcana check with a DC of 20. On a success, the following information is available:<br>When worn, the Mortis Armour binds itself to the person wearing it, meaning that if they ever take the armour off and then proceed to sleep (Long Rest) they will wake up having donned the armour once again.<br>When in combat, every time the wearer takes damage, roll an extra d6 necrotic damage. If the wearer dips below 25% health, stop telling them the amount of damage they take. If the wearer dies while wearing this armour, they will keep fighting as if they were perfectly healthy. They will continue to survive in this state for a period of time equivalent to their constitution score multiplied by a d4 roll when they die. Healing spells and potions will not affect the wearer. Resurrection spells will only work once the armour is removed and will take into account the amount of time since their actual death.<br>The armour cannot be removed naturally and cannot be unattuned from naturally. To remove the armour, the wearer must roll a wisdom saving throw with a DC of 30, or use a wish spell. If the wearer died while wearing the armour, once it is removed they will drop dead.<br>Once the wearer dies, the armour can be removed, but it will take the period of a short rest to unattune itself from its wearer.",
-      "<br>Requires attunement."
+      "The Mortis Armour is a set of blackened plate armour fabricated during the Second Age by a blacksmith who also happened to dabble in Necromancy. It has the symbol of the Order Of The Black Rose emblazoned on its chest, and intricate floral patterns are strewn across it's surface, however the metal itself is scorched and ashy, as if it was recently pulled from a burning building. It emanates an aura of dark magic and is ice cold to the touch.<br>(Precisa de Sintonização, Min Strength 16)<br>When worn, the Mortis Armour gives an AC of 19, and does NOT give disadvantage on stealth checks. Additionally, as a bonus action it allows the wearer to step into shadows that are close by and emerge from shadows within a 60 foot radius.<br>When the Mortis Armour is identified, the person casting the spell must also roll an arcana check with a DC of 20. On a success, the following information is available:<br>When worn, the Mortis Armour binds itself to the person wearing it, meaning that if they ever take the armour off and then proceed to sleep (Long Rest) they will wake up having donned the armour once again.<br>When in combat, every time the wearer takes damage, roll an extra d6 necrotic damage. If the wearer dips below 25% health, stop telling them the amount of damage they take. If the wearer dies while wearing this armour, they will keep fighting as if they were perfectly healthy. They will continue to survive in this state for a period of time equivalent to their constitution score multiplied by a d4 roll when they die. Healing spells and potions will not affect the wearer. Resurrection spells will only work once the armour is removed and will take into account the amount of time since their actual death.<br>The armour cannot be removed naturally and cannot be unattuned from naturally. To remove the armour, the wearer must roll a wisdom saving throw with a DC of 30, or use a wish spell. If the wearer died while wearing the armour, once it is removed they will drop dead.<br>Once the wearer dies, the armour can be removed, but it will take the period of a short rest to unattune itself from its wearer.",
+      "<br>Precisa de Sintonização."
     ],
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "url": "/api/equipment/mortis-armour"
   },
   {
     "index": "cloak-of-protection",
-    "name": "Cloak of Protection",
+    "name": "Manto da Proteção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -5873,7 +5867,7 @@
     },
     "description": [
       "This fine cloak is imbued with protective magic. It grants the wearer a bonus to AC and saving throws while worn and attuned.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -5907,7 +5901,7 @@
   },
   {
     "index": "ring-of-protection",
-    "name": "Ring of Protection",
+    "name": "Anel da Proteção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -5919,7 +5913,7 @@
     },
     "description": [
       "A simple but powerful ring that provides extra protection against harm.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -5953,7 +5947,7 @@
   },
   {
     "index": "amulet-of-wisdom",
-    "name": "Amulet of Wisdom",
+    "name": "Amuleto da Sabedoria",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -5966,13 +5960,12 @@
     },
     "description": [
       "A mystical amulet that enhances the wearer's connection to their inner wisdom.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "bonus": [
@@ -5996,7 +5989,7 @@
   },
   {
     "index": "stone-of-good-luck",
-    "name": "Stone of Good Luck",
+    "name": "Pedra da Boa Sorte",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -6007,7 +6000,7 @@
     },
     "description": [
       "While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -6041,7 +6034,7 @@
   },
   {
     "index": "amulet-of-the-devout-1",
-    "name": "Amulet of the Devout, +1",
+    "name": "Amuleto do Devoto, +1",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -6055,13 +6048,12 @@
     "description": [
       "This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.",
       "While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature’s uses. Once this property is used, it can’t be used again until the next dawn.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "bonus": [
@@ -6085,7 +6077,7 @@
   },
   {
     "index": "rhythm-maker's-drum-1",
-    "name": "Rhythm-Maker's Drum, +1",
+    "name": "Tambor do Rhythm Maker, +1",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -6099,13 +6091,12 @@
     "description": [
       "While holding this drum, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
       "As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can’t be used again until the next dawn.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "bonus": [
@@ -6129,7 +6120,7 @@
   },
   {
     "index": "robe-of-the-winterstep",
-    "name": "Robe of the Winterstep",
+    "name": "Manto do Passo Invernal",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -6148,8 +6139,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -6170,7 +6160,7 @@
   },
   {
     "index": "adamantine-chain-mail",
-    "name": "Adamantine Chain Mail",
+    "name": "Cota de Malha de Adamantina",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura",
@@ -6201,7 +6191,7 @@
   },
   {
     "index": "adamantine-breastplate",
-    "name": "Adamantine Breastplate",
+    "name": "Peitoral de Adamantina",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6229,7 +6219,7 @@
   },
   {
     "index": "adamantine-half-plate",
-    "name": "Adamantine Half Plate",
+    "name": "Meia Armadura de Adamantina",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6256,36 +6246,8 @@
     "properties": []
   },
   {
-    "index": "adamantine-chain-mail",
-    "name": "Adamantine Chain Mail",
-    "equipment_category": {
-      "index": "armor",
-      "name": "Armadura"
-    },
-    "armor_category": "Heavy",
-    "armor_class": {
-      "base": 16,
-      "dex_bonus": false,
-      "max_bonus": null
-    },
-    "weight": 55,
-    "cost": {
-      "quantity": 2050,
-      "unit": "po"
-    },
-    "rarity": {
-      "index": "uncommon",
-      "name": "Incomum"
-    },
-    "attunement": false,
-    "description": [
-      "This armor is reinforced with adamantine, one of the hardest substances in existence. It makes the wearer immune to critical hits."
-    ],
-    "properties": []
-  },
-  {
     "index": "adamantine-splint",
-    "name": "Adamantine Splint",
+    "name": "Bardaço de Adamantina",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6313,7 +6275,7 @@
   },
   {
     "index": "adamantine-plate",
-    "name": "Adamantine Plate",
+    "name": "Placas de Adamantina",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6341,7 +6303,7 @@
   },
   {
     "index": "animated-shield",
-    "name": "Animated Shield",
+    "name": "Escudo Animado",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -6368,14 +6330,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-invulnerability-padded",
-    "name": "Armor of Invulnerability (Padded)",
+    "name": "Armadura de Invulnerabilidade (Acolchoada)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6402,14 +6363,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-invulnerability-leather",
-    "name": "Armor of Invulnerability (Leather)",
+    "name": "Armadura de Invulnerabilidade (Couro)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6436,14 +6396,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-invulnerability-studded-leather",
-    "name": "Armor of Invulnerability (Studded Leather)",
+    "name": "Armadura de Invulnerabilidade (Couro Cravejado)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6470,14 +6429,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-invulnerability-hide",
-    "name": "Armor of Invulnerability (Hide)",
+    "name": "Armadura de Invulnerabilidade (Pele)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6504,14 +6462,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-invulnerability-chain-mail",
-    "name": "Armor of Invulnerability (Chain Mail)",
+    "name": "Armadura de Invulnerabilidade (Cota de Malha)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6538,8 +6495,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
@@ -6572,14 +6528,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-resistance-padded",
-    "name": "Armor of Resistance (Padded)",
+    "name": "Armadura da Resistência (Acolchoada)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6606,14 +6561,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-resistance-leather",
-    "name": "Armor of Resistance (Leather)",
+    "name": "Armadura da Resistência (Couro)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6640,8 +6594,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
@@ -6674,14 +6627,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-resistance-hide",
-    "name": "Armor of Resistance (Hide)",
+    "name": "Armadura da Resistência (Pele)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6708,14 +6660,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-resistance-chain-mail",
-    "name": "Armor of Resistance (Chain Mail)",
+    "name": "Armadura da Resistência (Cota de Malha)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6742,14 +6693,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-resistance-plate",
-    "name": "Armor of Resistance (Plate)",
+    "name": "Armadura da Resistência (Placas)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6776,14 +6726,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-vulnerability-padded",
-    "name": "Armor of Vulnerability (Padded)",
+    "name": "Armadura de Vulnerabilidade (Acolchoada)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6810,14 +6759,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-vulnerability-leather",
-    "name": "Armor of Vulnerability (Leather)",
+    "name": "Armadura de Vulnerabilidade (Couro)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6844,14 +6792,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-vulnerability-studded-leather",
-    "name": "Armor of Vulnerability (Studded Leather)",
+    "name": "Armadura de Vulnerabilidade (Couro Cravejado)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6878,8 +6825,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
@@ -6912,14 +6858,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-vulnerability-chain-mail",
-    "name": "Armor of Vulnerability (Chain Mail)",
+    "name": "Armadura de Vulnerabilidade (Cota de Malha)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6946,14 +6891,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "armor-of-vulnerability-plate",
-    "name": "Armor of Vulnerability (Plate)",
+    "name": "Armadura de Vulnerabilidade (Placas)",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -6980,14 +6924,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "padded-armor-1",
-    "name": "Padded Armor +1",
+    "name": "Armadura Acolchoada +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7025,7 +6968,7 @@
   },
   {
     "index": "leather-armor-1",
-    "name": "Leather Armor +1",
+    "name": "Armadura de Couro +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7063,7 +7006,7 @@
   },
   {
     "index": "studded-leather-1",
-    "name": "Studded Leather +1",
+    "name": "Armadura de Couro Cravejado +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7101,7 +7044,7 @@
   },
   {
     "index": "hide-armor-1",
-    "name": "Hide Armor +1",
+    "name": "Armadura de Pele +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7138,8 +7081,8 @@
     "properties": []
   },
   {
-    "index": "Chain Shirt-1",
-    "name": "Chain Shirt +1",
+    "index": "chain-shirt-1",
+    "name": "Camisão de Malha +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7176,8 +7119,8 @@
     "properties": []
   },
   {
-    "index": "scale-Mail-1",
-    "name": "Scale Mail +1",
+    "index": "scale-mail-1",
+    "name": "Armadura de Escamas +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7215,7 +7158,7 @@
   },
   {
     "index": "breastplate-1",
-    "name": "Breastplate +1",
+    "name": "Peitoral +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7253,7 +7196,7 @@
   },
   {
     "index": "half-plate-1",
-    "name": "Half Plate +1",
+    "name": "Meia Armadura +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7291,7 +7234,7 @@
   },
   {
     "index": "ring-mail-1",
-    "name": "Ring Mail +1",
+    "name": "Malha de Anéis +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7329,7 +7272,7 @@
   },
   {
     "index": "chain-mail-1",
-    "name": "Chain Mail +1",
+    "name": "Cota de Malha +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7367,7 +7310,7 @@
   },
   {
     "index": "splint-armor-1",
-    "name": "splint Armor +1",
+    "name": "Armadura de Tala +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7405,7 +7348,7 @@
   },
   {
     "index": "plate-mail-1",
-    "name": "Plate Mail +1",
+    "name": "Malha de Placas +1",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7443,7 +7386,7 @@
   },
   {
     "index": "padded-armor-2",
-    "name": "Padded Armor +2",
+    "name": "Armadura Acolchoada +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7481,7 +7424,7 @@
   },
   {
     "index": "leather-armor-2",
-    "name": "Leather Armor +2",
+    "name": "Armadura de Couro +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7519,7 +7462,7 @@
   },
   {
     "index": "studded-leather-2",
-    "name": "Studded Leather +2",
+    "name": "Armadura de Couro Cravejado +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7557,7 +7500,7 @@
   },
   {
     "index": "hide-armor-2",
-    "name": "Hide Armor +2",
+    "name": "Armadura de Pele +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7595,7 +7538,7 @@
   },
   {
     "index": "Chain Shirt-2",
-    "name": "Chain Shirt +2",
+    "name": "Camisão de Malha +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7633,7 +7576,7 @@
   },
   {
     "index": "scale-Mail-2",
-    "name": "Scale Mail +2",
+    "name": "Malha de Escamas +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7671,7 +7614,7 @@
   },
   {
     "index": "breastplate-2",
-    "name": "Breastplate +2",
+    "name": "Peitoral +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7709,7 +7652,7 @@
   },
   {
     "index": "half-plate-2",
-    "name": "Half Plate +2",
+    "name": "Meia Armadura +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7747,7 +7690,7 @@
   },
   {
     "index": "ring-mail-2",
-    "name": "Ring Mail +2",
+    "name": "Malha de Anéis +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7785,7 +7728,7 @@
   },
   {
     "index": "chain-mail-2",
-    "name": "Chain Mail +2",
+    "name": "Cota de Malha +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7823,7 +7766,7 @@
   },
   {
     "index": "splint-armor-2",
-    "name": "splint Armor +2",
+    "name": "Armadura de Talas +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7861,7 +7804,7 @@
   },
   {
     "index": "plate-mail-2",
-    "name": "Plate Mail +2",
+    "name": "Malha de Placas +2",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7899,7 +7842,7 @@
   },
   {
     "index": "padded-armor-3",
-    "name": "Padded Armor +3",
+    "name": "Armadura Acolchoada +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7937,7 +7880,7 @@
   },
   {
     "index": "leather-armor-3",
-    "name": "Leather Armor +3",
+    "name": "Armadura de Couro +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -7975,7 +7918,7 @@
   },
   {
     "index": "studded-leather-3",
-    "name": "Studded Leather +3",
+    "name": "Armadura de Couro Cravejado +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8013,7 +7956,7 @@
   },
   {
     "index": "hide-armor-3",
-    "name": "Hide Armor +3",
+    "name": "Armadura de Pele +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8051,7 +7994,7 @@
   },
   {
     "index": "Chain Shirt-3",
-    "name": "Chain Shirt +3",
+    "name": "Camisão de Malha +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8089,7 +8032,7 @@
   },
   {
     "index": "scale-Mail-3",
-    "name": "Scale Mail +3",
+    "name": "Malha de Escamas +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8127,7 +8070,7 @@
   },
   {
     "index": "breastplate-3",
-    "name": "Breastplate +3",
+    "name": "Peitoral +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8165,7 +8108,7 @@
   },
   {
     "index": "half-plate-3",
-    "name": "Half Plate +3",
+    "name": "Meia Armadura +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8203,7 +8146,7 @@
   },
   {
     "index": "ring-mail-3",
-    "name": "Ring Mail +3",
+    "name": "Malha de Anéis +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8241,7 +8184,7 @@
   },
   {
     "index": "chain-mail-3",
-    "name": "Chain Mail +3",
+    "name": "Cota de Malha +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8279,7 +8222,7 @@
   },
   {
     "index": "splint-armor-3",
-    "name": "splint Armor +3",
+    "name": "Armadura de Talas +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8317,7 +8260,7 @@
   },
   {
     "index": "plate-mail-3",
-    "name": "Plate Mail +3",
+    "name": "Malha de Placas +3",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8355,7 +8298,7 @@
   },
   {
     "index": "arrow-catching-shield",
-    "name": "Arrow-Catching Shield",
+    "name": "Escudo de Captura de Flechas",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8383,8 +8326,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
@@ -8428,7 +8370,7 @@
   },
   {
     "index": "elven-chain",
-    "name": "Elven Chain",
+    "name": "Malha Élfica",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8466,7 +8408,7 @@
   },
   {
     "index": "glamoured-studded-leather",
-    "name": "Glamoured Studded Leather",
+    "name": "Armadura de Couro Cravejado Glamurosa",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8504,7 +8446,7 @@
   },
   {
     "index": "plate-armor-etherealness",
-    "name": "Plate Armor of Etherealness",
+    "name": "Armadura de Placas Etérea",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -8534,14 +8476,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "shield-of-missile-attraction",
-    "name": "Shield of Missile Attraction",
+    "name": "Escudo de Atração de Projéteis",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8569,14 +8510,13 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "shield-1",
-    "name": "Shield +1",
+    "name": "Escudo +1",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8612,7 +8552,7 @@
   },
   {
     "index": "shield-2",
-    "name": "Shield +2",
+    "name": "Escudo +2",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8648,7 +8588,7 @@
   },
   {
     "index": "shield-3",
-    "name": "Shield +3",
+    "name": "Escudo +3",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8684,7 +8624,7 @@
   },
   {
     "index": "spellguard-shield",
-    "name": "Spellguard Shield",
+    "name": "Escudo de Proteção Mágica",
     "equipment_category": {
       "index": "shield",
       "name": "Escudo"
@@ -8712,22 +8652,21 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ]
   },
   {
     "index": "oil-of-etherealness",
-    "name": "Oil of Etherealness",
+    "name": "Óleo Etéreo",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8741,21 +8680,21 @@
     "properties": [
       {
         "index": "Etherealness",
-        "name": "Etherealness spell 1 hour."
+        "name": "Magia Etérea por 1 hora."
       }
     ]
   },
   {
     "index": "oil-of-sharpness",
-    "name": "Oil of Sharpness",
+    "name": "Óleo da Afiação",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8776,10 +8715,10 @@
   },
   {
     "index": "oil-of-slipperiness",
-    "name": "Oil of Slipperiness",
+    "name": "Óleo da Escorregadia",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
@@ -8802,10 +8741,10 @@
   },
   {
     "index": "philter-of-love",
-    "name": "Philter of Love",
+    "name": "Filtro do Amor",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
@@ -8832,12 +8771,12 @@
     "name": "Potion of Animal Friendship",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8861,12 +8800,11 @@
     "name": "Potion of Clairvoyance",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
-      "url": "/api/equipment-categories/potion"
+      "name": "Poção"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8887,15 +8825,15 @@
   },
   {
     "index": "potion-of-climbing",
-    "name": "Potion of Climbing",
+    "name": "Poção de Escalada",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8916,15 +8854,15 @@
   },
   {
     "index": "potion-of-diminution",
-    "name": "Potion of Diminution",
+    "name": "Poção de Diminuição",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8945,15 +8883,15 @@
   },
   {
     "index": "potion-of-flying",
-    "name": "Potion of Flying",
+    "name": "Poção de Voo",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -8974,15 +8912,15 @@
   },
   {
     "index": "potion-of-gaseous-form",
-    "name": "Potion of Gaseous Form",
+    "name": "Poção de Forma Gasosa",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9003,15 +8941,15 @@
   },
   {
     "index": "potion-of-hill-giant-strength",
-    "name": "Potion of Hill Giant Strength",
+    "name": "Poção de Força de Gigante de Colina",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9032,15 +8970,15 @@
   },
   {
     "index": "potion-of-frost-giant-strength",
-    "name": "Potion of Frost Giant Strength",
+    "name": "Poção de Força de Gigante de Gelo",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9061,15 +8999,15 @@
   },
   {
     "index": "potion-of-stone-giant-strength",
-    "name": "Potion of Stone Giant Strength",
+    "name": "Poção de Força de Gigante de Pedra",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9090,15 +9028,15 @@
   },
   {
     "index": "potion-of-fire-giant-strength",
-    "name": "Potion of Fire Giant Strength",
+    "name": "Poção de Força de Gigante de Fogo",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9119,15 +9057,15 @@
   },
   {
     "index": "potion-of-cloud-giant-strength",
-    "name": "Potion of Cloud Giant Strength",
+    "name": "Poção de Força de Gigante Nuvem",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9148,15 +9086,15 @@
   },
   {
     "index": "potion-of-storm-giant-strength",
-    "name": "Potion of Storm Giant Strength",
+    "name": "Poção de Força de Gigante da Tempestade",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9177,15 +9115,15 @@
   },
   {
     "index": "potion-of-growth",
-    "name": "Potion of Growth",
+    "name": "Poção de Crescimento",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9206,15 +9144,15 @@
   },
   {
     "index": "potion-of-heroism",
-    "name": "Potion of Heroism",
+    "name": "Poção de Heroísmo",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9235,15 +9173,15 @@
   },
   {
     "index": "potion-of-invisibility",
-    "name": "Potion of Invisibility",
+    "name": "Poção de Invisibilidade",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9264,15 +9202,15 @@
   },
   {
     "index": "potion-of-mind-reading",
-    "name": "Potion of Mind Reading",
+    "name": "Poção de Leitura Mental",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9293,15 +9231,15 @@
   },
   {
     "index": "potion-of-poison",
-    "name": "Potion of Poison",
+    "name": "Poção de Veneno",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9322,15 +9260,15 @@
   },
   {
     "index": "potion-of-resistance",
-    "name": "Potion of Resistance",
+    "name": "Poção de Resistência",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9351,15 +9289,15 @@
   },
   {
     "index": "potion-of-speed",
-    "name": "Potion of Speed",
+    "name": "Poção de Velocidade",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9380,15 +9318,15 @@
   },
   {
     "index": "potion-of-water-breathing",
-    "name": "Potion of Water Breathing",
+    "name": "Poção de Respiração Aquática",
     "equipment_category": {
       "index": "potion",
-      "name": "Potion",
+      "name": "Poção",
       "url": "/api/equipment-categories/potion"
     },
     "gear_category": {
       "index": "consumable",
-      "name": "Consumable",
+      "name": "Consumível",
       "url": "/api/equipment-categories/consumable"
     },
     "cost": {
@@ -9409,7 +9347,7 @@
   },
   {
     "index": "immovable-rod",
-    "name": "Immovable Rod",
+    "name": "Vara Imovível",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9437,7 +9375,7 @@
   },
   {
     "index": "rod-of-absorption",
-    "name": "Rod of Absorption",
+    "name": "Vara de Absorção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9454,8 +9392,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -9471,7 +9408,7 @@
   },
   {
     "index": "rod-of-alertness",
-    "name": "Rod of Alertness",
+    "name": "Vara de Alerta",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9488,8 +9425,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -9511,7 +9447,7 @@
       },
       {
         "category": "skills",
-        "key": "Perception",
+        "key": "Percepção",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -9520,7 +9456,7 @@
   },
   {
     "index": "rod-of-lordly-might",
-    "name": "Rod of Lordly Might",
+    "name": "Vara do Poder Senhorial",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9537,8 +9473,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -9555,7 +9490,7 @@
   },
   {
     "index": "rod-of-rulership",
-    "name": "Rod of Rulership",
+    "name": "Vara do Poder de Comando",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9588,7 +9523,7 @@
   },
   {
     "index": "rod-of-security",
-    "name": "Rod of Security",
+    "name": "Vara de Segurança",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -9619,7 +9554,7 @@
   },
   {
     "index": "ring-of-animal-influence",
-    "name": "Ring of Animal Influence",
+    "name": "Anél da Influência Animal",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9652,7 +9587,7 @@
   },
   {
     "index": "ring-of-djinni",
-    "name": "Ring of Djinni",
+    "name": "Anél do Djinni",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9685,7 +9620,7 @@
   },
   {
     "index": "ring-of-air-elemental-command",
-    "name": "Ring of Air Elemental Command",
+    "name": "Anél do Comando Elemental do Ar",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9723,7 +9658,7 @@
   },
   {
     "index": "ring-of-earth-elemental-command",
-    "name": "Ring of Earth Elemental Command",
+    "name": "Anél do Comando Elemental da Terra",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9761,7 +9696,7 @@
   },
   {
     "index": "ring-of-fire-elemental-command",
-    "name": "Ring of Fire Elemental Command",
+    "name": "Anél do Comando Elemental do Fogo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9799,7 +9734,7 @@
   },
   {
     "index": "ring-of-water-elemental-command",
-    "name": "Ring of Water Elemental Command",
+    "name": "Anél do Comando Elemental da Água",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9837,7 +9772,7 @@
   },
   {
     "index": "ring-of-evasion",
-    "name": "Ring of Evasion",
+    "name": "Anél da Evasão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9875,7 +9810,7 @@
   },
   {
     "index": "ring-of-feather-falling",
-    "name": "Ring of Feather Falling",
+    "name": "Anél da Queda de Penas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9913,7 +9848,7 @@
   },
   {
     "index": "ring-of-free-action",
-    "name": "Ring of Free Action",
+    "name": "Anél da Ação Livre",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9951,7 +9886,7 @@
   },
   {
     "index": "ring-of-invisibility",
-    "name": "Ring of Invisibility",
+    "name": "Anél da Invisibilidade",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -9989,45 +9924,7 @@
   },
   {
     "index": "ring-of-jumping",
-    "name": "Ring of Jumping",
-    "equipment_category": {
-      "index": "wondrous-item",
-      "name": "Item Maravilhoso",
-      "url": "/api/equipment-categories/wondrous-item"
-    },
-    "gear_category": {
-      "index": "magical-accessory",
-      "name": "Acessório Mágico",
-      "url": "/api/equipment-categories/magical-accessory"
-    },
-    "description": [
-      "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so."
-    ],
-    "properties": [
-      {
-        "index": "attunement",
-        "name": "Precisa de Sintonização"
-      }
-    ],
-    "cost": {
-      "quantity": 2000,
-      "unit": "po"
-    },
-    "weight": 0.2,
-    "rarity": {
-      "index": "uncommon",
-      "name": "Incomum"
-    },
-    "bonus": [],
-    "hasCharges": false,
-    "chargesOptions": {
-      "chargeReset": "",
-      "maxCharges": 0
-    }
-  },
-  {
-    "index": "ring-of-jumping",
-    "name": "Ring of Jumping",
+    "name": "Anél do Salto",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10065,7 +9962,7 @@
   },
   {
     "index": "ring-of-mind-shielding",
-    "name": "Ring of Mind Shielding",
+    "name": "Anél de Proteção Mental",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10084,8 +9981,7 @@
     "properties": [
       {
         "index": "attunement",
-        "name": "Precisa de Sintonização",
-        "url": "/api/item-properties/attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -10101,7 +9997,7 @@
   },
   {
     "index": "ring-of-protection",
-    "name": "Ring of Protection",
+    "name": "Anél de Proteção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -10112,7 +10008,7 @@
     },
     "description": [
       "You gain a +1 bonus to Armor Class and saving throws while wearing this ring.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -10146,7 +10042,7 @@
   },
   {
     "index": "ring-of-regeneration",
-    "name": "Ring of Regeneration",
+    "name": "Anél da Regeneração",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10184,7 +10080,7 @@
   },
   {
     "index": "ring-of-resistance",
-    "name": "Ring of Resistance",
+    "name": "Anél de Resistência",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10222,7 +10118,7 @@
   },
   {
     "index": "ring-of-shooting-stars",
-    "name": "Ring of Shooting Stars",
+    "name": "Anél das Estrelas Cadentes",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10260,7 +10156,7 @@
   },
   {
     "index": "ring-of-spell-storing",
-    "name": "Ring of Spell Storing",
+    "name": "Anél de Armazenamento de Magia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10298,7 +10194,7 @@
   },
   {
     "index": "ring-of-spell-turning",
-    "name": "Ring of Spell Turning",
+    "name": "Anél de Inversão de Magia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10336,7 +10232,7 @@
   },
   {
     "index": "ring-of-swimming",
-    "name": "Ring of Swimming",
+    "name": "Anél de Natação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10369,7 +10265,7 @@
   },
   {
     "index": "ring-of-telekinesis",
-    "name": "Ring of Telekinesis",
+    "name": "Anél de Telecinese",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10407,7 +10303,7 @@
   },
   {
     "index": "ring-of-three-wishes",
-    "name": "Ring of Three Wishes",
+    "name": "Anél de Três Desejos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10445,7 +10341,7 @@
   },
   {
     "index": "ring-of-warmth",
-    "name": "Ring of Warmth",
+    "name": "Anél de Calor",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10478,7 +10374,7 @@
   },
   {
     "index": "ring-of-water-walking",
-    "name": "Ring of Water Walking",
+    "name": "Anél de Caminho Aquático",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10511,7 +10407,7 @@
   },
   {
     "index": "ring-of-x-ray-vision",
-    "name": "Ring of X-ray Vision",
+    "name": "Anél de Visão de Raio-X",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -10548,8 +10444,8 @@
     }
   },
   {
-    "index": "ring-of-water-walking",
-    "name": "Ring of Water Walking",
+    "index": "ring-of-the-ram",
+    "name": "Anel do Carneiro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -10586,7 +10482,7 @@
   },
   {
     "index": "staff-of-charming",
-    "name": "Staff of Charming",
+    "name": "Cajado do Encanto",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10606,11 +10502,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10640,7 +10536,7 @@
   },
   {
     "index": "staff-of-fire",
-    "name": "Staff of Fire",
+    "name": "Cajado do Fogo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10660,11 +10556,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10694,7 +10590,7 @@
   },
   {
     "index": "staff-of-frost",
-    "name": "Staff of Frost",
+    "name": "Cajado do Gelo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10714,11 +10610,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10748,7 +10644,7 @@
   },
   {
     "index": "staff-of-healing",
-    "name": "Staff of Healing",
+    "name": "Cajado da Cura",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10768,11 +10664,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10802,7 +10698,7 @@
   },
   {
     "index": "staff-of-power",
-    "name": "Staff of Power",
+    "name": "Cajado do Poder",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10822,11 +10718,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10877,7 +10773,7 @@
   },
   {
     "index": "staff-of-striking",
-    "name": "Staff of Striking",
+    "name": "Cajado do Ataque",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10897,11 +10793,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10933,7 +10829,7 @@
   },
   {
     "index": "staff-of-swarming-insects",
-    "name": "Staff of Swarming Insects",
+    "name": "Cajado do Enxame de Insetos",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -10953,11 +10849,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -10989,7 +10885,7 @@
   },
   {
     "index": "staff-of-thunder-and-lightning",
-    "name": "Staff of Thunder and Lightning",
+    "name": "Cajado do Trovão e Relâmpago",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -11009,11 +10905,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -11030,7 +10926,7 @@
       "damage_dice": "1d8/2d6",
       "damage_type": {
         "index": "bludgeoning/lightning",
-        "name": "Bludgeoning/Lightning"
+        "name": "Contundente/Relâmpago"
       }
     },
     "weapon_range": "Corpo a Corpo",
@@ -11045,7 +10941,7 @@
   },
   {
     "index": "staff-of-withering",
-    "name": "Staff of Withering",
+    "name": "Cajado da Definhação",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -11065,11 +10961,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -11086,7 +10982,7 @@
       "damage_dice": "1d8/2d10",
       "damage_type": {
         "index": "bludgeoning/necrotic",
-        "name": "Bludgeoning/Necrotic"
+        "name": "Contundente/Necrótico"
       }
     },
     "weapon_range": "Corpo a Corpo",
@@ -11101,7 +10997,7 @@
   },
   {
     "index": "staff-of-the-magi",
-    "name": "Staff of the Magi",
+    "name": "Cajado da Magia",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -11121,11 +11017,11 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       },
       {
         "index": "has-charges",
-        "name": "Has Charges"
+        "name": "Tem Cargas"
       }
     ],
     "cost": {
@@ -11164,7 +11060,7 @@
   },
   {
     "index": "staff-of-the-python",
-    "name": "Staff of the Python",
+    "name": "Cajado da Píton",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -11184,7 +11080,7 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -11216,7 +11112,7 @@
   },
   {
     "index": "staff-of-the-woodlands",
-    "name": "Staff of the Woodlands",
+    "name": "Cajado das Florestas",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -11236,7 +11132,7 @@
       },
       {
         "index": "attunement",
-        "name": "attunement"
+        "name": "Precisa de Sintonização"
       }
     ],
     "cost": {
@@ -11275,7 +11171,7 @@
   },
   {
     "index": "wand-of-binding",
-    "name": "Wand of Binding",
+    "name": "Varinha da Ligação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11313,7 +11209,7 @@
   },
   {
     "index": "wand-of-enemy-detection",
-    "name": "Wand of Enemy Detection",
+    "name": "Varinha da Detecção de Inimigos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11351,7 +11247,7 @@
   },
   {
     "index": "wand-of-fear",
-    "name": "Wand of Fear",
+    "name": "Varinha do Medo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11389,7 +11285,7 @@
   },
   {
     "index": "wand-of-fireballs",
-    "name": "Wand of Fireballs",
+    "name": "Varinha das Bolas de Fogo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11427,7 +11323,7 @@
   },
   {
     "index": "wand-of-lightning-bolts",
-    "name": "Wand of Lightning Bolts",
+    "name": "Varinha de Relâmpagos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11465,7 +11361,7 @@
   },
   {
     "index": "wand-of-magic-detection",
-    "name": "Wand of Magic Detection",
+    "name": "Varinha da Detecção Mágica",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11498,7 +11394,7 @@
   },
   {
     "index": "wand-of-magic-missiles",
-    "name": "Wand of Magic Missiles",
+    "name": "Varinha dos Mísseis Mágicos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11531,7 +11427,7 @@
   },
   {
     "index": "wand-of-paralysis",
-    "name": "Wand of Paralysis",
+    "name": "Varinha da Paralisação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11569,7 +11465,7 @@
   },
   {
     "index": "wand-of-polymorph",
-    "name": "Wand of Polymorph",
+    "name": "Varinha da Polimorfia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11607,7 +11503,7 @@
   },
   {
     "index": "wand-of-secrets",
-    "name": "Wand of Secrets",
+    "name": "Varinha dos Segredos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11640,7 +11536,7 @@
   },
   {
     "index": "wand-of-web",
-    "name": "Wand of Web",
+    "name": "Varinha da Teia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11678,7 +11574,7 @@
   },
   {
     "index": "wand-of-wonder",
-    "name": "Wand of Wonder",
+    "name": "Varinha da Maravilha",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11716,7 +11612,7 @@
   },
   {
     "index": "wand-of-the-war-mage-1",
-    "name": "Wand of the War Mage, +1",
+    "name": "Varinha do Mago de Guerra, +1",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11761,7 +11657,7 @@
   },
   {
     "index": "wand-of-the-war-mage-2",
-    "name": "Wand of the War Mage, +2",
+    "name": "Varinha do Mago de Guerra, +2",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11806,7 +11702,7 @@
   },
   {
     "index": "wand-of-the-war-mage-3",
-    "name": "Wand of the War Mage +3",
+    "name": "Varinha do Mago de Guerra, +3",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso",
@@ -11851,7 +11747,7 @@
   },
   {
     "index": "ammunition-1",
-    "name": "Ammunition +1",
+    "name": "Munição +1",
     "equipment_category": {
       "index": "equipment",
       "name": "Equipamento de Aventureiro",
@@ -11885,7 +11781,7 @@
   },
   {
     "index": "ammunition-2",
-    "name": "Ammunition +2",
+    "name": "Munição +2",
     "equipment_category": {
       "index": "equipment",
       "name": "Equipamento de Aventureiro",
@@ -11919,7 +11815,7 @@
   },
   {
     "index": "ammunition-3",
-    "name": "Ammunition +3",
+    "name": "Munição +3",
     "equipment_category": {
       "index": "equipment",
       "name": "Equipamento de Aventureiro",
@@ -11953,7 +11849,7 @@
   },
   {
     "index": "arrow-of-slaying",
-    "name": "Arrow of Slaying",
+    "name": "Flecha da Matança",
     "equipment_category": {
       "index": "equipment",
       "name": "Equipamento de Aventureiro",
@@ -11987,7 +11883,7 @@
   },
   {
     "index": "berserker-battleaxe",
-    "name": "Berserker Battleaxe",
+    "name": "Machado de Batalha do Berserker",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma",
@@ -12038,8 +11934,8 @@
     }
   },
   {
-    "index": "berserker-greateaxe",
-    "name": "Berserker Greataxe",
+    "index": "berserker-greataxe",
+    "name": "Machado Grande do Berserker",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma",
@@ -12087,7 +11983,7 @@
   },
   {
     "index": "berserker-halberd",
-    "name": "Berserker Halberd",
+    "name": "Alabarda do Berserker",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma",
@@ -12142,7 +12038,7 @@
   },
   {
     "index": "dagger-of-venom",
-    "name": "Dagger of Venom",
+    "name": "Adaga do Veneno",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma",
@@ -12198,7 +12094,7 @@
   },
   {
     "index": "dancing-longsword",
-    "name": "Dancing Longsword",
+    "name": "Espada Longa Dançante",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12247,7 +12143,7 @@
   },
   {
     "index": "dancing-shortsword",
-    "name": "Dancing Shortsword",
+    "name": "Espada Curta Dançante",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12296,7 +12192,7 @@
   },
   {
     "index": "dancing-greatsword",
-    "name": "Dancing Greatsword",
+    "name": "Espada Grande Dançante",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12343,7 +12239,7 @@
   },
   {
     "index": "defender-greatsword",
-    "name": "Defender Greatsword",
+    "name": "Espada Grande Defensora",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12392,7 +12288,7 @@
   },
   {
     "index": "defender-shortsword",
-    "name": "Defender Shortsword",
+    "name": "Espada Curta Defensora",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12443,7 +12339,7 @@
   },
   {
     "index": "defender-longsword",
-    "name": "Defender Longsword",
+    "name": "Espada Longa Defensora",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12494,7 +12390,7 @@
   },
   {
     "index": "dragon-slayer-longsword",
-    "name": "Dragon Slayer Longsword",
+    "name": "Espada Longa Matadora de Dragões",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12541,7 +12437,7 @@
   },
   {
     "index": "dragon-slayer-shortsword",
-    "name": "Dragon Slayer Shortsword",
+    "name": "Espada Curta Matadora de Dragões",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12588,7 +12484,7 @@
   },
   {
     "index": "dragon-slayer-greatsword",
-    "name": "Dragon Slayer Greatsword",
+    "name": "Espada Grande Matadora de Dragões",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12631,7 +12527,7 @@
   },
   {
     "index": "dwarven-thrower",
-    "name": "Dwarven Thrower",
+    "name": "Arremessadora dos Anões",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12648,7 +12544,7 @@
       "damage_dice": "1d8/1d8",
       "damage_type": {
         "index": "bludgeoning/force",
-        "name": "Bludgeoning/Force"
+        "name": "Contundente/Energia"
       }
     },
     "range": {
@@ -12683,13 +12579,13 @@
       "damage_dice": "1d10/1d8",
       "damage_type": {
         "index": "bludgeoning/force",
-        "name": "Bludgeoning/Force"
+        "name": "Contundente/Energia"
       }
     }
   },
   {
     "index": "flame-tongue-longsword",
-    "name": "Flame Tongue Longsword",
+    "name": "Espada Longa da Língua de Fogo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12706,7 +12602,7 @@
       "damage_dice": "1d8/2d6",
       "damage_type": {
         "index": "slashing/fire",
-        "name": "Slashing/Fire"
+        "name": "Cortante/Fogo"
       }
     },
     "range": {
@@ -12733,13 +12629,13 @@
       "damage_dice": "1d10/2d6",
       "damage_type": {
         "index": "slashing/fire",
-        "name": "Slashing/Fire"
+        "name": "Cortante/Fogo"
       }
     }
   },
   {
     "index": "flame-tongue-shortsword",
-    "name": "Flame Tongue Shortsword",
+    "name": "Espada Curta da Língua de Fogo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12756,7 +12652,7 @@
       "damage_dice": "1d6/2d6",
       "damage_type": {
         "index": "piercing/fire",
-        "name": "Piercing/Fire"
+        "name": "Perfurante/Fogo"
       }
     },
     "range": {
@@ -12790,7 +12686,7 @@
   },
   {
     "index": "flame-tongue-greatsword",
-    "name": "Flame Tongue Greatsword",
+    "name": "Espada Grande da Língua de Fogo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12807,7 +12703,7 @@
       "damage_dice": "2d6/2d6",
       "damage_type": {
         "index": "slashing/fire",
-        "name": "Slashing/Fire"
+        "name": "Cortante/Fogo"
       }
     },
     "range": {
@@ -12837,7 +12733,7 @@
   },
   {
     "index": "frost-brand-longsword",
-    "name": "Frost Brand Longsword",
+    "name": "Espada Longa da Marca do Gelo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12854,7 +12750,7 @@
       "damage_dice": "1d8/1d6",
       "damage_type": {
         "index": "slashing/cold",
-        "name": "Slashing/Cold"
+        "name": "Cortante/Gelo"
       }
     },
     "range": {
@@ -12881,13 +12777,13 @@
       "damage_dice": "1d10/1d6",
       "damage_type": {
         "index": "slashing/cold",
-        "name": "Slashing/Cold"
+        "name": "Cortante/Gelo"
       }
     }
   },
   {
     "index": "frost-brand-shortsword",
-    "name": "Frost Brand Shortsword",
+    "name": "Espada Curta da Marca do Gelo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12903,7 +12799,7 @@
       "damage_dice": "1d6/1d6",
       "damage_type": {
         "index": "piercing/cold",
-        "name": "Piercing/Cold"
+        "name": "Perfurante/Gelo"
       }
     },
     "range": {
@@ -12937,7 +12833,7 @@
   },
   {
     "index": "frost-brand-greatsword",
-    "name": "Frost Brand Greatsword",
+    "name": "Espada Grande da Marca do Gelo",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -12954,7 +12850,7 @@
       "damage_dice": "2d6/1d6",
       "damage_type": {
         "index": "slashing/cold",
-        "name": "Slashing/Cold"
+        "name": "Cortante/Gelo"
       }
     },
     "range": {
@@ -12984,7 +12880,7 @@
   },
   {
     "index": "giant-slayer-battleaxe",
-    "name": "Giant Slayer Battleaxe",
+    "name": "Machado de Matador de Gigantes",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13030,13 +12926,13 @@
   },
   {
     "index": "hammer-of-thunderbolts",
-    "name": "Hammer of Thunderbolts",
+    "name": "Martelo dos Trovões",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
     },
     "weapon_category": "Marcial",
-    "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. <br><br>Giant's Bane (Requires Attunement). You must be wearing a belt of giant strength (any variety) and gauntlets of ogre power to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die. <br>The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 6.1 metros and a long range of 18.3 metros. If the attack hits, the hammer unleashes a thunderclap audible out to 91.4 metros. The target and every creature within 9.1 metros of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn. Proficiency with a Maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. <br><br>Giant's Bane (Precisa de Sintonização). You must be wearing a belt of giant strength (any variety) and gauntlets of ogre power to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die. <br>The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 6.1 metros and a long range of 18.3 metros. If the attack hits, the hammer unleashes a thunderclap audible out to 91.4 metros. The target and every creature within 9.1 metros of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn. Proficiency with a Maul allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
     "weapon_range": "Corpo a Corpo",
     "category_range": "Marcial Corpo a Corpo",
     "cost": {
@@ -13077,7 +12973,7 @@
   },
   {
     "index": "holy-avenger",
-    "name": "Holy Avenger",
+    "name": "Vingadora Sagrada",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13094,7 +12990,7 @@
       "damage_dice": "2d6/2d10",
       "damage_type": {
         "index": "slashing/radiant",
-        "name": "Slashing/Radiant"
+        "name": "Cortante/Radiante"
       }
     },
     "range": {
@@ -13124,7 +13020,7 @@
   },
   {
     "index": "javelin-of-lightning",
-    "name": "Javelin of Lightning",
+    "name": "Azagaia do Relâmpago",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13141,7 +13037,7 @@
       "damage_dice": "1d6/4d6",
       "damage_type": {
         "index": "piercing/lightning",
-        "name": "Piercing/Lightning"
+        "name": "Perfurante/Relâmpago"
       }
     },
     "range": {
@@ -13171,7 +13067,7 @@
   },
   {
     "index": "luck-blade-longsword",
-    "name": "Luck Blade Longsword",
+    "name": "Espada Longa da Sorte",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13234,7 +13130,7 @@
   },
   {
     "index": "luck-blade-shortsword",
-    "name": "Luck Blade Shortsword",
+    "name": "Espada Curta da Sorte",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13298,7 +13194,7 @@
   },
   {
     "index": "luck-blade-greatsword",
-    "name": "Luck Blade Greatsword",
+    "name": "Espada Grande da Sorte",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13358,7 +13254,7 @@
   },
   {
     "index": "mace-of-disruption",
-    "name": "Mace of Disruption",
+    "name": "Maça da Disrupção",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13375,7 +13271,7 @@
       "damage_dice": "1d6/2d6",
       "damage_type": {
         "index": "bludgeoning/radiant",
-        "name": "Bludgeoning/Radiant"
+        "name": "Contundente/Radiante"
       }
     },
     "range": {
@@ -13399,7 +13295,7 @@
   },
   {
     "index": "mace-of-smiting",
-    "name": "Mace of Smiting",
+    "name": "Maça da Destruição",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13442,7 +13338,7 @@
   },
   {
     "index": "mace-of-terror",
-    "name": "Mace of Terror",
+    "name": "Maça do Terror",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13490,7 +13386,7 @@
   },
   {
     "index": "nine-lives-stealer",
-    "name": "Nine Lives Stealer",
+    "name": "Roubadora das Nove Vidas",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13545,7 +13441,7 @@
   },
   {
     "index": "Oathbow",
-    "name": "Oathbow",
+    "name": "Arco do Juramento",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13592,7 +13488,7 @@
   },
   {
     "index": "scimitar-of-speed",
-    "name": "Scimitar of Speed",
+    "name": "Cimitarra da Velocidade",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13636,7 +13532,7 @@
   },
   {
     "index": "sun-blade",
-    "name": "Sun Blade",
+    "name": "Espada Solar",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13653,7 +13549,7 @@
       "damage_dice": "1d8/1d8",
       "damage_type": {
         "index": "slashing/radiant",
-        "name": "Slashing/Radiant"
+        "name": "Cortante/Radiante"
       }
     },
     "range": {
@@ -13690,7 +13586,7 @@
   },
   {
     "index": "longsword-of-life-stealing",
-    "name": "Longsword of Life Stealing",
+    "name": "Espada Longa do Roubo de Vida",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13741,7 +13637,7 @@
   },
   {
     "index": "shortsword-of-life-stealing",
-    "name": "Shortsword of Life Stealing",
+    "name": "Espada Curta do Roubo de Vida",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13793,7 +13689,7 @@
   },
   {
     "index": "greatsword-of-life-stealing",
-    "name": "Greatsword of Life Stealing",
+    "name": "Espada Grande do Roubo de Vida",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13841,7 +13737,7 @@
   },
   {
     "index": "longsword-of-sharpness",
-    "name": "Longsword of Sharpness",
+    "name": "Espada Longa da Afiação",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13892,7 +13788,7 @@
   },
   {
     "index": "shortsword-of-sharpness",
-    "name": "Shortsword of Sharpness",
+    "name": "Espada Curta da Afiação",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13944,7 +13840,7 @@
   },
   {
     "index": "greatsword-of-sharpness",
-    "name": "Greatsword of Sharpness",
+    "name": "Espada Grande da Afiação",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -13992,7 +13888,7 @@
   },
   {
     "index": "longsword-of-wounding",
-    "name": "Longsword of Wounding",
+    "name": "Espada Longa do Ferimento",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14043,7 +13939,7 @@
   },
   {
     "index": "shortsword-of-wounding",
-    "name": "Shortsword of Wounding",
+    "name": "Espada Curta do Ferimento",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14095,7 +13991,7 @@
   },
   {
     "index": "greatsword-of-wounding",
-    "name": "Greatsword of Wounding",
+    "name": "Espada Grande do Ferimento",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14143,7 +14039,7 @@
   },
   {
     "index": "trident-of-fish-command",
-    "name": "Trident of Fish Command",
+    "name": "Tridente do Comando dos Peixes",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14204,7 +14100,7 @@
   },
   {
     "index": "vorpal-longsword",
-    "name": "Vorpal Longsword",
+    "name": "Espada Longa Vorpal",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14255,7 +14151,7 @@
   },
   {
     "index": "vorpal-shortsword",
-    "name": "Vorpal Shortsword",
+    "name": "Espada Curta Vorpal",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14307,7 +14203,7 @@
   },
   {
     "index": "vorpal-greatsword",
-    "name": "Vorpal Greatsword",
+    "name": "Espada Grande Vorpal",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14355,7 +14251,7 @@
   },
   {
     "index": "vicious-club",
-    "name": "Vicious Club",
+    "name": "Clava Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14396,7 +14292,7 @@
   },
   {
     "index": "vicious-dagger",
-    "name": "Vicious Dagger",
+    "name": "Adaga Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14449,7 +14345,7 @@
   },
   {
     "index": "vicious-greatclub",
-    "name": "Vicious Greatclub",
+    "name": "Clava Grande Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14486,7 +14382,7 @@
   },
   {
     "index": "vicious-handaxe",
-    "name": "Vicious Handaxe",
+    "name": "Machadinha Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14535,7 +14431,7 @@
   },
   {
     "index": "vicious-javelin",
-    "name": "Vicious Javelin",
+    "name": "Azagaia Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14580,7 +14476,7 @@
   },
   {
     "index": "vicious-light-hammer",
-    "name": "Vicious Light hammer",
+    "name": "Martelo Leve Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14629,7 +14525,7 @@
   },
   {
     "index": "vicious-mace",
-    "name": "Vicious Mace",
+    "name": "Maça Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14666,7 +14562,7 @@
   },
   {
     "index": "vicious-quarterstaff",
-    "name": "Vicious Quarterstaff",
+    "name": "Bastão Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14714,7 +14610,7 @@
   },
   {
     "index": "vicious-sickle",
-    "name": "Vicious Sickle",
+    "name": "Foice Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14755,7 +14651,7 @@
   },
   {
     "index": "vicious-spear",
-    "name": "Vicious Spear",
+    "name": "Lança Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14811,7 +14707,7 @@
   },
   {
     "index": "vicious-crossbow-light",
-    "name": "Vicious Crossbow, light",
+    "name": "Besta Viciosa, Leve",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14857,7 +14753,7 @@
   },
   {
     "index": "vicious-dart",
-    "name": "Vicious Dart",
+    "name": "Dardo Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14903,7 +14799,7 @@
   },
   {
     "index": "vicious-shortbow",
-    "name": "Vicious Shortbow",
+    "name": "Arco Curto Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14945,7 +14841,7 @@
   },
   {
     "index": "vicious-sling",
-    "name": "Vicious Sling",
+    "name": "Funda Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -14983,7 +14879,7 @@
   },
   {
     "index": "vicious-battleaxe",
-    "name": "Vicious Battleaxe",
+    "name": "Machado de Batalha Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15027,7 +14923,7 @@
   },
   {
     "index": "vicious-flail",
-    "name": "Vicious Flail",
+    "name": "Mangual Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15059,7 +14955,7 @@
   },
   {
     "index": "vicious-glaive",
-    "name": "Vicious Glaive",
+    "name": "Glaive Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15104,7 +15000,7 @@
   },
   {
     "index": "vicious-greataxe",
-    "name": "Vicious Greataxe",
+    "name": "Machado Grande Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15145,7 +15041,7 @@
   },
   {
     "index": "vicious-greatsword",
-    "name": "Vicious Greatsword",
+    "name": "Espada Grande Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15186,7 +15082,7 @@
   },
   {
     "index": "vicious-halberd",
-    "name": "Vicious Halberd",
+    "name": "Alabarda Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15231,7 +15127,7 @@
   },
   {
     "index": "vicious-lance",
-    "name": "Vicious Lance",
+    "name": "Lança de Cavalaria Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15275,7 +15171,7 @@
   },
   {
     "index": "vicious-longsword",
-    "name": "Vicious Longsword",
+    "name": "Espada Longa Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15319,7 +15215,7 @@
   },
   {
     "index": "vicious-maul",
-    "name": "Vicious Maul",
+    "name": "Malho Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15360,7 +15256,7 @@
   },
   {
     "index": "vicious-morningstar",
-    "name": "Vicious Morningstar",
+    "name": "Malha Estrelar Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15391,53 +15287,8 @@
     "properties": []
   },
   {
-    "index": "pike",
-    "name": "Pike",
-    "equipment_category": {
-      "index": "weapon",
-      "name": "Arma"
-    },
-    "weapon_category": "Marcial",
-    "description": "When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.",
-    "weapon_range": "Corpo a Corpo",
-    "category_range": "Marcial Corpo a Corpo",
-    "cost": {
-      "quantity": 5,
-      "unit": "po"
-    },
-    "damage": {
-      "damage_dice": "1d10",
-      "damage_type": {
-        "index": "piercing",
-        "name": "Perfurante"
-      }
-    },
-    "range": {
-      "normal": 1.5
-    },
-    "weight": 18,
-    "rarity": {
-      "index": "rare",
-      "name": "Raro"
-    },
-    "properties": [
-      {
-        "index": "heavy",
-        "name": "Pesada"
-      },
-      {
-        "index": "reach",
-        "name": "Alcance"
-      },
-      {
-        "index": "two-handed",
-        "name": "Duas Mãos"
-      }
-    ]
-  },
-  {
     "index": "vicious-rapier",
-    "name": "Vicious Rapier",
+    "name": "Rapieira Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15474,7 +15325,7 @@
   },
   {
     "index": "vicious-scimitar",
-    "name": "Vicious Scimitar",
+    "name": "Cimitarra Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15515,7 +15366,7 @@
   },
   {
     "index": "vicious-shortsword",
-    "name": "Vicious Shortsword",
+    "name": "Espada Curta Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15560,7 +15411,7 @@
   },
   {
     "index": "vicious-trident",
-    "name": "Vicious Trident",
+    "name": "Tridente Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15612,7 +15463,7 @@
   },
   {
     "index": "vicious-war-pick",
-    "name": "Vicious War pick",
+    "name": "Maça de Guerra Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15644,7 +15495,7 @@
   },
   {
     "index": "vicious-warhammer",
-    "name": "Vicious Warhammer",
+    "name": "Maça de Guerra Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15688,7 +15539,7 @@
   },
   {
     "index": "vicious-whip",
-    "name": "Vicious Whip",
+    "name": "Chicote Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15729,7 +15580,7 @@
   },
   {
     "index": "vicious-blowgun",
-    "name": "Vicious Blowgun",
+    "name": "Zarabatana Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15771,7 +15622,7 @@
   },
   {
     "index": "vicious-crossbow-hand",
-    "name": "Vicious Crossbow, hand",
+    "name": "Besta de Mão Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15817,7 +15668,7 @@
   },
   {
     "index": "vicious-crossbow-heavy",
-    "name": "Vicious Crossbow, heavy",
+    "name": "Besta Viciosa, Pesada",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15867,7 +15718,7 @@
   },
   {
     "index": "vicious-longbow",
-    "name": "Vicious Longbow",
+    "name": "Arco Longo Vicioso",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15913,7 +15764,7 @@
   },
   {
     "index": "vicious-net",
-    "name": "Vicious Net",
+    "name": "Rede Viciosa",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15955,7 +15806,7 @@
   },
   {
     "index": "club-1",
-    "name": "Club +1",
+    "name": "Clava +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -15998,7 +15849,7 @@
   },
   {
     "index": "dagger-1",
-    "name": "Dagger, +1",
+    "name": "Adaga, +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16053,7 +15904,7 @@
   },
   {
     "index": "greatclub-1",
-    "name": "Greatclub +1",
+    "name": "Clava Grande +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16092,7 +15943,7 @@
   },
   {
     "index": "handaxe-1",
-    "name": "Handaxe +1",
+    "name": "Machadinha +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16143,7 +15994,7 @@
   },
   {
     "index": "javelin-1",
-    "name": "Javelin +1",
+    "name": "Azagaia +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16190,7 +16041,7 @@
   },
   {
     "index": "light-hammer-1",
-    "name": "Light hammer +1",
+    "name": "Martelo Leve +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16241,7 +16092,7 @@
   },
   {
     "index": "mace-1",
-    "name": "Mace +1",
+    "name": "Maça +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16280,7 +16131,7 @@
   },
   {
     "index": "quarterstaff-1",
-    "name": "Quarterstaff +1",
+    "name": "Bastão +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16330,7 +16181,7 @@
   },
   {
     "index": "sickle-1",
-    "name": "Sickle +1",
+    "name": "Foice +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16373,7 +16224,7 @@
   },
   {
     "index": "spear-1",
-    "name": "Spear +1",
+    "name": "Lança +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16431,7 +16282,7 @@
   },
   {
     "index": "crossbow-light-1",
-    "name": "Crossbow, light +1",
+    "name": "Besta, Leve +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16479,7 +16330,7 @@
   },
   {
     "index": "dart-1",
-    "name": "Dart +1",
+    "name": "Dardo +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16527,7 +16378,7 @@
   },
   {
     "index": "shortbow-1",
-    "name": "Shortbow +1",
+    "name": "Arco Curto +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16571,7 +16422,7 @@
   },
   {
     "index": "sling-1",
-    "name": "Sling +1",
+    "name": "Funda +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16611,7 +16462,7 @@
   },
   {
     "index": "battleaxe-1",
-    "name": "Battleaxe +1",
+    "name": "Machado de Batalha +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16657,7 +16508,7 @@
   },
   {
     "index": "flail-1",
-    "name": "Flail +1",
+    "name": "Mangual +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16738,7 +16589,7 @@
   },
   {
     "index": "greataxe-1",
-    "name": "Greataxe +1",
+    "name": "Machado Grande +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16781,7 +16632,7 @@
   },
   {
     "index": "greatsword-1",
-    "name": "Greatsword +1",
+    "name": "Espada Grande +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16824,7 +16675,7 @@
   },
   {
     "index": "halberd-1",
-    "name": "Halberd +1",
+    "name": "Alabarda +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16871,7 +16722,7 @@
   },
   {
     "index": "lance-1",
-    "name": "Lance +1",
+    "name": "Lança de Cavalaria +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16917,7 +16768,7 @@
   },
   {
     "index": "longsword-1",
-    "name": "Longsword +1",
+    "name": "Espada Longa +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -16963,7 +16814,7 @@
   },
   {
     "index": "maul-1",
-    "name": "Maul +1",
+    "name": "Malho +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17006,7 +16857,7 @@
   },
   {
     "index": "morningstar-1",
-    "name": "Morningstar +1",
+    "name": "Maça Estrela +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17040,7 +16891,7 @@
   },
   {
     "index": "pike-1",
-    "name": "Pike +1",
+    "name": "Pique +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17087,7 +16938,7 @@
   },
   {
     "index": "rapier-1",
-    "name": "Rapier +1",
+    "name": "Rapieira +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17126,7 +16977,7 @@
   },
   {
     "index": "scimitar-1",
-    "name": "Scimitar +1",
+    "name": "Cimitarra +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17169,7 +17020,7 @@
   },
   {
     "index": "shortsword-1",
-    "name": "Shortsword +1",
+    "name": "Espada Curto +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17216,7 +17067,7 @@
   },
   {
     "index": "trident-1",
-    "name": "Trident +1",
+    "name": "Tridente +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17270,7 +17121,7 @@
   },
   {
     "index": "war-pick-1",
-    "name": "War pick +1",
+    "name": "Maça de Guerra +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17304,7 +17155,7 @@
   },
   {
     "index": "warhammer-1",
-    "name": "Warhammer +1",
+    "name": "Martelo de Guerra +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17350,7 +17201,7 @@
   },
   {
     "index": "whip-1",
-    "name": "Whip +1",
+    "name": "Chicote +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17393,7 +17244,7 @@
   },
   {
     "index": "blowgun-1",
-    "name": "Blowgun +1",
+    "name": "Zarabatana +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17437,7 +17288,7 @@
   },
   {
     "index": "crossbow-hand-1",
-    "name": "Crossbow, hand +1",
+    "name": "Besta de Mão +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17485,7 +17336,7 @@
   },
   {
     "index": "crossbow-heavy-1",
-    "name": "Crossbow, heavy +1",
+    "name": "Besta, Pesada +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17537,7 +17388,7 @@
   },
   {
     "index": "longbow-1",
-    "name": "Longbow +1",
+    "name": "Arco Longo +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17585,7 +17436,7 @@
   },
   {
     "index": "net-1",
-    "name": "Net +1",
+    "name": "Rede +1",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17629,7 +17480,7 @@
   },
   {
     "index": "club-2",
-    "name": "Club +2",
+    "name": "Clava +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17672,7 +17523,7 @@
   },
   {
     "index": "dagger-2",
-    "name": "Dagger +2",
+    "name": "Adaga +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17727,7 +17578,7 @@
   },
   {
     "index": "greatclub-2",
-    "name": "Greatclub +2",
+    "name": "Clava Grande +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17766,7 +17617,7 @@
   },
   {
     "index": "handaxe-2",
-    "name": "Handaxe +2",
+    "name": "Machadinha +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17817,7 +17668,7 @@
   },
   {
     "index": "javelin-2",
-    "name": "Javelin +2",
+    "name": "Azagaia +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17864,7 +17715,7 @@
   },
   {
     "index": "light-hammer-2",
-    "name": "Light hammer +2",
+    "name": "Martelo Leve +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17915,7 +17766,7 @@
   },
   {
     "index": "mace-2",
-    "name": "Mace +2",
+    "name": "Maça +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -17954,7 +17805,7 @@
   },
   {
     "index": "quarterstaff-2",
-    "name": "Quarterstaff +2",
+    "name": "Bastão +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18004,7 +17855,7 @@
   },
   {
     "index": "sickle-2",
-    "name": "Sickle +2",
+    "name": "Foice +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18047,7 +17898,7 @@
   },
   {
     "index": "spear-2",
-    "name": "Spear +2",
+    "name": "Lança +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18105,7 +17956,7 @@
   },
   {
     "index": "crossbow-light-2",
-    "name": "Crossbow, light +2",
+    "name": "Besta, Leve +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18153,7 +18004,7 @@
   },
   {
     "index": "dart-2",
-    "name": "Dart +2",
+    "name": "Dardo +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18201,7 +18052,7 @@
   },
   {
     "index": "shortbow-2",
-    "name": "Shortbow +2",
+    "name": "Arco Curto +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18245,7 +18096,7 @@
   },
   {
     "index": "sling-2",
-    "name": "Sling +2",
+    "name": "Funda +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18285,7 +18136,7 @@
   },
   {
     "index": "battleaxe-2",
-    "name": "Battleaxe +2",
+    "name": "Machado de Batalha +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18331,7 +18182,7 @@
   },
   {
     "index": "flail-2",
-    "name": "Flail +2",
+    "name": "Mangual +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18412,7 +18263,7 @@
   },
   {
     "index": "greataxe-2",
-    "name": "Greataxe +2",
+    "name": "Machado Grande +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18455,7 +18306,7 @@
   },
   {
     "index": "greatsword-2",
-    "name": "Greatsword +2",
+    "name": "Espada Grande +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18498,7 +18349,7 @@
   },
   {
     "index": "halberd-2",
-    "name": "Halberd +2",
+    "name": "Alabarda +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18545,7 +18396,7 @@
   },
   {
     "index": "lance-2",
-    "name": "Lance +2",
+    "name": "Lança de Cavalaria +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18591,7 +18442,7 @@
   },
   {
     "index": "longsword-2",
-    "name": "Longsword +2",
+    "name": "Espada Longa +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18637,7 +18488,7 @@
   },
   {
     "index": "maul-2",
-    "name": "Maul +2",
+    "name": "Malho +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18680,7 +18531,7 @@
   },
   {
     "index": "morningstar-2",
-    "name": "Morningstar +2",
+    "name": "Maça Estrela +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18714,7 +18565,7 @@
   },
   {
     "index": "pike-2",
-    "name": "Pike +2",
+    "name": "Pique +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18761,7 +18612,7 @@
   },
   {
     "index": "rapier-2",
-    "name": "Rapier +2",
+    "name": "Rapieira +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18800,7 +18651,7 @@
   },
   {
     "index": "scimitar-2",
-    "name": "Scimitar +2",
+    "name": "Cimitarra +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18843,7 +18694,7 @@
   },
   {
     "index": "shortsword-2",
-    "name": "Shortsword +2",
+    "name": "Espada Curta +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18890,7 +18741,7 @@
   },
   {
     "index": "trident-2",
-    "name": "Trident +2",
+    "name": "Tridente +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18944,7 +18795,7 @@
   },
   {
     "index": "war-pick-2",
-    "name": "War pick +2",
+    "name": "Maça de Guerra +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -18978,7 +18829,7 @@
   },
   {
     "index": "warhammer-2",
-    "name": "Warhammer +2",
+    "name": "Martelo de Guerra +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19024,7 +18875,7 @@
   },
   {
     "index": "whip-2",
-    "name": "Whip +2",
+    "name": "Chicote +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19067,7 +18918,7 @@
   },
   {
     "index": "blowgun-2",
-    "name": "Blowgun +2",
+    "name": "Zarabatana +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19111,7 +18962,7 @@
   },
   {
     "index": "crossbow-hand-2",
-    "name": "Crossbow, hand +2",
+    "name": "Besta de Mão +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19159,7 +19010,7 @@
   },
   {
     "index": "crossbow-heavy-2",
-    "name": "Crossbow, heavy +2",
+    "name": "Besta, Pesada +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19211,7 +19062,7 @@
   },
   {
     "index": "longbow-2",
-    "name": "Longbow +2",
+    "name": "Arco Longo +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19259,7 +19110,7 @@
   },
   {
     "index": "net-2",
-    "name": "Net +2",
+    "name": "Rede +2",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19303,7 +19154,7 @@
   },
   {
     "index": "club-3",
-    "name": "Club +3",
+    "name": "Clava +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19346,7 +19197,7 @@
   },
   {
     "index": "dagger-3",
-    "name": "Dagger +3",
+    "name": "Adaga +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19401,7 +19252,7 @@
   },
   {
     "index": "greatclub-3",
-    "name": "Greatclub +3",
+    "name": "Clava Grande +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19440,7 +19291,7 @@
   },
   {
     "index": "handaxe-3",
-    "name": "Handaxe +3",
+    "name": "Machadinha +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19491,7 +19342,7 @@
   },
   {
     "index": "javelin-3",
-    "name": "Javelin +3",
+    "name": "Azagaia +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19538,7 +19389,7 @@
   },
   {
     "index": "light-hammer-3",
-    "name": "Light hammer +3",
+    "name": "Martelo Leve +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19589,7 +19440,7 @@
   },
   {
     "index": "mace-3",
-    "name": "Mace +3",
+    "name": "Maça +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19628,7 +19479,7 @@
   },
   {
     "index": "quarterstaff-3",
-    "name": "Quarterstaff +3",
+    "name": "Bastão +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19678,7 +19529,7 @@
   },
   {
     "index": "sickle-3",
-    "name": "Sickle +3",
+    "name": "Foice +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19721,7 +19572,7 @@
   },
   {
     "index": "spear-3",
-    "name": "Spear +3",
+    "name": "Lança +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19779,7 +19630,7 @@
   },
   {
     "index": "crossbow-light-3",
-    "name": "Crossbow, light +3",
+    "name": "Besta, Leve +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19827,7 +19678,7 @@
   },
   {
     "index": "dart-3",
-    "name": "Dart +3",
+    "name": "Dardo +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19875,7 +19726,7 @@
   },
   {
     "index": "shortbow-3",
-    "name": "Shortbow +3",
+    "name": "Arco Curto +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19919,7 +19770,7 @@
   },
   {
     "index": "sling-3",
-    "name": "Sling +3",
+    "name": "Funda +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -19959,7 +19810,7 @@
   },
   {
     "index": "battleaxe-3",
-    "name": "Battleaxe +3",
+    "name": "Machado de Batalha +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20005,7 +19856,7 @@
   },
   {
     "index": "flail-3",
-    "name": "Flail +3",
+    "name": "Mangual +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20086,7 +19937,7 @@
   },
   {
     "index": "greataxe-3",
-    "name": "Greataxe +3",
+    "name": "Machado Grande +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20129,7 +19980,7 @@
   },
   {
     "index": "greatsword-3",
-    "name": "Greatsword +3",
+    "name": "Espada Grande +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20172,7 +20023,7 @@
   },
   {
     "index": "halberd-3",
-    "name": "Halberd +3",
+    "name": "Mangual +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20219,7 +20070,7 @@
   },
   {
     "index": "lance-3",
-    "name": "Lance +3",
+    "name": "Lança de Cavalaria +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20265,7 +20116,7 @@
   },
   {
     "index": "longsword-3",
-    "name": "Longsword +3",
+    "name": "Espada Longa +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20311,7 +20162,7 @@
   },
   {
     "index": "maul-3",
-    "name": "Maul +3",
+    "name": "Malho +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20354,7 +20205,7 @@
   },
   {
     "index": "morningstar-3",
-    "name": "Morningstar +3",
+    "name": "Maça Estrela +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20388,7 +20239,7 @@
   },
   {
     "index": "pike-3",
-    "name": "Pike +3",
+    "name": "Pique +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20435,7 +20286,7 @@
   },
   {
     "index": "rapier-3",
-    "name": "Rapier +3",
+    "name": "Rapieira +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20474,7 +20325,7 @@
   },
   {
     "index": "scimitar-3",
-    "name": "Scimitar +3",
+    "name": "Cimitarra +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20517,7 +20368,7 @@
   },
   {
     "index": "shortsword-3",
-    "name": "Shortsword +3",
+    "name": "Espada Curta +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20564,7 +20415,7 @@
   },
   {
     "index": "trident-3",
-    "name": "Trident +3",
+    "name": "Tridente +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20618,7 +20469,7 @@
   },
   {
     "index": "war-pick-3",
-    "name": "War pick +3",
+    "name": "Maça de Guerra +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20652,7 +20503,7 @@
   },
   {
     "index": "warhammer-3",
-    "name": "Warhammer +3",
+    "name": "Martelo de Guerra +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20698,7 +20549,7 @@
   },
   {
     "index": "whip-3",
-    "name": "Whip +3",
+    "name": "Chicote +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20741,7 +20592,7 @@
   },
   {
     "index": "blowgun-3",
-    "name": "Blowgun +3",
+    "name": "Zarabatana +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20785,7 +20636,7 @@
   },
   {
     "index": "crossbow-hand-3",
-    "name": "Crossbow, hand +3",
+    "name": "Besta de Mão +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20833,7 +20684,7 @@
   },
   {
     "index": "crossbow-heavy-3",
-    "name": "Crossbow, heavy +3",
+    "name": "Besta, Pesada +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20885,7 +20736,7 @@
   },
   {
     "index": "longbow-3",
-    "name": "Longbow +3",
+    "name": "Arco Longo +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20933,7 +20784,7 @@
   },
   {
     "index": "net-3",
-    "name": "Net +3",
+    "name": "Rede +3",
     "equipment_category": {
       "index": "weapon",
       "name": "Arma"
@@ -20977,7 +20828,7 @@
   },
   {
     "index": "amulet-of-health",
-    "name": "Amulet of Health",
+    "name": "Amuleto da Saúde",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -20988,7 +20839,7 @@
     },
     "description": [
       "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -21009,7 +20860,7 @@
   },
   {
     "index": "amulet-of-proof-against-detection-and-location",
-    "name": "Amulet of Proof against Detection and Location",
+    "name": "Amuleto de Proteção contra Detecção e Localização",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21020,7 +20871,7 @@
     },
     "description": [
       "While wearing this amulet, you can’t be targeted by Divination spells or perceived through magical scrying sensors unless you allow it.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -21041,7 +20892,7 @@
   },
   {
     "index": "amulet-of-the-planes",
-    "name": "Amulet of the Planes",
+    "name": "Amuleto dos Planos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21052,7 +20903,7 @@
     },
     "description": [
       "While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the plane shift spell. On a failure, you and each creature and object within 4.6 metros of you travel to a random destination. Roll a d100. On a 1–60, you travel to a random location on the plane you named. On a 61–100, you travel to a randomly determined plane of existence.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -21073,7 +20924,7 @@
   },
   {
     "index": "apparatus-of-the-crab",
-    "name": "Apparatus of the Crab",
+    "name": "Aparelho do Caranguejo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21084,7 +20935,7 @@
     },
     "description": [
       "This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster. The apparatus of the Crab is a Large object with the following statistics:<br><br>Armor Class: 20<br>Hit Points: 200<br>Speed: 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail aren't extended)<br>Damage Immunities: poison, psychic<br><br>To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.The apparatus floats on water. It can also go underwater to a depth of 274.3 metros. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure.A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of the Crab Levers table.<br><br>Apparatus of the Crab Levers<br>1 - Legs and tail extend, allowing the apparatus to walk and swim. - Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed.<br>2 - Forward window shutter opens. - Forward window shutter closes.<br>3 - Side window shutters open (two per side). - Side window shutters close (two per side).<br>4 - Two claws extend from the front sides of the apparatus. - The claws retract.<br>5 - Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage. - Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 15).<br>6 - The apparatus walks or swims forward. - The apparatus walks or swims backward.<br>7 - The apparatus turns 90 degrees left. - The apparatus turns 90 degrees right.<br>8 - Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 9.1 metros. - The light turns off.<br>9 - The apparatus sinks as much as 6.1 metros in liquid. - The apparatus rises up to 6.1 metros in liquid.<br>10 - The rear hatch unseals and opens. - The rear hatch closes and seals.",
-      "Requires attunement."
+      "Precisa de Sintonização."
     ],
     "properties": [
       {
@@ -21105,7 +20956,7 @@
   },
   {
     "index": "bag-of-beans",
-    "name": "Bag of Beans",
+    "name": "Bolsa de Feijões",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21131,7 +20982,7 @@
   },
   {
     "index": "bag-of-devouring",
-    "name": "Bag of Devouring",
+    "name": "Bolsa Devoradora",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21156,8 +21007,8 @@
     }
   },
   {
-    "index": "bag-of-devouring",
-    "name": "Bag of Devouring",
+    "index": "bag-of-holding",
+    "name": "Bolsa de Contenção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21183,7 +21034,7 @@
   },
   {
     "index": "bag-of-tricks",
-    "name": "Bag of Tricks",
+    "name": "Bolsa de Truques",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21209,7 +21060,7 @@
   },
   {
     "index": "bead-of-force",
-    "name": "Bead of Force",
+    "name": "Esfera de Energia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21235,7 +21086,7 @@
   },
   {
     "index": "belt-of-dwarvenkind",
-    "name": "Belt of Dwarvenkind",
+    "name": "Cinto da Raça Anão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21256,7 +21107,7 @@
     "bonus": [
       {
         "category": "skills",
-        "key": "Persuasion",
+        "key": "Persuasão",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -21274,7 +21125,7 @@
   },
   {
     "index": "belt-of-giant-strength",
-    "name": "Belt of Giant Strength",
+    "name": "Cinto da Força de Gigante",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21305,7 +21156,7 @@
   },
   {
     "index": "boots-of-elvenkind",
-    "name": "Boots of Elvenkind",
+    "name": "Botas da Raça Elfo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21321,7 +21172,7 @@
     "bonus": [
       {
         "category": "skills",
-        "key": "Stealth",
+        "key": "Furtividade",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -21339,7 +21190,7 @@
   },
   {
     "index": "boots-of-levitation",
-    "name": "Boots of Levitation",
+    "name": "Botas de Levitação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21370,7 +21221,7 @@
   },
   {
     "index": "boots-of-speed",
-    "name": "Boots of Speed",
+    "name": "Botas da Velocidade",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21401,7 +21252,7 @@
   },
   {
     "index": "boots-of-striding-and-springing",
-    "name": "Boots of Striding and Springing",
+    "name": "Botas de Passos e Saltos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21432,7 +21283,7 @@
   },
   {
     "index": "boots-of-the-winterlands",
-    "name": "Boots of the Winterlands",
+    "name": "Botas das Terras do Inverno",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21463,7 +21314,7 @@
   },
   {
     "index": "bowl-of-command-water-elementals",
-    "name": "Bowl of Command Water Elementals",
+    "name": "Tigela do Comando de Elementais da Água",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21489,7 +21340,7 @@
   },
   {
     "index": "bracers-of-archery",
-    "name": "Bracers of Archery",
+    "name": "Braceletes da Arquearia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21527,7 +21378,7 @@
   },
   {
     "index": "bracers-of-defense",
-    "name": "Bracers of Defense",
+    "name": "Braceletes da Defesa",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21565,7 +21416,7 @@
   },
   {
     "index": "brazier-of-commanding-fire-elementals",
-    "name": "Brazier of Commanding Fire Elementals",
+    "name": "Braseiro do Comando de Elementais do Fogo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21591,7 +21442,7 @@
   },
   {
     "index": "brooch-of-shielding",
-    "name": "Brooch of Shielding",
+    "name": "Broche da Proteção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21622,7 +21473,7 @@
   },
   {
     "index": "broom-of-flying",
-    "name": "Broom of Flying",
+    "name": "Vassoura de Voo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21648,7 +21499,7 @@
   },
   {
     "index": "candle-of-invocation",
-    "name": "Candle of Invocation",
+    "name": "Vela da Invocação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21679,7 +21530,7 @@
   },
   {
     "index": "cape-of-the-mountebank",
-    "name": "Cape of the Mountebank",
+    "name": "Capa do Charlatão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21705,7 +21556,7 @@
   },
   {
     "index": "carpet-of-flying",
-    "name": "Carpet of Flying",
+    "name": "Carpete de Vôo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21731,7 +21582,7 @@
   },
   {
     "index": "censer-of-controlling-air-elementals",
-    "name": "Censer of Controlling Air Elementals",
+    "name": "Incensário de Controle de Elementais do Ar",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21757,7 +21608,7 @@
   },
   {
     "index": "chime-of-opening",
-    "name": "Chime of Opening",
+    "name": "Carrilhão de Abertura",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21783,7 +21634,7 @@
   },
   {
     "index": "circlet-of-blasting",
-    "name": "Circlet of Blasting",
+    "name": "Diadema de Explosão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21809,7 +21660,7 @@
   },
   {
     "index": "cloak-of-arachnida",
-    "name": "Cloak of Arachnida",
+    "name": "Capa de Aracnídia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21840,7 +21691,7 @@
   },
   {
     "index": "cloak-of-displacement",
-    "name": "Cloak of Displacement",
+    "name": "Capa do Deslocamento",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21871,7 +21722,7 @@
   },
   {
     "index": "cloak-of-elvenkind",
-    "name": "Cloak of Elvenkind",
+    "name": "Capa do Povo Élfico",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21892,7 +21743,7 @@
     "bonus": [
       {
         "category": "skills",
-        "key": "Stealth",
+        "key": "Furtividade",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -21910,7 +21761,7 @@
   },
   {
     "index": "cloak-of-the-bat",
-    "name": "Cloak of the Bat",
+    "name": "Capa do Morcego",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21931,7 +21782,7 @@
     "bonus": [
       {
         "category": "skills",
-        "key": "Stealth",
+        "key": "Furtividade",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -21949,7 +21800,7 @@
   },
   {
     "index": "cloak-of-the-manta-ray",
-    "name": "Cloak of the Manta Ray",
+    "name": "Manto da Arraia-Manta",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -21975,7 +21826,7 @@
   },
   {
     "index": "crystal-ball",
-    "name": "Crystal Ball",
+    "name": "Bola de Cristal",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22001,7 +21852,7 @@
   },
   {
     "index": "cube-of-force",
-    "name": "Cube of Force",
+    "name": "Cubo de Força",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22027,7 +21878,7 @@
   },
   {
     "index": "cubic-gate",
-    "name": "Cubic Gate",
+    "name": "Cubo dos Portais",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22053,7 +21904,7 @@
   },
   {
     "index": "decanter-of-endless-water",
-    "name": "Decanter of Endless Water",
+    "name": "Decantador de Água Infinita",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22079,7 +21930,7 @@
   },
   {
     "index": "deck-of-Illusions",
-    "name": "Deck of Illusions",
+    "name": "Baralho de Ilusões",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22104,8 +21955,8 @@
     }
   },
   {
-    "index": "deck-of-Illusions",
-    "name": "Deck of Illusions",
+    "index": "deck-of-many-things",
+    "name": "Baralho das Muitas Coisas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22131,7 +21982,7 @@
   },
   {
     "index": "dimensional-shackles",
-    "name": "Dimensional Shackles",
+    "name": "Correntes Dimensionais",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22157,7 +22008,7 @@
   },
   {
     "index": "dust-of-disappearance",
-    "name": "Dust of Disappearance",
+    "name": "Pó do Desaparecimento",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22183,7 +22034,7 @@
   },
   {
     "index": "dust-of-dryness",
-    "name": "Dust of Dryness",
+    "name": "Pó da Secura",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22214,7 +22065,7 @@
   },
   {
     "index": "dust-of-sneezing-and-choking",
-    "name": "Dust of Sneezing and Choking",
+    "name": "Pó da Tosse e do Espirro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22240,7 +22091,7 @@
   },
   {
     "index": "efficient-quiver",
-    "name": "Efficient Quiver",
+    "name": "Aljava Eficiente",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22266,7 +22117,7 @@
   },
   {
     "index": "efreeti-bottle",
-    "name": "Efreeti Bottle",
+    "name": "Garrafa do Efreeti",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22292,7 +22143,7 @@
   },
   {
     "index": "elemental-gem",
-    "name": "Elemental Gem",
+    "name": "Gema Elemental",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22318,7 +22169,7 @@
   },
   {
     "index": "eversmoking-bottle",
-    "name": "Eversmoking Bottle",
+    "name": "Garrafa do Fumo Perpétuo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22344,7 +22195,7 @@
   },
   {
     "index": "eyes-of-charming",
-    "name": "Eyes of Charming",
+    "name": "Olhos do Encantamento",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22380,7 +22231,7 @@
   },
   {
     "index": "eyes-of-minute-seeing",
-    "name": "Eyes of Minute Seeing",
+    "name": "Olhos da Visão Minúscula",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22402,7 +22253,7 @@
       },
       {
         "category": "skills",
-        "key": "Investigation",
+        "key": "Investigação",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -22419,8 +22270,8 @@
     }
   },
   {
-    "index": "eyes-of-the-eagle",
-    "name": "Eyes of the Eagle",
+    "index": "rod-of-alertness",
+    "name": "Olhos da Águia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22447,7 +22298,7 @@
       },
       {
         "category": "skills",
-        "key": "Perception",
+        "key": "Percepção",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -22465,7 +22316,7 @@
   },
   {
     "index": "feather-token",
-    "name": "Feather Token",
+    "name": "Token de Penas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22491,7 +22342,7 @@
   },
   {
     "index": "folding-boat",
-    "name": "Folding Boat",
+    "name": "Barco Dobrável",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22517,7 +22368,7 @@
   },
   {
     "index": "gauntlets-of-ogre-power",
-    "name": "Gauntlets of Ogre Power",
+    "name": "Manoplas do Poder do Ogro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22543,7 +22394,7 @@
   },
   {
     "index": "gem-of-brightness",
-    "name": "Gem of Brightness",
+    "name": "Gema do Brilho",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22569,7 +22420,7 @@
   },
   {
     "index": "gem-of-seeing",
-    "name": "Gem of Seeing",
+    "name": "Gema da Visão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22605,7 +22456,7 @@
   },
   {
     "index": "gloves-of-missile-snaring",
-    "name": "Gloves of Missile Snaring",
+    "name": "Luvas do Desvio de Projéteis",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22636,7 +22487,7 @@
   },
   {
     "index": "gloves-of-swimming-and-climbing",
-    "name": "Gloves of Swimming and Climbing",
+    "name": "Luvas de Natação e Escalada",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22667,7 +22518,7 @@
   },
   {
     "index": "goggles-of-night",
-    "name": "Goggles of Night",
+    "name": "Óculos da Noite",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22693,7 +22544,7 @@
   },
   {
     "index": "handy-haversack",
-    "name": "Handy Haversack",
+    "name": "Mochila Útil",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22719,7 +22570,7 @@
   },
   {
     "index": "hat-of-disguise",
-    "name": "Hat of Disguise",
+    "name": "Chapéu de Disfarce",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22750,7 +22601,7 @@
   },
   {
     "index": "headband-of-intellect",
-    "name": "Headband of Intellect",
+    "name": "Bandana do Intelecto",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22781,7 +22632,7 @@
   },
   {
     "index": "helm-of-brilliance",
-    "name": "Helm of Brilliance",
+    "name": "Elmo do Brilho",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22812,7 +22663,7 @@
   },
   {
     "index": "helm-of-comprehending-languages",
-    "name": "Helm of Comprehending Languages",
+    "name": "Elmo do Compreensão de Idiomas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22838,7 +22689,7 @@
   },
   {
     "index": "helm-of-telepathy",
-    "name": "Helm of Telepathy",
+    "name": "Elmo de Telepatia",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22874,7 +22725,7 @@
   },
   {
     "index": "helm-of-teleportation",
-    "name": "Helm of Teleportation",
+    "name": "Elmo de Teletransporte",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22910,7 +22761,7 @@
   },
   {
     "index": "horn-of-blasting",
-    "name": "Horn of Blasting",
+    "name": "Chifre de Explosão",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22936,7 +22787,7 @@
   },
   {
     "index": "horn-of-valhalla-silver",
-    "name": "Horn of Valhalla (Silver)",
+    "name": "Chifre de Valhalla (Prata)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22962,7 +22813,7 @@
   },
   {
     "index": "horn-of-valhalla-brass",
-    "name": "Horn of Valhalla (Brass)",
+    "name": "Chifre de Valhalla (Latão)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -22988,7 +22839,7 @@
   },
   {
     "index": "horn-of-valhalla-bronze",
-    "name": "Horn of Valhalla (Bronze)",
+    "name": "Chifre de Valhalla (Bronze)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23014,7 +22865,7 @@
   },
   {
     "index": "horn-of-valhalla-iron",
-    "name": "Horn of Valhalla (Iron)",
+    "name": "Chifre de Valhalla (Ferro)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23040,7 +22891,7 @@
   },
   {
     "index": "horseshoes-of-speed",
-    "name": "Horseshoes of Speed",
+    "name": "Ferraduras da Velocidade",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23066,7 +22917,7 @@
   },
   {
     "index": "horseshoes-of-a-zephyr",
-    "name": "Horseshoes of a Zephyr",
+    "name": "Ferraduras de um Zéfiro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23092,7 +22943,7 @@
   },
   {
     "index": "instant-fortress",
-    "name": "Instant Fortress",
+    "name": "Fortaleza Instantânea",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23118,7 +22969,7 @@
   },
   {
     "index": "ioun-stone-absorption",
-    "name": "Ioun Stone (Absorption)",
+    "name": "Pedra de Ioun (Absorção)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23154,7 +23005,7 @@
   },
   {
     "index": "ioun-stone-agility",
-    "name": "Ioun Stone (Agility)",
+    "name": "Pedra de Ioun (Agilidade)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23186,7 +23037,7 @@
   },
   {
     "index": "ioun-stone-awareness",
-    "name": "Ioun Stone (Awareness)",
+    "name": "Pedra de Ioun (Alerta)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23218,7 +23069,7 @@
   },
   {
     "index": "ioun-stone-fortitude",
-    "name": "Ioun Stone (Fortitude)",
+      "name": "Ioun Stone (Fortitude)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23250,7 +23101,7 @@
   },
   {
     "index": "ioun-stone-greater-absorption",
-    "name": "Ioun Stone (Greater Absorption)",
+      "name": "Pedra de Ioun (Absorção Maior)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23286,7 +23137,7 @@
   },
   {
     "index": "ioun-stone-insight",
-    "name": "Ioun Stone (Insight)",
+    "name": "Pedra de Ioun (Percepção)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23318,7 +23169,7 @@
   },
   {
     "index": "ioun-stone-intellect",
-    "name": "Ioun Stone (Intellect)",
+    "name": "Pedra de Ioun (Inteligência)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23350,7 +23201,7 @@
   },
   {
     "index": "ioun-stone-leadership",
-    "name": "Ioun Stone (Leadership)",
+    "name": "Pedra de Ioun (Carisma)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23382,7 +23233,7 @@
   },
   {
     "index": "ioun-stone-mastery",
-    "name": "Ioun Stone (Mastery)",
+    "name": "Pedra de Ioun (Proficiência)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23419,7 +23270,7 @@
   },
   {
     "index": "ioun-stone-protection",
-    "name": "Ioun Stone (Protection)",
+    "name": "Pedra de Ioun (Proteção)",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23458,7 +23309,7 @@
   },
   {
     "index": "iron-bands-of-binding",
-    "name": "Iron Bands of Binding",
+    "name": "Faixas de Ferro de Bilarro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23512,7 +23363,7 @@
   },
   {
     "index": "lantern-of-revealing",
-    "name": "Lantern of Revealing",
+    "name": "Lanterna de Revelação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23539,7 +23390,7 @@
   },
   {
     "index": "mantle-of-spell-resistance",
-    "name": "Mantle of Spell Resistance",
+    "name": "Manto da Resistência a Magias",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23571,7 +23422,7 @@
   },
   {
     "index": "manual-of-bodily-health",
-    "name": "Manual of Bodily Health",
+    "name": "Manual de Saúde Corporal",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23598,7 +23449,7 @@
   },
   {
     "index": "manual-of-gainful-exercise",
-    "name": "Manual of Gainful Exercise",
+    "name": "Manual de Exercício Útil",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23625,7 +23476,7 @@
   },
   {
     "index": "manual-of-golems",
-    "name": "Manual of Golems",
+    "name": "Manual de Golems",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23652,7 +23503,7 @@
   },
   {
     "index": "manual-of-quickness-of-action",
-    "name": "Manual of Quickness of Action",
+    "name": "Manual de Rapidez de Ação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23679,7 +23530,7 @@
   },
   {
     "index": "marvelous-pigments",
-    "name": "Marvelous Pigments",
+    "name": "Pigmentos Maravilhosos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23706,7 +23557,7 @@
   },
   {
     "index": "medallion-of-thoughts",
-    "name": "Medallion of Thoughts",
+    "name": "Madelhão dos Pensamentos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23737,7 +23588,7 @@
   },
   {
     "index": "mirror-of-life-trapping",
-    "name": "Mirror of Life Trapping",
+    "name": "Espelho de Aprisionamento de Vida",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23763,7 +23614,7 @@
   },
   {
     "index": "necklace-of-adaptation",
-    "name": "Necklace of Adaptation",
+    "name": "Colar de Adaptação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23789,7 +23640,7 @@
   },
   {
     "index": "necklace-of-fireballs",
-    "name": "Necklace of Fireballs",
+    "name": "Colar de Bolas de Fogo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23820,7 +23671,7 @@
   },
   {
     "index": "necklace-of-prayer-beads",
-    "name": "Necklace of Prayer Beads",
+    "name": "Colar de Contas de Oração",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23856,7 +23707,7 @@
   },
   {
     "index": "pearl-of-power",
-    "name": "Pearl of Power",
+    "name": "Pérola de Poder",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23892,7 +23743,7 @@
   },
   {
     "index": "periapt-of-health",
-    "name": "Periapt of Health",
+    "name": "Periapto da Saúde",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23918,7 +23769,7 @@
   },
   {
     "index": "periapt-of-proof-against-poison",
-    "name": "Periapt of Proof against Poison",
+    "name": "Periapto da Provação contra Veneno",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23944,7 +23795,7 @@
   },
   {
     "index": "periapt-of-wound-closure",
-    "name": "Periapt of Wound Closure",
+    "name": "Periapto do Fechamento de Ferimentos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -23975,7 +23826,7 @@
   },
   {
     "index": "pipes-of-haunting",
-    "name": "Pipes of Haunting",
+    "name": "Canos do Assombro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24006,7 +23857,7 @@
   },
   {
     "index": "pipes-of-the-sewers",
-    "name": "Pipes of the Sewers",
+    "name": "Canos do Esgoto",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24042,7 +23893,7 @@
   },
   {
     "index": "portable-hole",
-    "name": "Portable Hole",
+    "name": "Buraco Portátil",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24068,7 +23919,7 @@
   },
   {
     "index": "restorative-ointment",
-    "name": "Restorative Ointment",
+    "name": "Unguento Restaurador",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24083,7 +23934,7 @@
     "properties": [
       {
         "index": "healing",
-        "name": "Heals 2d8 + 2"
+        "name": "Cura 2d8 + 2"
       }
     ],
     "bonus": [],
@@ -24104,7 +23955,7 @@
   },
   {
     "index": "robe-of-eyes",
-    "name": "Robe of Eyes",
+    "name": "Manto dos Olhos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24125,7 +23976,7 @@
     "bonus": [
       {
         "category": "skills",
-        "key": "Perception",
+        "key": "Percepção",
         "value": 0,
         "description": "",
         "advantage": "true"
@@ -24149,7 +24000,7 @@
   },
   {
     "index": "robe-of-scintillating-colors",
-    "name": "Robe of Scintillating Colors",
+    "name": "Manto das Cores Cintilantes",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24185,7 +24036,7 @@
   },
   {
     "index": "robe-of-stars",
-    "name": "Robe of Stars",
+    "name": "Manto das Estrelas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24228,7 +24079,7 @@
   },
   {
     "index": "robe-of-useful-items",
-    "name": "Robe of Useful Items",
+    "name": "Manto dos Itens Úteis",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24254,7 +24105,7 @@
   },
   {
     "index": "robe-of-the-archmagi",
-    "name": "Robe of the Archmagi",
+    "name": "Manto do Arquimago",
     "equipment_category": {
       "index": "armor",
       "name": "Armadura"
@@ -24300,7 +24151,7 @@
   },
   {
     "index": "rope-of-climbing",
-    "name": "Rope of Climbing",
+    "name": "Corda de Escalada",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24326,7 +24177,7 @@
   },
   {
     "index": "rope-of-entanglement",
-    "name": "Rope of Entanglement",
+    "name": "Corda de Enredamento",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24352,7 +24203,7 @@
   },
   {
     "index": "scarab-of-protection",
-    "name": "Scarab of Protection",
+    "name": "Escaravelho de Proteção",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24388,7 +24239,7 @@
   },
   {
     "index": "slippers-of-spider-climbing",
-    "name": "Slippers of Spider Climbing",
+    "name": "Sandálias de Escalada de Aranha",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24419,7 +24270,7 @@
   },
   {
     "index": "sovereign-glue",
-    "name": "Sovereign Glue",
+    "name": "Cola Soberana",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24450,7 +24301,7 @@
   },
   {
     "index": "sphere-of-annihilation",
-    "name": "Sphere of Annihilation",
+    "name": "Esfera da Aniquilação",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24476,7 +24327,7 @@
   },
   {
     "index": "stone-of-controlling-earth-elementals",
-    "name": "Stone of Controlling Earth Elementals",
+    "name": "Pedra de Controle de Elementais da Terra",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24507,7 +24358,7 @@
   },
   {
     "index": "talisman-of-pure-good",
-    "name": "Talisman of Pure Good",
+    "name": "Talismã do Bem Puro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24550,7 +24401,7 @@
   },
   {
     "index": "talisman-of-ultimate-evil",
-    "name": "Talisman of Ultimate Evil",
+    "name": "Talismã do Mal Supremo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24593,7 +24444,7 @@
   },
   {
     "index": "talisman-of-the-sphere",
-    "name": "Talisman of the Sphere",
+    "name": "Talismã da Esfera",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24624,7 +24475,7 @@
   },
   {
     "index": "tome-of-clear-thought",
-    "name": "Tome of Clear Thought",
+    "name": "Tomo do Pensamento Claro",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24650,7 +24501,7 @@
   },
   {
     "index": "tome-of-leadership-and-influence",
-    "name": "Tome of Leadership and Influence",
+    "name": "Tomo de Liderança e Influência",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24676,7 +24527,7 @@
   },
   {
     "index": "tome-of-understanding",
-    "name": "Tome of Understanding",
+    "name": "Tomo do Entendimento",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24702,7 +24553,7 @@
   },
   {
     "index": "universal-solvent",
-    "name": "Universal Solvent",
+    "name": "Solvente Universal",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24728,7 +24579,7 @@
   },
   {
     "index": "well-of-many-worlds",
-    "name": "Well of Many Worlds",
+    "name": "Poço de Muitos Mundos",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24754,7 +24605,7 @@
   },
   {
     "index": "wind-fan",
-    "name": "Wind Fan",
+    "name": "Ventilador Mágico",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24780,7 +24631,7 @@
   },
   {
     "index": "winged-boots",
-    "name": "Winged Boots",
+    "name": "Botas Aladas",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
@@ -24811,7 +24662,7 @@
   },
   {
     "index": "wings-of-flying",
-    "name": "Wings of Flying",
+    "name": "Asas de Voo",
     "equipment_category": {
       "index": "wondrous-item",
       "name": "Item Maravilhoso"
